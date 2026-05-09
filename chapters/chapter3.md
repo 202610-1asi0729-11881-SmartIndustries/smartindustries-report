@@ -124,11 +124,7 @@
 
 ## 3.2. Impact Mapping
 
-<<<<<<< HEAD
 |<img src="/Resources/Chapter3/MapaImpacto.png" alt="Mapa de Impacto" width="500"/> |
-=======
-|<img src="../Resources/Herramientas/MapaImpacto.png" alt="Mapa de Impacto" width="500"/> |
->>>>>>> 078063ae4657911fb2e979558428d98cc822a940
 
 ## 3.3. Product Backlog
 
@@ -205,8 +201,6 @@
 | 67 | **HNF-25** | Consumo batería | Como guardia con tablet, deseo que la app esté optimizada para no agotar la batería durante el turno. | 1 |
 | 68 | **HNF-28** | Regla 3 clics | Como usuario, deseo llegar a cualquier función principal en máximo 3 clics para mejorar mi productividad. | 1 |
 ---
-<<<<<<< HEAD
-=======
 
 * Evidencia de herramienta utilizada : **Jira : **
 
@@ -221,4 +215,3 @@
 |<img src="../Resources/Herramientas/organizacion.png" alt="Estructura de prioridad" width="500"/> |
 
 <https://upc-team-open-source.atlassian.net/jira/software/projects/SMAR/boards/1?atlOrigin=eyJpIjoiNDFhNzk1OTIxMGU0NDc5ZjlmYjliMzlmYjU2MDVmOTIiLCJwIjoiaiJ9>
->>>>>>> 078063ae4657911fb2e979558428d98cc822a940
