@@ -28,7 +28,7 @@
 | Peñaranda Caldas Gabriel Augusto| u202210836 |
 | Huaman Oscco Aldo Jesus         | u20231h067 |
 | Ayllon Pauccar Juan David       | u20241a860 |
-| Imanol Fabrizio Limache Coronel | u202410382 |
+|                                 |            |
 
 </div>
 
@@ -242,8 +242,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ---
 
+
 # Capítulo I: Introducción
- 
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 **Área:** Seguridad Digital y Control de Accesos
@@ -255,22 +255,23 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 * **Visión:** Nos proyectamos como la startup líder en digitalización de accesos dentro de la región, logrando que nuestra tecnología sea el estándar en edificios, oficinas y centros de estudio. Queremos que SmartTecnologies sea sinónimo de modernidad y eficiencia, impulsando una cultura donde la seguridad no sea una barrera, sino un proceso fluido y totalmente automatizado.
 <br></br>
 * **Valores:**
-
+  <br>
     * **Seguridad y Confidencialidad:** Como estudiantes de Ingeniería de Software, sabemos que los datos de acceso son críticos. Por eso, nos tomamos muy en serio la protección de la información, usando protocolos de autenticación y cifrado para que solo las personas autorizadas tengan el control.
-
+  <br>
     * **Precisión en los datos:** Nos comprometemos con la exactitud en la gestión de presupuestos y tareas, asegurando que la información reflejada en la plataforma sea un espejo fiel de la realidad del proyecto.
-
+  <br>
     * **Innovación aplicada:** No nos conformamos con lo que ya existe. Buscamos aplicar lo aprendido en nuestra formación para integrar funciones como la simulación de flujo sin hardware y reglas de acceso dinámicas que mantengan a Smart Lock a la vanguardia.
-
+  <br>
     * **Gestión Colaborativa y Simple:** Creemos que la tecnología debe ser fácil de usar. Centralizamos todo en un panel intuitivo para que la comunicación entre administradores y usuarios sea rápida, eliminando complicaciones innecesarias.
-
+  <br>
     * **Compromiso con la Excelencia:** Trabajamos para que nuestra plataforma soporte las exigencias de un entorno real, ofreciendo una herramienta robusta que aguante el flujo constante de usuarios sin perder fiabilidad.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 |**Integrante**|**Perfil**|**Imagen**|
 |:-------------|----------|:--------:|
-| **Nombre y apellido**|
-| **Nombre y apellido**|
+| **Juan David Ayllon Pauccar**|"Estudiante de 5to ciclo de Ingeniería de Software en la UPC. Cuento con conocimientos técnicos avanzados en desarrollo con C++, SQL, Python Intermedio, HTML, CSS. Me distingo por ser un integrante responsable y con gran capacidad de comunicación asertiva, facilitando la coordinación y el flujo de trabajo dentro del equipo. Mi compromiso con el proyecto SmartLock se refleja en mi disposición para aprender, resolver desafíos complejos y asegurar que cada entrega cumpla con los estándares esperados."|<img src="../Resources/Chapter1/Students profiles/Juan David-Ayllon.jpg" width="2000"/>
+| **Imanol Fabrizio Limache Coronel**|Soy un estudiante al que le gusta aprender cosas nuevas, sobre todo si se relacionan a la programación, además de la resolución de problemas.|<img src="../Resources/Chapter1/Students profiles/Imanol-Limache.jpeg" width="2000"/>|
 |**Huaman Oscco Aldo Jesus - u20231h067**|Estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Actualmente cursando el 5to ciclo de la carrera, asumo la responsabilidad de investigar y aplicar conocimientos y habilidades de desarrollo en **SmarLock** de manera eficiente para culminarlo con exito.|<img src="/Resources/Chapter1/Students profiles/Aldo-Jesus.png" alt="Foto de Aldo Jesus Huaman Oscco" width="2000"/> |
 |**Peñaranda Caldas Gabriel Augusto - u202210836**|Estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me encuentro llevando cursos de 5to y 6to ciclo de la carrera. Cuento con habilidades sobresalientes en cloud, python, typescript y UX/UI. Además se ser alguien muy preocupado por mis compañeros de equipo y amigable que las demás personas. Me comprometo a que el proyecto **SmartLock** se lleve a cabo con éxito brindando responsabilidad y puntualidad en las entregas y avances del proyecto.|<img src="/Resources/Chapter1/Students profiles/Gabriel-Peniaranda.jpg" alt="Foto de Gabriel Peñaranda Caldas" width="2000"/> |
 |**Palacios Tinoco Adrian Fernando - u202410817** | Estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me encuentro cursando el 5to ciclo de la carrera. Cuento con habilidades tanto blandas como tecnicas. Por un lado, entre mis habilidades blandas destaco el trabajo en equipo, comunicacion efectiva y escucha activa. Por otro lado, mis habilidades entre mis habilidades tecnicas es el diseño de base de datos, analisis de requisitos, diseño de software y como lenguajes destaco mi conocimiento en C++, JavaScript, Python, Java y SQL. Me comprometo a que el proyecto **SmartLock** se lleve a cabo con éxito brindando responsabilidad y puntualidad en las entregas y avances del proyecto. | <img src="/Resources/Chapter1/Students profiles/Adrian-Palacios.jpg" alt="Foto de Adrian Fernando Palacios Tinoco" width="2000"/> |
@@ -280,44 +281,45 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **5W's y 2H's**
 
-Para definir el problema central de Smart Lock, hemos aplicado la técnica de análisis detallado:
+Para definir el problema central de SmartLock, hemos aplicado la técnica de análisis detallado:
 <br>
 
 * **What?**
+  La alta vulnerabilidad ante intrusiones y la ineficiencia administrativa en el control de personal, provocadas por la dependencia de métodos de registro manuales o hardware físico fácilmente clonable.
   <br>
-  La falta de un sistema centralizado, auditable y seguro para gestionar el ingreso de personal, lo que genera vulnerabilidades en la seguridad física y administrativa.<br><br>
-
 
 * **Why?**
+
+  Porque los sistemas convencionales (llaves, tarjetas RFID o cuadernos) no poseen validación de identidad en tiempo real ni trazabilidad inmutable, lo que permite la suplantación de identidad y pérdida de datos sin posibilidad de auditoría fiable.
   <br>
-  Porque los sistemas convencionales no ofrecen trazabilidad. No se puede saber con certeza quién entró a una hora específica si no existe un registro digital automático y protegido contra alteraciones. <br><br>
 
 * **Who?**
-  <br>
+
   Administradores de oficinas, gestores de espacios de coworking y dueños de propiedades residenciales o comerciales que carecen de un control estricto sobre sus accesos.<br><br>
 
 * **When?**
+  El problema se manifiesta diariamente, especialmente en horarios fuera de oficina o durante cambios de turno, donde el control se vuelve crítico y propenso a errores humanos.
   <br>
-  El problema se manifiesta diariamente, especialmente en horarios fuera de oficina o durante cambios de turno, donde el control se vuelve crítico y propenso a errores humanos.<br><br>
 
 * **Where?**
+  En entornos urbanos con alta densidad de oficinas y espacios compartidos donde el flujo de personas es constante y difícil de registrar manualmente.
+  
   <br>
-  En entornos urbanos con alta densidad de oficinas y espacios compartidos donde el flujo de personas es constante y difícil de registrar manualmente.<br><br>
-
 * **How?**
+  El problema se materializa a través de la pérdida o clonación de tarjetas de acceso, el ingreso de exempleados a los que no se les revocó el permiso a tiempo, y el "cuello de botella" humano en las porterías durante horas pico.
   <br>
-  La problemática se agrava mediante el uso de llaves duplicadas sin permiso, el olvido de registros en cuadernos físicos y la incapacidad de revocar accesos de manera inmediata ante una baja de personal.<br><br>
-
 * **How much?**
-  <br>
-  El costo de una brecha de seguridad o la pérdida de activos por un acceso no autorizado puede ascender a miles de soles, sumado al gasto constante en cerrajería tradicional que representa un flujo de caja ineficiente para las startups y PYMES.
+
+  El costo de reposición de tarjetas y cerrajería puede superar los 1,500 soles anuales por empresa, sumado a la pérdida de hasta 10 horas semanales en tareas de auditoría manual y el riesgo financiero incalculable de una brecha de seguridad de activos corporativos.
 
 ### 1.2.2. Lean UX Process
 #### 1.2.2.1. Lean UX Problem Statements
 El dominio de nuestro producto es la gestión de seguridad y control de acceso a espacios físicos (Domain). Actualmente, nuestros administradores de edificios, dueños de negocios y personal de seguridad (Customer Segments) sufren por la falta de visibilidad en tiempo real, la dificultad para gestionar permisos temporales o por horarios, y la tediosa tarea de auditar accesos manualmente (Pain Points). Esto genera una brecha significativa de seguridad y eficiencia operativa frente a sistemas tradicionales que son inflexibles o ciegos ante anomalías (Gap).
 
 Nuestra visión es proporcionar a las empresas una plataforma web inteligente y escalable que no solo permita o deniegue el acceso, sino que automatice el monitoreo mediante reglas, alertas y un historial detallado en tiempo real (Vision/Strategy). Para comenzar a validar nuestra solución, nos enfocaremos en un segmento inicial de pequeñas y medianas empresas (pymes) o espacios de coworking que requieran un control estricto de horarios para sus empleados sin invertir inicialmente en hardware complejo (Initial Segment).
+
 #### 1.2.2.2. Lean UX Assumptions
+
 **Business Assumptions (Suposiciones del Negocio):**
 
 - Creemos que las empresas están dispuestas a pagar una suscripción mensual recurrente (modelo SaaS) en lugar de un pago único por un software de escritorio tradicional.
@@ -331,49 +333,53 @@ Nuestra visión es proporcionar a las empresas una plataforma web inteligente y 
 - Creemos que el personal de monitoreo adoptará la verificación de dos pasos (2FA) sin considerarlo un bloqueo para su productividad.
 
 - Creemos que los administradores valoran más recibir alertas automáticas (ej. intentos fallidos o fuera de horario) que revisar un historial de registros de forma manual.
+
 #### 1.2.2.3. Lean UX Hypothesis Statements
-- Hipótesis 1 (Alertas): Creemos que reduciremos el tiempo de respuesta ante incidentes de seguridad en un 50% si el personal de monitoreo logra identificar anomalías instantáneamente usando el sistema de alertas por intentos fallidos repetidos o accesos fuera de horario.
 
-- Hipótesis 2 (Gestión de roles): Creemos que aumentaremos la adopción del Plan Profesional si los administradores de recursos humanos logran automatizar la entrada de su personal usando el control de acceso segmentado por franjas horarias y días laborales.
-
-- Hipótesis 3 (Seguridad): Creemos que las empresas confiarán la auditoría de sus instalaciones a nuestra plataforma si los auditores internos logran rastrear exactamente quién autorizó un ingreso usando el historial detallado de eventos y la autenticación segura (2FA).
+- **Hipótesis 1 (Alertas):** Creemos que la implementación de un motor de alertas automatizadas para el personal de monitoreo agilizará la contención de intrusiones. Sabremos que esto es cierto cuando el tiempo promedio de respuesta ante incidentes de seguridad se reduzca en un 50% frente a sus sistemas manuales anteriores.
+<br>
+- **Hipótesis 2 (Gestión de roles):** Creemos que el desarrollo de un control de acceso segmentado por franjas horarias automatizará la gestión de turnos para los administradores de RRHH. Sabremos que esto es cierto cuando logremos una tasa de conversión del 30% hacia el Plan Profesional dentro de los primeros tres meses de prueba.
+<br>
+- **Hipótesis 3 (Seguridad):** Creemos que la integración de un historial de eventos inmutable agilizará radicalmente la trazabilidad de los accesos para los auditores internos. Sabremos que esto es cierto cuando las métricas de uso demuestren una reducción del 40% en el tiempo dedicado a generar reportes de asistencia y auditoría mensual.
 
 #### 1.2.2.4. Lean UX Canvas
 
 | 1. Business Problem | 2. Business Outcomes |
 | :------------------ | :------------------- |
-| Las empresas pierden tiempo y vulneran su seguridad gestionando accesos con métodos inflexibles o sin monitoreo en tiempo real. | - Conseguir suscripciones al Plan Básico/Pro.<br>- Alta retención mensual.<br>- Reducción de incidentes de seguridad de los clientes. |
+| La alta vulnerabilidad y el exceso de trabajo administrativo generados por sistemas de acceso manuales o de hardware clonable sin conexión en tiempo real. | - Lograr una conversión del 30% a planes de pago.<br>- Reducir a 0 los incidentes de intrusión de clientes.<br>- Alta retención mensual (Churn rate bajo). |
 | **3. Users / Customers** | **4. User Benefits** |
-| - Administradores de instalaciones / RRHH.<br>- Personal de monitoreo / Prevención.<br>- Empleados (usuarios finales). | - Tranquilidad al tener control total de quién entra y cuándo.<br>- Ahorro de tiempo en auditorías.<br>- Alertas automáticas sin esfuerzo manual. |
+| - Administradores de instalaciones / RRHH.<br>- Personal de monitoreo / Prevención.<br>- Empleados (usuarios finales). | - Trazabilidad e inmutabilidad de los ingresos.<br>- Ahorro de horas semanales en auditorías.<br>- Detección proactiva de intrusos vía alertas. |
 | **5. Solutions / Ideas** | **6. Hypotheses** |
-| - Panel en tiempo real.<br>- Sistema de reglas por horario y roles.<br>- Motor de alertas de anomalías.<br>- Log de auditoría inmutable. | - Creemos que reduciremos el tiempo de respuesta ante incidentes en un 50% si el personal logra identificar anomalías usando las alertas automáticas.<br>- Creemos que aumentaremos la adopción del Plan Pro si RRHH logra automatizar la entrada usando el control por franjas horarias. |
+| - Dashboard de control en tiempo real.<br>- Sistema de permisos por horario y día.<br>- Motor de alertas de intentos fallidos.<br>- Log de auditoría exportable e inmutable. | - Creemos que el motor de alertas reducirá el tiempo de respuesta ante intrusiones en un 50%.<br>- Creemos que el control por franjas horarias impulsará una conversión del 30% al Plan Pro. |
 | **7. What's the most important thing to learn first?** | **8. What's the least amount of work we need to do to learn this? (MVP)** |
-| ¿Los administradores confiarán en la gestión de permisos a través de una interfaz web antes de conectar hardware real? | Construir la plataforma web funcional con la función de **Simulación de acceso a puertas** para demostrar el flujo lógico a clientes potenciales. |
-### 1.3. Segmentos objetivo
+| ¿Los administradores confiarán en la gestión de permisos a través de una interfaz web antes de conectar hardware real? | Construir la plataforma web funcional con la función de **Simulación de acceso a puertas** para demostrar la lógica del producto a clientes potenciales. |
+
+## 1.3. Segmentos objetivo
 ---
 
-Para el desarrollo de **Smart Lock**, se han definido los siguientes segmentos objetivo, integrando sus perfiles, necesidades y comportamientos en la gestión de accesos:
+Para el desarrollo de **SmartLock**, se han definido los siguientes segmentos objetivo, integrando sus perfiles, necesidades y comportamientos en la gestión de accesos:
 
 | **Segmento** | **Descripción del Perfil** | **Necesidades Principales** | **Características Psicográficas y Comportamentales** |
 | :--- | :--- | :--- | :--- |
 | **Gerentes de Operaciones, TI y Seguridad Corporativa** | Líderes responsables de una empresa preocupada por la infraestructura y seguridad de sus espacios de trabajo, desde startups en crecimiento hasta corporativos con múltiples oficinas y alto flujo de personal. | - Centralizar el control de accesos de múltiples sedes en una sola plataforma.<br>- Eliminar la vulnerabilidad de las llaves físicas y tarjetas clonables.<br>- Automatizar el registro de asistencia y la revocación inmediata de permisos a gran escala. | - Priorizan la escalabilidad y la integración con herramientas SaaS existentes.<br>- Toman decisiones basadas en datos y registros de auditoría inmutables.<br>- Buscan máxima eficiencia operativa reduciendo el error humano en porterías. |
 | **Administradores de Eventos y Espacios de Alto Tráfico** | Profesionales encargados de la logística en centros de convenciones, ferias o complejos de oficinas que requieren gestionar entradas masivas por periodos específicos. | - Creación rápida de credenciales digitales temporales para invitados o contratistas.<br>- Monitoreo en tiempo real de la ocupación por zonas para evitar aglomeraciones.<br>- Despliegue del sistema sin depender de instalaciones de hardware pesadas o fijas. | - Valoran la agilidad y la capacidad de respuesta inmediata ante incidentes.<br>- Están familiarizados con protocolos de seguridad dinámica (2FA y alertas móviles).<br>- Prefieren interfaces intuitivas que permitan delegar tareas de control de forma sencilla. |
 
+
 # Capítulo II: Requirements Elicitation & Analysis
 
-## 2.1 Competidores
+## 2.1. Competidores
 
-### **Kisi (Control de Acceso en la Nube)** 
+### **Kisi (Control de Acceso en la Nube)**
 Es una solución global de gestión de accesos de nivel empresarial que centraliza el control de múltiples instalaciones en una única interfaz basada en la nube. Se especializa en modernizar infraestructuras existentes sin necesidad de reemplazarlas por completo.
 <https://www.getkisi.com/enterprise>
 
-##### **Características Principales**
+#### **Características Principales**
 * **Gestión de Identidad Avanzada:** Permite asignar privilegios detallados por usuario e integra sistemas de autenticación **SSO** y protocolos **SCIM** para sincronizar la base de datos de empleados automáticamente.
 * **Seguridad y Auditoría:** Facilita el cumplimiento de normativas de seguridad física mediante la obtención de datos vía **API** y la generación de informes automáticos personalizados.
 * **Seguridad Multicapa:** Ofrece opciones de autenticación de dos factores (**2FA**) y **WebAuthn** para elevar los estándares de protección.
 * **Implementación Híbrida:** Su gran diferencial es la capacidad de conectarse a cerraduras y lectores ya instalados, lo que reduce los costos de implementación hasta en un **65%**.
 
-##### **Estructura de Planes**
+#### **Estructura de Planes**
 
 | Plan | Descripción / Enfoque | Ideal para |
 | :--- | :--- | :--- |
@@ -383,18 +389,18 @@ Es una solución global de gestión de accesos de nivel empresarial que centrali
 
 ---
 <https://pages.getkisi.com/hubfs/kisi-pricing-overview.pdf>
-<br></br>
+<br>
 
 ### **Acceso Total Perú (Soluciones Integrales de Automatización)**
 **Perfil de la Empresa:** Empresa peruana en fase de expansión con más de 5 años de experiencia en el sector de seguridad inteligente. Su competitividad radica en la flexibilidad de hardware y una sólida trayectoria con instituciones públicas y privadas de alto perfil (MININTER, MINCETUR, UNI, entre otros).
 
-##### **Líneas de Servicio y Planes**
+#### **Líneas de Servicio y Planes**
 * **Control de Acceso para Puertas:** Sistema versátil con soporte para múltiples métodos de validación: códigos, tarjetas, huellas biométricas, reconocimiento facial y **códigos QR**.
 * **Gestión de Asistencia Biométrica:** Solución especializada para **Recursos Humanos** que permite el control detallado de asistencias, faltas y horas extras con gestión local o centralizada.
 * **Control de Acceso Vehicular:** Automatización de entradas y salidas de vehículos enfocada en la eficiencia operativa y reducción de costos de personal.
 * **Control Peatonal Centralizado:** Implementación de barreras físicas (**torniquetes o molinetes**) gestionadas por un software integrado e intuitivo para flujos masivos.
 
-##### **Valor Agregado**
+#### **Valor Agregado**
 
 | Beneficio | Descripción |
 | :--- | :--- |
@@ -403,7 +409,7 @@ Es una solución global de gestión de accesos de nivel empresarial que centrali
 
 ---
 <https://accesototalperu.com/control-de-acceso-puerta/>
-<br></br>
+<br>
 
 ### **Kronos por SEIDOR (Gestión de Fuerza Laboral y Tiempo)**
 **Descripción General:** Solución de alto nivel distribuida por **SEIDOR**, diseñada para el control integral de la jornada laboral y la optimización de la productividad. Su enfoque principal es el cumplimiento normativo y la eficiencia operativa en empresas con grandes planillas y turnos complejos.
@@ -424,166 +430,37 @@ Es una solución global de gestión de accesos de nivel empresarial que centrali
 
 ---
 <https://www.seidor.com/es-pe/kronos>
-<br></br>
+<br>
 
 
-### 2.1.1 Análisis Competitivo
+### 2.1.1. Análisis Competitivo
 
-# Competitive Analysis Landscape
+#### Competitive Analysis Landscape
 
 <div align="justify">
 
 > **¿Por qué llevar a cabo el desarrollo de un software de gestión de accesos habiendo modelos internacionales que gestionan la seguridad a nivel empresarial?**
 > 
-> **Objetivo:** [El objetivo de nuestro equipo es que los clientes vean nuestro software como una aplicación viable para la gestión de accesos de sus eventos o empresas, pudiendo ver reportes de asistencias, tardanzas e identificación de usuarios. Asimismo, facilitar la visualización de reportes que permitan analizar estadísticamente a sus colaboradores.]
+> **Objetivo:** El objetivo de nuestro equipo es que los clientes vean nuestro software como una aplicación viable para la gestión de accesos de sus eventos o empresas, pudiendo ver reportes de asistencias, tardanzas e identificación de usuarios. Asimismo, facilitar la visualización de reportes que permitan analizar estadísticamente a sus colaboradores.
 
 | Sección | Detalle | SmartLock <br><img src="/Resources/Chapter2/Companies/SmartLock.png" alt="SmartLock" width="100"/> | Kisi <br><img src="/Resources/Chapter2/Companies/Kisi.png" alt="kisi" width="100"/> | Acceso total Peru <br><img src="/Resources/Chapter2/Companies/Atp.png" alt="Acceso-total-peru" width="100"/> | Kronos por Seidor <br><img src="/Resources/Chapter2/Companies/Seidor.jpg" alt="Kronos" width="100"/> |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Perfil** | Overview | [Es un modelo de gestión de accesos "Asset-Light" que utiliza códigos QR dinámicos para eliminar la inversión en hardware, orientado a empresas y eventos que buscan una implementación inmediata, económica y escalable.] | [Es una solución de seguridad física basada en la nube que unifica el control de múltiples sedes globales en una sola interfaz, optimizando los costos de instalación al integrar infraestructura antigua con protocolos modernos de identidad (SSO/SCIM).] | [Se especializa en la integración de hardware y soporte técnico local, ofreciendo sistemas de barreras físicas y biometría para instituciones que requieren una fiscalización presencial estricta y cumplimiento de normativas nacionales.] | [Es una plataforma de Workforce Management estratégica enfocada en grandes corporaciones, cuyo objetivo es maximizar la rentabilidad del capital humano mediante la automatización de horarios complejos y el control de costos laborales.] |
-| | Ventaja competitiva (¿Qué valor ofrece?) | [Optimiza la gestión de identidades mediante un modelo SaaS basado en códigos QR dinámicos, eliminando la dependencia de hardware costoso para ofrecer una solución ágil y de bajo costo en accesos corporativos y eventos temporales.] | [Se posiciona como una solución de control de accesos en la nube de nivel empresarial, cuyo objetivo es modernizar infraestructuras físicas antiguas integrándolas con sistemas de identidad avanzados como SSO y SCIM.] | [Se especializa en la integración de hardware y automatización local, enfocándose en la instalación de barreras físicas y sistemas biométricos para instituciones que requieren un control presencial robusto en el mercado peruano.] | [Ofrece una plataforma estratégica de Workforce Management, diseñada para grandes corporaciones que buscan maximizar la productividad y garantizar el cumplimiento legal mediante la gestión compleja de turnos y planillas.] |
-| **Perfil de Marketing** | Mercado objetivo | [Se dirige a PYMES, startups y productoras de eventos que buscan una solución de acceso "ligera" y digital, priorizando la agilidad sobre la infraestructura física.] | [Su mercado son empresas tecnológicas y corporativos globales con múltiples sedes que necesitan centralizar la seguridad física en la nube e integrarla con su stack de IT (SSO/SCIM).] | [Enfocado en el sector público, industrial y educativo nacional, donde se requiere una fiscalización presencial estricta y soluciones de hardware robustas (torniquetes y biometría).] | [Orientada a grandes corporaciones con operaciones complejas (retail, manufactura, salud) que gestionan miles de empleados y requieren un control riguroso de normativas laborales.] |
-| | Estrategias de marketing | [Basada en marketing digital, resaltando la facilidad de configuración, el ahorro en hardware y la flexibilidad del modelo por uso o suscripción.] | [Se posiciona mediante Inbound Marketing especializado en IT, ofreciendo contenido técnico sobre ciberseguridad física y eficiencia operativa para gerentes de tecnología y seguridad.] | [Utiliza una estrategia de ventas consultivas y licitaciones, apoyándose en su historial con el Estado y testimonios de grandes instituciones locales para generar confianza técnica.] | [Emplea un enfoque de ABM y eventos corporativos de alto nivel, posicionándose como un aliado estratégico para la transformación digital de Recursos Humanos.] |
-| **Perfil de Producto** | Productos & Servicios | [Software de generación de QR dinámicos, panel de administración para gestión de planillas y módulos específicos para el control de asistencia en eventos masivos.] | [Controladores inteligentes de puertas, lectores compatibles con smartphones y una plataforma centralizada que integra autenticación de dos factores (2FA) con sistemas de oficina existentes.] | [Venta e instalación de terminales biométricos, molinetes y barreras vehiculares, acompañados de software de gestión local y servicios de mantenimiento preventivo.] | [Suite integral de Workforce Management que incluye módulos de planificación de horarios, control de fatiga, gestión de certificados y autoservicio para el empleado.] |
-| | Precios & Costos | [Modelo de suscripción mensual escalable (SaaS) o pago por evento, eliminando los costos iniciales de instalación y mantenimiento de hardware especializado.] | [Estructura de precios por niveles (Standard, CRM, Enterprise) que combina una tarifa de software recurrente con el costo de adquisición de sus controladores propietarios.] | [Modelo de venta directa de activos (CAPEX) con un costo inicial alto por equipo e instalación, sumado a contratos opcionales de soporte técnico y licencias locales.] | [Inversión de nivel Enterprise que incluye costos significativos de consultoría, implementación personalizada y licencias anuales por volumen de empleados gestionados.] |
-| | Canales de distribución | [Distribución 100% digital mediante plataforma Web para administración y App móvil nativa para que los usuarios finales validen sus accesos mediante QR.] | [Canal híbrido que utiliza plataforma Web para control global y aplicaciones móviles que emplean Bluetooth/NFC para la apertura de puertas físicas.] | [Distribución mediante ventas directas y consultoría presencial, utilizando interfaces de software locales (On-premise) o centralizadas para el monitoreo de hardware.] | [Ecosistema multi-dispositivo con interfaz Web robusta para la gestión administrativa y aplicaciones móviles (iOS/Android) enfocadas en la autogestión de turnos por el personal.] |
-| **Análisis SWOT** | Fortalezas | [Su modelo "Asset-Light" basado en QR dinámicos elimina la inversión en hardware, permitiendo una implementación inmediata y costos operativos mínimos.] | [Excelente capacidad de integración híbrida, permitiendo gestionar infraestructuras antiguas desde una plataforma en la nube de nivel global.] | [Sólida presencia local y soporte técnico presencial, lo que les otorga una ventaja competitiva en licitaciones con el Estado y sector industrial.] | [Capacidad inigualable para gestionar cumplimiento legal y optimización de nómina en entornos corporativos con turnos altamente complejos.] |
-| | Debilidades | [La dependencia total de la conectividad y batería del smartphone del usuario puede generar fricción en puntos de acceso de alta criticidad.] | [El costo de adquisición sigue siendo elevado debido a la necesidad de sus controladores propietarios para centralizar el mando.] | [Su modelo de negocio depende excesivamente de la venta e instalación de activos físicos (CAPEX), lo que dificulta una escalabilidad rápida.] | [Posee una curva de aprendizaje muy alta y procesos de implementación extremadamente largos y costosos para el cliente promedio.] |
-| | Oportunidades | [Existe un mercado masivo en la digitalización de PYMES y eventos temporales que buscan seguridad profesional sin contratos de mantenimiento pesados.] | [El crecimiento del trabajo híbrido impulsa la demanda de soluciones que permitan gestionar oficinas desde cualquier parte del mundo.] | [Expansión hacia soluciones de ciudades inteligentes y automatización de edificios en el mercado inmobiliario peruano en auge.] | [La creciente regulación sobre el control de horas trabajadas y bienestar laboral obliga a las grandes empresas a adoptar sistemas tan robustos como este.] |
-| | Amenazas | [La entrada de gigantes del software que integren funciones de acceso gratuitas en sus ecosistemas de oficina (como Microsoft o Google).] | [Startups con tecnologías puramente móviles (NFC/Bluetooth) que eliminan la necesidad de cualquier hardware intermedio.] | [El rechazo progresivo a los métodos de contacto físico (biometría de huella) frente a tecnologías de reconocimiento remoto o digital.] | [Herramientas de gestión de proyectos y comunicación que están añadiendo módulos de control de tiempo (Time Tracking) mucho más intuitivos.] |
-
+| **Perfil** | Overview | Es un modelo de gestión de accesos "Asset-Light" que utiliza códigos QR dinámicos para eliminar la inversión en hardware, orientado a empresas y eventos que buscan una implementación inmediata, económica y escalable. | Es una solución de seguridad física basada en la nube que unifica el control de múltiples sedes globales en una sola interfaz, optimizando los costos de instalación al integrar infraestructura antigua con protocolos modernos de identidad (SSO/SCIM). | Se especializa en la integración de hardware y soporte técnico local, ofreciendo sistemas de barreras físicas y biometría para instituciones que requieren una fiscalización presencial estricta y cumplimiento de normativas nacionales. | Es una plataforma de Workforce Management estratégica enfocada en grandes corporaciones, cuyo objetivo es maximizar la rentabilidad del capital humano mediante la automatización de horarios complejos y el control de costos laborales. |
+| | Ventaja competitiva (¿Qué valor ofrece?) | Optimiza la gestión de identidades mediante un modelo SaaS basado en códigos QR dinámicos, eliminando la dependencia de hardware costoso para ofrecer una solución ágil y de bajo costo en accesos corporativos y eventos temporales. | Se posiciona como una solución de control de accesos en la nube de nivel empresarial, cuyo objetivo es modernizar infraestructuras físicas antiguas integrándolas con sistemas de identidad avanzados como SSO y SCIM. | Se especializa en la integración de hardware y automatización local, enfocándose en la instalación de barreras físicas y sistemas biométricos para instituciones que requieren un control presencial robusto en el mercado peruano. | Ofrece una plataforma estratégica de Workforce Management, diseñada para grandes corporaciones que buscan maximizar la productividad y garantizar el cumplimiento legal mediante la gestión compleja de turnos y planillas. |
+| **Perfil de Marketing** | Mercado objetivo | Se dirige a PYMES, startups y productoras de eventos que buscan una solución de acceso "ligera" y digital, priorizando la agilidad sobre la infraestructura física. | Su mercado son empresas tecnológicas y corporativos globales con múltiples sedes que necesitan centralizar la seguridad física en la nube e integrarla con su stack de IT (SSO/SCIM). | Enfocado en el sector público, industrial y educativo nacional, donde se requiere una fiscalización presencial estricta y soluciones de hardware robustas (torniquetes y biometría). | Orientada a grandes corporaciones con operaciones complejas (retail, manufactura, salud) que gestionan miles de empleados y requieren un control riguroso de normativas laborales. |
+| | Estrategias de marketing | Basada en marketing digital, resaltando la facilidad de configuración, el ahorro en hardware y la flexibilidad del modelo por uso o suscripción. | Se posiciona mediante Inbound Marketing especializado en IT, ofreciendo contenido técnico sobre ciberseguridad física y eficiencia operativa para gerentes de tecnología y seguridad. | Utiliza una estrategia de ventas consultivas y licitaciones, apoyándose en su historial con el Estado y testimonios de grandes instituciones locales para generar confianza técnica. | Emplea un enfoque de ABM y eventos corporativos de alto nivel, posicionándose como un aliado estratégico para la transformación digital de Recursos Humanos. |
+| **Perfil de Producto** | Productos & Servicios | Software de generación de QR dinámicos, panel de administración para gestión de planillas y módulos específicos para el control de asistencia en eventos masivos. | Controladores inteligentes de puertas, lectores compatibles con smartphones y una plataforma centralizada que integra autenticación de dos factores (2FA) con sistemas de oficina existentes. | Venta e instalación de terminales biométricos, molinetes y barreras vehiculares, acompañados de software de gestión local y servicios de mantenimiento preventivo. | Suite integral de Workforce Management que incluye módulos de planificación de horarios, control de fatiga, gestión de certificados y autoservicio para el empleado. |
+| | Precios & Costos | Modelo de suscripción mensual escalable (SaaS) o pago por evento, eliminando los costos iniciales de instalación y mantenimiento de hardware especializado. | Estructura de precios por niveles (Standard, CRM, Enterprise) que combina una tarifa de software recurrente con el costo de adquisición de sus controladores propietarios. | Modelo de venta directa de activos (CAPEX) con un costo inicial alto por equipo e instalación, sumado a contratos opcionales de soporte técnico y licencias locales. | Inversión de nivel Enterprise que incluye costos significativos de consultoría, implementación personalizada y licencias anuales por volumen de empleados gestionados. |
+| | Canales de distribución | Distribución 100% digital mediante plataforma Web para administración y App móvil nativa para que los usuarios finales validen sus accesos mediante QR. | Canal híbrido que utiliza plataforma Web para control global y aplicaciones móviles que emplean Bluetooth/NFC para la apertura de puertas físicas. | Distribución mediante ventas directas y consultoría presencial, utilizando interfaces de software locales (On-premise) o centralizadas para el monitoreo de hardware. | Ecosistema multi-dispositivo con interfaz Web robusta para la gestión administrativa y aplicaciones móviles (iOS/Android) enfocadas en la autogestión de turnos por el personal. |
+| **Análisis SWOT** | Fortalezas | Su modelo "Asset-Light" basado en QR dinámicos elimina la inversión en hardware, permitiendo una implementación inmediata y costos operativos mínimos. | Excelente capacidad de integración híbrida, permitiendo gestionar infraestructuras antiguas desde una plataforma en la nube de nivel global. | Sólida presencia local y soporte técnico presencial, lo que les otorga una ventaja competitiva en licitaciones con el Estado y sector industrial. | Capacidad inigualable para gestionar cumplimiento legal y optimización de nómina en entornos corporativos con turnos altamente complejos. |
+| | Debilidades | La dependencia total de la conectividad y batería del smartphone del usuario puede generar fricción en puntos de acceso de alta criticidad. | El costo de adquisición sigue siendo elevado debido a la necesidad de sus controladores propietarios para centralizar el mando. | Su modelo de negocio depende excesivamente de la venta e instalación de activos físicos (CAPEX), lo que dificulta una escalabilidad rápida. | Posee una curva de aprendizaje muy alta y procesos de implementación extremadamente largos y costosos para el cliente promedio. |
+| | Oportunidades | Existe un mercado masivo en la digitalización de PYMES y eventos temporales que buscan seguridad profesional sin contratos de mantenimiento pesados. | El crecimiento del trabajo híbrido impulsa la demanda de soluciones que permitan gestionar oficinas desde cualquier parte del mundo. | Expansión hacia soluciones de ciudades inteligentes y automatización de edificios en el mercado inmobiliario peruano en auge. | La creciente regulación sobre el control de horas trabajadas y bienestar laboral obliga a las grandes empresas a adoptar sistemas tan robustos como este. |
+| | Amenazas | La entrada de gigantes del software que integren funciones de acceso gratuitas en sus ecosistemas de oficina (como Microsoft o Google). | Startups con tecnologías puramente móviles (NFC/Bluetooth) que eliminan la necesidad de cualquier hardware intermedio. | El rechazo progresivo a los métodos de contacto físico (biometría de huella) frente a tecnologías de reconocimiento remoto o digital. | Herramientas de gestión de proyectos y comunicación que están añadiendo módulos de control de tiempo (Time Tracking) mucho más intuitivos. |
 </div>
 
-### **Kisi (Control de Acceso en la Nube)** 
-Es una solución global de gestión de accesos de nivel empresarial que centraliza el control de múltiples instalaciones en una única interfaz basada en la nube. Se especializa en modernizar infraestructuras existentes sin necesidad de reemplazarlas por completo.
-<https://www.getkisi.com/enterprise>
+## 2.2. Entrevistas
 
-##### **Características Principales**
-* **Gestión de Identidad Avanzada:** Permite asignar privilegios detallados por usuario e integra sistemas de autenticación **SSO** y protocolos **SCIM** para sincronizar la base de datos de empleados automáticamente.
-* **Seguridad y Auditoría:** Facilita el cumplimiento de normativas de seguridad física mediante la obtención de datos vía **API** y la generación de informes automáticos personalizados.
-* **Seguridad Multicapa:** Ofrece opciones de autenticación de dos factores (**2FA**) y **WebAuthn** para elevar los estándares de protección.
-* **Implementación Híbrida:** Su gran diferencial es la capacidad de conectarse a cerraduras y lectores ya instalados, lo que reduce los costos de implementación hasta en un **65%**.
-
-##### **Estructura de Planes**
-
-| Plan | Descripción / Enfoque | Ideal para |
-| :--- | :--- | :--- |
-| **Standard** | Control básico en la nube. | Oficinas pequeñas. |
-| **CRM** | Integración con sistemas de gestión de clientes. | Negocios con membresías. |
-| **Enterprise** | Auditorías estrictas e integraciones de IT avanzadas. | Grandes corporaciones. |
-
----
-<https://pages.getkisi.com/hubfs/kisi-pricing-overview.pdf>
-<br></br>
-
-### **Acceso Total Perú (Soluciones Integrales de Automatización)**
-**Perfil de la Empresa:** Empresa peruana en fase de expansión con más de 5 años de experiencia en el sector de seguridad inteligente. Su competitividad radica en la flexibilidad de hardware y una sólida trayectoria con instituciones públicas y privadas de alto perfil (MININTER, MINCETUR, UNI, entre otros).
-
-##### **Líneas de Servicio y Planes**
-* **Control de Acceso para Puertas:** Sistema versátil con soporte para múltiples métodos de validación: códigos, tarjetas, huellas biométricas, reconocimiento facial y **códigos QR**.
-* **Gestión de Asistencia Biométrica:** Solución especializada para **Recursos Humanos** que permite el control detallado de asistencias, faltas y horas extras con gestión local o centralizada.
-* **Control de Acceso Vehicular:** Automatización de entradas y salidas de vehículos enfocada en la eficiencia operativa y reducción de costos de personal.
-* **Control Peatonal Centralizado:** Implementación de barreras físicas (**torniquetes o molinetes**) gestionadas por un software integrado e intuitivo para flujos masivos.
-
-##### **Valor Agregado**
-
-| Beneficio | Descripción |
-| :--- | :--- |
-| **Asesoría Personalizada** | Acompañamiento técnico previo para determinar la viabilidad según la infraestructura. |
-| **Experiencia Local** | Conocimiento profundo del mercado peruano y cumplimiento de estándares para entidades estatales. |
-
----
-<https://accesototalperu.com/control-de-acceso-puerta/>
-<br></br>
-
-### **Kronos por SEIDOR (Gestión de Fuerza Laboral y Tiempo)**
-**Descripción General:** Solución de alto nivel distribuida por **SEIDOR**, diseñada para el control integral de la jornada laboral y la optimización de la productividad. Su enfoque principal es el cumplimiento normativo y la eficiencia operativa en empresas con grandes planillas y turnos complejos.
-
-#### **Pilares Estratégicos**
-* **Optimización de Costos Operativos:** Alinea el personal con la demanda del negocio. Controla el pago de **horas extras** y proyecta el gasto de horas-hombre en tiempo real mediante alertas automáticas.
-* **Mitigación de Riesgos y Cumplimiento:** Automatiza la generación de horarios asegurando el cumplimiento de la **legislación laboral** y acuerdos sindicales. Valida que el personal cuente con certificaciones vigentes antes de asignar turnos.
-* **Productividad y Rendimiento:** Gestiona descansos obligatorios para prevenir el agotamiento y facilita la creación de equipos basados en competencias específicas.
-* **Experiencia del Empleado (Self-Service):** Interfaz intuitiva para dispositivos móviles (**iOS y Android**) que permite a los colaboradores gestionar su disponibilidad y preferencias de turnos.
-
-#### **Resumen de Valor**
-
-| Enfoque | Objetivo Principal |
-| :--- | :--- |
-| **Financiero** | Control de presupuestos y reducción de sobrecostos laborales. |
-| **Legal** | Automatización del cumplimiento de normativas vigentes. |
-| **Humano** | Autogestión y bienestar del colaborador mediante movilidad. |
-
----
-<https://www.seidor.com/es-pe/kronos>
-<br></br>
-
-### 2.1.2. Estrategias y tácticas frente a competidores.
-
-### **Kisi (Control de Acceso en la Nube)** 
-Es una solución global de gestión de accesos de nivel empresarial que centraliza el control de múltiples instalaciones en una única interfaz basada en la nube. Se especializa en modernizar infraestructuras existentes sin necesidad de reemplazarlas por completo.
-<https://www.getkisi.com/enterprise>
-
-##### **Características Principales**
-* **Gestión de Identidad Avanzada:** Permite asignar privilegios detallados por usuario e integra sistemas de autenticación **SSO** y protocolos **SCIM** para sincronizar la base de datos de empleados automáticamente.
-* **Seguridad y Auditoría:** Facilita el cumplimiento de normativas de seguridad física mediante la obtención de datos vía **API** y la generación de informes automáticos personalizados.
-* **Seguridad Multicapa:** Ofrece opciones de autenticación de dos factores (**2FA**) y **WebAuthn** para elevar los estándares de protección.
-* **Implementación Híbrida:** Su gran diferencial es la capacidad de conectarse a cerraduras y lectores ya instalados, lo que reduce los costos de implementación hasta en un **65%**.
-
-##### **Estructura de Planes**
-
-| Plan | Descripción / Enfoque | Ideal para |
-| :--- | :--- | :--- |
-| **Standard** | Control básico en la nube. | Oficinas pequeñas. |
-| **CRM** | Integración con sistemas de gestión de clientes. | Negocios con membresías. |
-| **Enterprise** | Auditorías estrictas e integraciones de IT avanzadas. | Grandes corporaciones. |
-
----
-<https://pages.getkisi.com/hubfs/kisi-pricing-overview.pdf>
-<br></br>
-
-### **Acceso Total Perú (Soluciones Integrales de Automatización)**
-**Perfil de la Empresa:** Empresa peruana en fase de expansión con más de 5 años de experiencia en el sector de seguridad inteligente. Su competitividad radica en la flexibilidad de hardware y una sólida trayectoria con instituciones públicas y privadas de alto perfil (MININTER, MINCETUR, UNI, entre otros).
-
-##### **Líneas de Servicio y Planes**
-* **Control de Acceso para Puertas:** Sistema versátil con soporte para múltiples métodos de validación: códigos, tarjetas, huellas biométricas, reconocimiento facial y **códigos QR**.
-* **Gestión de Asistencia Biométrica:** Solución especializada para **Recursos Humanos** que permite el control detallado de asistencias, faltas y horas extras con gestión local o centralizada.
-* **Control de Acceso Vehicular:** Automatización de entradas y salidas de vehículos enfocada en la eficiencia operativa y reducción de costos de personal.
-* **Control Peatonal Centralizado:** Implementación de barreras físicas (**torniquetes o molinetes**) gestionadas por un software integrado e intuitivo para flujos masivos.
-
-##### **Valor Agregado**
-
-| Beneficio | Descripción |
-| :--- | :--- |
-| **Asesoría Personalizada** | Acompañamiento técnico previo para determinar la viabilidad según la infraestructura. |
-| **Experiencia Local** | Conocimiento profundo del mercado peruano y cumplimiento de estándares para entidades estatales. |
-
----
-<https://accesototalperu.com/control-de-acceso-puerta/>
-<br></br>
-
-### **Kronos por SEIDOR (Gestión de Fuerza Laboral y Tiempo)**
-**Descripción General:** Solución de alto nivel distribuida por **SEIDOR**, diseñada para el control integral de la jornada laboral y la optimización de la productividad. Su enfoque principal es el cumplimiento normativo y la eficiencia operativa en empresas con grandes planillas y turnos complejos.
-
-#### **Pilares Estratégicos**
-* **Optimización de Costos Operativos:** Alinea el personal con la demanda del negocio. Controla el pago de **horas extras** y proyecta el gasto de horas-hombre en tiempo real mediante alertas automáticas.
-* **Mitigación de Riesgos y Cumplimiento:** Automatiza la generación de horarios asegurando el cumplimiento de la **legislación laboral** y acuerdos sindicales. Valida que el personal cuente con certificaciones vigentes antes de asignar turnos.
-* **Productividad y Rendimiento:** Gestiona descansos obligatorios para prevenir el agotamiento y facilita la creación de equipos basados en competencias específicas.
-* **Experiencia del Empleado (Self-Service):** Interfaz intuitiva para dispositivos móviles (**iOS y Android**) que permite a los colaboradores gestionar su disponibilidad y preferencias de turnos.
-
-#### **Resumen de Valor**
-
-| Enfoque | Objetivo Principal |
-| :--- | :--- |
-| **Financiero** | Control de presupuestos y reducción de sobrecostos laborales. |
-| **Legal** | Automatización del cumplimiento de normativas vigentes. |
-| **Humano** | Autogestión y bienestar del colaborador mediante movilidad. |
-
----
-<https://www.seidor.com/es-pe/kronos>
-<br></br>
-
-## 2.2 Entrevistas
-
-### 2.2.1 Diseño de entrevistas
+### 2.2.1. Diseño de entrevistas
 
 Para validar la propuesta de valor de **SmartLock**, se diseñaron entrevistas dirigidas a dos segmentos clave: **empresarios (dueños o administradores de negocios)** y **organizadores de eventos**, quienes enfrentan problemáticas relacionadas con el control de accesos y la seguridad en sus espacios.
 
@@ -637,56 +514,169 @@ El objetivo de estas entrevistas es comprender sus necesidades, problemas actual
 14. ¿Qué te preocupa más: seguridad, rapidez o experiencia del usuario?
 15. ¿Qué mejoras implementarías en tu proceso actual de control de accesos?
 
-### 2.2.2 Registro de entrevistas
+### 2.2.2. Registro de entrevistas
 
-En esta sección se consolidan las entrevistas realizadas para la validación de la propuesta de valor. Cada sesión ha sido documentada para asegurar la trazabilidad de los hallazgos.
+En esta sección se consolidan las seis entrevistas realizadas para la validación de la propuesta de valor de SmartLock. Cada sesión ha sido documentada para asegurar la trazabilidad de los hallazgos y la construcción de nuestros arquetipos.
 
-| Nombre del Entrevistado | Segmento | Enlace de la Entrevista (Drive) |
-| :--- | :--- | :--- |
-| Almendra Lucía Lavi Cuyubamba | Organizador de eventos | [Enlace al drive](https://drive.google.com/drive/folders/1Uhej5HwTiy1H02ks4PsJ1ypoxCMtlsuX?usp=sharing) |
-| Evelyn Jannet Caldas Párraga | Organizador de Eventos | [Enlace al video](https://drive.google.com/drive/folders/1JFUE4UwyJyrbLREk2UrAOmn6ZuhBJyHT?usp=sharing) |
-| Josue Nolasco | Organizador de eventos | [Enlace al video](https://drive.google.com/drive/folders/1Z8a_31JU139vRjelw6E6odRUEEG1zb4N?usp=sharing) |
-| Anthony Nolasco | Empresario | [Enlace al video](https://drive.google.com/drive/folders/1BYn2a5jxz758K4LYA9w57gxhZQiKlB_P?usp=sharing) |
-| Monica Moreno Olivera | Empresario | [Enlace al video](https://drive.google.com/drive/folders/1xa4zk88iqrlRpYc5PhleA7pgUyJ_iNaL?usp=sharing) |
-| Hugo Ricardo Rojas | Empresario | [Enlace al video](https://drive.google.com/drive/folders/1wupFFeJ_Gso7lkt-E98uMOC2pvaAPjVk?usp=sharing) |
+| Nombre del Entrevistado | Edad | Distrito | Segmento | Captura de Video | Enlace de la Entrevista (Stream) | Tiempo de Inicio | Tiempo de Fin | Duración |
+| :--- | :---: | :--- | :--- | :---: | :--- | :---: | :---: | :---: |
+| Almendra Lucía Lavi | 21 | La Molina | Organizador | ![Captura](/Resources/Chapter2/interviews/entrevista1.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=0id4Mb) | 00:00 | 09:10 | 09:10 |
+| Leugim Sajor | 32 | Surco | Organizador | ![Captura](/Resources/Chapter2/interviews/entrevista2.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=a2Ghfv) | 09:10 | 15:40 | 06:30 |
+| Evelyn Jannet Caldas | 48 | Ate | Organizador | ![Captura](/Resources/Chapter2/interviews/entrevista3.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=uTUBUB) | 15:40 | 29:10 | 13:30 |
+| Larissa Teofilo | 28 | Surco | Empresario | ![Captura](/Resources/Chapter2/interviews/entrevista4.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=CY27NN) | 29:10 | 35:50 | 06:40 |
+| Hugo Rojas O. | 72 | La Molina | Empresario | ![Captura](/Resources/Chapter2/interviews/entrevista5.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=Ypp2WU) | 35:50 | 47:00 | 11:10 |
+| Hugo Ricardo Rojas P. | 35 | Ate | Empresario | ![Captura](/Resources/Chapter2/interviews/entrevista6.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=Pw5K7G) | 47:00 | 55:20 | 08:20 |
 
-### 2.2.3 Análisis de entrevistas
+---
 
-A continuación, se presenta un análisis detallado de cada una de las sesiones de validación. En este apartado se describen los comportamientos detectados, los puntos de dolor específicos y la recepción de la propuesta de valor de SmartLock por parte de cada entrevistado.
+### 2.2.3. Análisis de entrevistas
+
+A continuación, se presenta un análisis detallado de cada una de las sesiones de validación. En este apartado se describen los comportamientos detectados, los puntos de dolor específicos, rasgos de personalidad y la recepción de la propuesta de valor de SmartLock.
 
 #### Segmento: Organizadores de Eventos
 
 **1. Almendra Lucía Lavi Cuyubamba**
-de 21 años, es estudiante de la carrera de Marketing y organizadora de eventos coorporativos en la empresa llamada Okawa. Almendra Suele organizar sus eventos llevando un conteo de registros en formularios tipo google forms, donde las personas que asistirán al evento se registran. Sin embargo no tiene una manera de asegurarse que la persona registrada es alguien que tiene permiso de ingreso a las oficinas coorporativas. También tiene el problema de que muchas personas se aglomeran cerca a la hora de inicio de la conferencia provocando cierto desorden. Le gustaría que se activen servicios de IA una vez las personas ingresen al area. Le gustaría que mejore la experiencia de usuario. Le parece innovadora la idea de SmartLock y estaría dispuesta a usarlo si los beneficios en seguridad y ahorro de tiempo supera el precio del software. Prefeririá que tenganmos tanto app web como app movil. Lo más interesante de todo para ella es ver el aforo en tiempo real
+Almendra, de 21 años, es estudiante de la carrera de Marketing en la USIL y organizadora de eventos corporativos en la empresa Okawa. De personalidad extrovertida, detallista y muy dinámica, siempre busca la eficiencia y la mejor experiencia para sus asistentes. Suele organizar sus eventos llevando un conteo de registros en Google Forms, pero no tiene una manera ágil de asegurarse que la persona registrada tenga permiso real de ingreso. Esto le genera aglomeraciones cerca de la hora de inicio. Le parece innovadora la idea de SmartLock para controlar el aforo en tiempo real y estaría dispuesta a usarlo si los beneficios superan el precio, prefiriendo que la solución abarque tanto una app web como móvil.
 
-**2. Evelyn Jannet Caldas Párraga**
-tiene 48 años, graduada como administradora de empresas es secretaria y organizadora de eventos familiares en el colegio Norteamericano Abraham Lincoln. Evelyn gestiona el acceso a eventos institucionales dirigidos exclusivamente a socios y sus familias, utilizando actualmente plataformas como Joinnus para el registro digital y la venta de tickets. Aunque cuenta con procesos definidos, identifica un problema importante en la logística con proveedores: los cambios de último minuto en el personal externo generan demoras operativas, ya que debe asignar personal específicamente para verificaciones manuales. Para la seguridad interna de la empresa, recalca que el control es vital para proteger documentación sensible y activos contables. Evelyn muestra una clara preferencia por una solución basada 100% en software y la nube (SaaS), rechazando la implementación de hardware o servidores físicos por los costos de mantenimiento y espacio que implican. Lo que más le atrae de SmartLock es la capacidad de recibir alertas automáticas de acceso denegado y la generación de reportes estadísticos e indicadores de asistencia, lo cual considera clave para reducir horas-hombre y mejorar la eficiencia en la toma de decisiones.
+**2. Leugim Sajor**
+Leugim, de 32 años y residente en el distrito de Surco, es un ciudadano extranjero que organiza eventos exclusivos para el sector inmobiliario, donde se presentan proyectos y se atraen nuevos clientes. Posee una personalidad analítica, diplomática y muy estructurada, lo que le ha permitido mantener un negocio muy estable con pocos problemas operativos. Su principal necesidad es mantener la exclusividad y privacidad de las presentaciones inmobiliarias. SmartLock le resulta muy atractivo para gestionar invitaciones VIP con códigos QR temporales, asegurando un ingreso fluido que esté a la altura del perfil de sus clientes de alto poder adquisitivo.
 
-**3. Josue Nolasco**
-[Escribe aquí el párrafo amplio]
+**3. Evelyn Jannet Caldas Párraga**
+Evelyn, de 48 años y graduada de Administración en la UPC, es secretaria y organizadora de eventos en el colegio Norteamericano Abraham Lincoln. Tiene una personalidad metódica, resolutiva y con un alto sentido del control y la seguridad. Gestiona accesos a eventos institucionales utilizando plataformas como Joinnus. Su mayor problema es la logística con proveedores y los cambios de personal de último minuto que requieren verificaciones manuales y demoran el proceso. Evelyn tiene una clara preferencia por soluciones 100% en la nube (SaaS), rechazando el hardware por costos. Le atraen las alertas automáticas de acceso denegado y la generación de reportes de asistencia para optimizar la seguridad contable.
 
 ---
 
 #### Segmento: Empresarios (Dueños/Administradores)
 
-**4. Anthony Nolasco**
-[Escribe aquí el párrafo amplio]
+**4. Larissa Teofilo**
+Larissa, de 28 años y residente en Surco, forma parte de la directiva y gerencia de una exitosa cadena de gimnasios brasileños en el país. De personalidad carismática, observadora y muy orientada al servicio al cliente, ella misma confiesa no ser una experta en el apartado tecnológico, pero es sumamente consciente de los defectos del mismo cuando los sistemas actuales de los gimnasios fallan (como tarjetas perdidas o huellas que no leen). SmartLock le parece una excelente iniciativa para modernizar el ingreso de los socios a través de sus propios celulares, reduciendo las quejas en recepción y mejorando la percepción de innovación de la marca.
 
-**5. Monica Moreno Olivera**
-[Escribe aquí el párrafo amplio]
+**5. Hugo Rojas Olivera**
+Hugo, de 72 años y residente en La Molina, es médico pediatra graduado y con maestría por la UNMSM, y actualmente se desempeña como gerente del Hospital de Emergencias de Villa El Salvador. Posee una personalidad serena, reflexiva, empática y con una profunda vocación de servicio. Lidera una institución crítica que utiliza un software nacional que presenta múltiples defectos, lo que a menudo contribuye a la saturación del hospital en áreas de control y recepción. Para Hugo, una herramienta como SmartLock podría ser vital para agilizar el flujo de personal médico y administrativo, mitigando los cuellos de botella tecnológicos que actualmente padecen.
 
-**6. Hugo Ricardo Rojas Párraga**
-tiene 35, es ingeniero ambiental y gerente de su empresa llamada Gestam Consulting donde se realizan gestiones ambientales a empresas que contraten sus servicios. Hugo ha experimentado problemas con el manejo del acceso a sus oficinas, ya que todo el control lo hace en hojas físicas a mano lo que provoca cierto retraso. Ha tenido malas experiencias donde exempleados ingresan a las instalaciones como lo hacían antes y no desea que eso vuelva a ocurrir. También le gustaría implementar smartlock pagando una membresía económica pero sin adquirir ningún tipo de hardware físico más que los dispositivos móviles. Hugo considera que sería sencillo implementar SmartLock en sus oficinas. Hugo también considera que lo más importante para él son los reportes de asistencia periodicos.
+**6. Hugo Ricardo Rojas P.**
+Hugo, de 35 años y residente del distrito de Ate, es ingeniero ambiental graduado de la Universidad Nacional Agraria La Molina (UNALM) y gerente de la empresa Gestam Consulting. Tiene una personalidad directa, práctica, resolutiva y muy orientada a la protección de los activos de su empresa. Actualmente tiene problemas serios de seguridad para revocar el acceso a exempleados, por lo que necesita una solución inmediata. Es tajante en mencionar que no invertiría en la instalación de hardware físico. Para él, una membresía económica de SmartLock basada puramente en software es la solución perfecta, destacando la importancia de los reportes periódicos de asistencia.
 
 ---
 
 #### Síntesis de hallazgos (Insights principales)
-* **Insight 1:** [Resumen de una verdad descubierta].
-* **Insight 2:** [Resumen de otra verdad].
 
-## 2.3 Needfinding
+* **Insight 1 (Rechazo a la infraestructura física):** La mayoría de los perfiles empresariales entrevistados rechazan la inversión y mantenimiento de hardware nuevo debido a sus altos costos, destacando casos puntuales como el de Hugo Ricardo Rojas y Evelyn Caldas. Por este motivo, la propuesta de SmartLock basada en el modelo SaaS y el uso de dispositivos móviles propios (BYOD) es el principal gatillador de interés, junto con la posibilidad de visualizar el aforo en tiempo real.
+* **Insight 2 (Gestión crítica de identidades y exclusiones):** Más allá de registrar asistencias, el problema central radica en la invalidación de accesos. Empresarios como Hugo R. Párraga necesitan revocar permisos a exempleados en tiempo real, mientras que organizadores como Almendra y Leugim necesitan asegurar la identidad del asistente para evitar intrusiones.
+* **Insight 3 (Carencias en los sistemas tradicionales):** La mayoría de los entrevistados reporta fricciones graves con sus sistemas actuales (desde software hospitalario saturado hasta registros manuales en papel). Existe una necesidad latente por un software que priorice la rapidez y la facilidad de implementación sin barreras tecnológicas complejas.
 
-### 2.3. User Personas
+### 2.2.1. Diseño de entrevistas
+
+Para validar la propuesta de valor de **SmartLock**, se diseñaron entrevistas dirigidas a dos segmentos clave: **empresarios (dueños o administradores de negocios)** y **organizadores de eventos**, quienes enfrentan problemáticas relacionadas con el control de accesos y la seguridad en sus espacios.
+
+El objetivo de estas entrevistas es comprender sus necesidades, problemas actuales, comportamientos y nivel de interés en una solución digital de control de accesos.
+
+---
+
+#### Segmento 1: Empresarios (dueños o administradores)
+
+> **Objetivo:** Entender cómo gestionan actualmente el acceso a sus instalaciones, identificar problemas de seguridad y evaluar su disposición hacia soluciones digitales.
+
+**Cuestionario de validación:**
+
+1.  ¿Cómo gestionas actualmente el acceso de personas a tu negocio o instalaciones?
+2.  ¿Qué tipo de problemas has tenido relacionados con el control de accesos?
+3.  ¿Utilizas algún sistema digital o todo es manual? ¿Por qué?
+4.  ¿Qué tan importante es para ti saber quién entra y sale en tiempo real?
+5.  ¿Has tenido alguna situación de acceso no autorizado? ¿Cómo la manejaste?
+6.  ¿Qué tan complicado es actualmente revocar el acceso a exempleados o terceros?
+7.  ¿Qué herramientas utilizas para llevar un registro de accesos?
+8.  ¿Cuánto tiempo inviertes en gestionar o supervisar estos accesos?
+9.  ¿Qué características considerarías esenciales en un sistema de control de accesos?
+10. ¿Estarías dispuesto a pagar por una solución que automatice este proceso? ¿Por qué?
+11. ¿Qué nivel de confianza te generaría un sistema basado en la nube?
+12. ¿Qué tan importante es para ti recibir alertas automáticas ante accesos sospechosos?
+13. ¿Qué tan fácil debería ser implementar una solución como esta en tu negocio?
+14. ¿Prefieres una solución sin hardware inicial (solo software)? ¿Por qué?
+15. ¿Qué te haría decidirte por usar una plataforma como SmartLock?
+
+---
+
+#### Segmento 2: Organizadores de eventos
+
+> **Objetivo:** Explorar cómo gestionan accesos en eventos, identificar dificultades operativas y validar oportunidades de mejora mediante tecnología.
+
+**Cuestionario de validación:**
+
+1.  ¿Cómo gestionas el ingreso de personas en los eventos que organizas?
+2.  ¿Qué problemas has enfrentado al controlar accesos en eventos?
+3.  ¿Cómo verificas la identidad o autorización de los asistentes?
+4.  ¿Qué tan frecuente es que ocurran errores o accesos no autorizados?
+5.  ¿Utilizas herramientas digitales para el control de ingreso? ¿Cuáles?
+6.  ¿Qué tan importante es para ti tener un registro de asistencia en tiempo real?
+7.  ¿Cómo manejas cambios de último momento en listas de invitados?
+8.  ¿Qué tan complicado es coordinar el acceso con tu equipo de trabajo?
+9.  ¿Has tenido problemas con sobreaforo o control de capacidad?
+10. ¿Qué funcionalidades te gustaría tener en un sistema de control de accesos para eventos?
+11. ¿Qué tan útil sería recibir alertas en tiempo real durante un evento?
+12. ¿Estarías dispuesto a usar una plataforma web para gestionar accesos? ¿Por qué?
+13. ¿Qué tan importante es la rapidez en el proceso de ingreso de asistentes?
+14. ¿Qué te preocupa más: seguridad, rapidez o experiencia del usuario?
+15. ¿Qué mejoras implementarías en tu proceso actual de control de accesos?
+
+### 2.2.2. Registro de entrevistas
+
+En esta sección se consolidan las seis entrevistas realizadas para la validación de la propuesta de valor de SmartLock. Cada sesión ha sido documentada para asegurar la trazabilidad de los hallazgos y la construcción de nuestros arquetipos.
+
+| Nombre del Entrevistado | Edad | Distrito | Segmento | Captura de Video | Enlace de la Entrevista (Stream) | Tiempo de Inicio | Tiempo de Fin | Duración |
+| :--- | :---: | :--- | :--- | :---: | :--- | :---: | :---: | :---: |
+| Almendra Lucía Lavi | 21 | La Molina | Organizador | ![Captura](/Resources/Chapter2/interviews/entrevista1.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=0id4Mb) | 00:00 | 09:10 | 09:10 |
+| Leugim Sajor | 32 | Surco | Organizador | ![Captura](/Resources/Chapter2/interviews/entrevista2.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=a2Ghfv) | 09:10 | 15:40 | 06:30 |
+| Evelyn Jannet Caldas | 48 | Ate | Organizador | ![Captura](/Resources/Chapter2/interviews/entrevista3.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=uTUBUB) | 15:40 | 29:10 | 13:30 |
+| Larissa Teofilo | 28 | Surco | Empresario | ![Captura](/Resources/Chapter2/interviews/entrevista4.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=CY27NN) | 29:10 | 35:50 | 06:40 |
+| Hugo Rojas O. | 72 | La Molina | Empresario | ![Captura](/Resources/Chapter2/interviews/entrevista5.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=Ypp2WU) | 35:50 | 47:00 | 11:10 |
+| Hugo Ricardo Rojas P. | 35 | Ate | Empresario | ![Captura](/Resources/Chapter2/interviews/entrevista6.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=Pw5K7G) | 47:00 | 55:20 | 08:20 |
+
+---
+
+### 2.2.3. Análisis de entrevistas
+
+A continuación, se presenta un análisis detallado de cada una de las sesiones de validación. En este apartado se describen los comportamientos detectados, los puntos de dolor específicos, rasgos de personalidad y la recepción de la propuesta de valor de SmartLock.
+
+#### Segmento: Organizadores de Eventos
+
+**1. Almendra Lucía Lavi Cuyubamba**
+Almendra, de 21 años, es estudiante de la carrera de Marketing en la USIL y organizadora de eventos corporativos en la empresa Okawa. De personalidad extrovertida, detallista y muy dinámica, siempre busca la eficiencia y la mejor experiencia para sus asistentes. Suele organizar sus eventos llevando un conteo de registros en Google Forms, pero no tiene una manera ágil de asegurarse que la persona registrada tenga permiso real de ingreso. Esto le genera aglomeraciones cerca de la hora de inicio. Le parece innovadora la idea de SmartLock para controlar el aforo en tiempo real y estaría dispuesta a usarlo si los beneficios superan el precio, prefiriendo que la solución abarque tanto una app web como móvil.
+
+**2. Leugim Sajor**
+Leugim, de 32 años y residente en el distrito de Surco, es un ciudadano extranjero que organiza eventos exclusivos para el sector inmobiliario, donde se presentan proyectos y se atraen nuevos clientes. Posee una personalidad analítica, diplomática y muy estructurada, lo que le ha permitido mantener un negocio muy estable con pocos problemas operativos. Su principal necesidad es mantener la exclusividad y privacidad de las presentaciones inmobiliarias. SmartLock le resulta muy atractivo para gestionar invitaciones VIP con códigos QR temporales, asegurando un ingreso fluido que esté a la altura del perfil de sus clientes de alto poder adquisitivo.
+
+**3. Evelyn Jannet Caldas Párraga**
+Evelyn, de 48 años y graduada de Administración en la UPC, es secretaria y organizadora de eventos en el colegio Norteamericano Abraham Lincoln. Tiene una personalidad metódica, resolutiva y con un alto sentido del control y la seguridad. Gestiona accesos a eventos institucionales utilizando plataformas como Joinnus. Su mayor problema es la logística con proveedores y los cambios de personal de último minuto que requieren verificaciones manuales y demoran el proceso. Evelyn tiene una clara preferencia por soluciones 100% en la nube (SaaS), rechazando el hardware por costos. Le atraen las alertas automáticas de acceso denegado y la generación de reportes de asistencia para optimizar la seguridad contable.
+
+---
+
+#### Segmento: Empresarios (Dueños/Administradores)
+
+**4. Larissa Teofilo**
+Larissa, de 28 años y residente en Surco, forma parte de la directiva y gerencia de una exitosa cadena de gimnasios brasileños en el país. De personalidad carismática, observadora y muy orientada al servicio al cliente, ella misma confiesa no ser una experta en el apartado tecnológico, pero es sumamente consciente de los defectos del mismo cuando los sistemas actuales de los gimnasios fallan (como tarjetas perdidas o huellas que no leen). SmartLock le parece una excelente iniciativa para modernizar el ingreso de los socios a través de sus propios celulares, reduciendo las quejas en recepción y mejorando la percepción de innovación de la marca.
+
+**5. Hugo Rojas Olivera**
+Hugo, de 72 años y residente en La Molina, es médico pediatra graduado y con maestría por la UNMSM, y actualmente se desempeña como gerente del Hospital de Emergencias de Villa El Salvador. Posee una personalidad serena, reflexiva, empática y con una profunda vocación de servicio. Lidera una institución crítica que utiliza un software nacional que presenta múltiples defectos, lo que a menudo contribuye a la saturación del hospital en áreas de control y recepción. Para Hugo, una herramienta como SmartLock podría ser vital para agilizar el flujo de personal médico y administrativo, mitigando los cuellos de botella tecnológicos que actualmente padecen.
+
+**6. Hugo Ricardo Rojas P.**
+Hugo, de 35 años y residente del distrito de Ate, es ingeniero ambiental graduado de la Universidad Nacional Agraria La Molina (UNALM) y gerente de la empresa Gestam Consulting. Tiene una personalidad directa, práctica, resolutiva y muy orientada a la protección de los activos de su empresa. Actualmente tiene problemas serios de seguridad para revocar el acceso a exempleados, por lo que necesita una solución inmediata. Es tajante en mencionar que no invertiría en la instalación de hardware físico. Para él, una membresía económica de SmartLock basada puramente en software es la solución perfecta, destacando la importancia de los reportes periódicos de asistencia.
+
+---
+
+#### Síntesis de hallazgos (Insights principales)
+
+* **Insight 1 (Rechazo a la infraestructura física):** la mayoria de los perfiles empresariales aceptan la inversión y mantenimiento de hardware nuevo, excepto por Hugo Rojas. Sin embargo, La propuesta de SmartLock basada en el modelo SaaS y uso de dispositivos móviles propios (BYOD) es el principal gatillador de interés junto con el aforo en tiempo real.
+* **Insight 2 (Gestión crítica de identidades y exclusiones):** Más allá de registrar asistencias, el problema central radica en la invalidación de accesos. Empresarios como Hugo R. Párraga necesitan revocar permisos a exempleados en tiempo real, mientras que organizadores como Almendra y Leugim necesitan asegurar la identidad del asistente para evitar intrusiones.
+* **Insight 3 (Carencias en los sistemas tradicionales):** La mayoría de los entrevistados reporta fricciones graves con sus sistemas actuales (desde software hospitalario saturado hasta registros manuales en papel). Existe una necesidad latente por un software que priorice la rapidez y la facilidad de implementación sin barreras tecnológicas complejas.
+
+## 2.3. Needfinding
+
+En esta sección, el equipo explica y presenta los artefactos resultantes del proceso de análisis de la información recolectada en las fases previas. A partir del estudio competitivo frente a alternativas como Kisi o Acceso Total Perú, y tras el análisis de las entrevistas a nuestros segmentos objetivo, comprobamos que existe una fuerte resistencia a la inversión en hardware físico y una clara insatisfacción con los sistemas tradicionales o manuales. La necesidad principal de los usuarios radica en obtener una solución ágil, centralizada en la nube (SaaS) y orientada al uso de dispositivos móviles (BYOD) que permita validar identidades, controlar aforos y revocar accesos en tiempo real. 
+
+Para traducir estos *insights* y puntos de dolor en requerimientos de diseño y de negocio para **SmartLock**, en este apartado se incluyen las secciones de *User Personas, User Task Matrix, User Journey Maps, Empathy Mapping, As-is Scenario Mapping, Big Picture Event Storming* y *Ubiquitous Language*. Estas herramientas nos permiten empatizar a profundidad con el entorno operativo de nuestros arquetipos (el gerente corporativo y la organizadora de eventos), asegurando que la arquitectura y la experiencia de usuario del software resuelvan directamente las fricciones descubiertas.
+
+### 2.3.1. User Personas
 
 En esta sección se presentan las fichas de **User Persona** desarrolladas para los dos segmentos clave de **SmartLock**. La creación de estos arquetipos no es arbitraria; surge directamente del análisis de las entrevistas realizadas y del estudio de la competencia (Kisi, Acceso Total y Kronos). 
 
@@ -696,7 +686,7 @@ Para la elaboración de estos artefactos, se utilizó la herramienta **UXPressia
 
 ---
 
-#### 2.3.1. Segmento 1: Gerentes de Operaciones y TI
+#### Segmento 1: Gerentes de Operaciones y TI
 
 ##### **Carlos Ortega - "El Protector Eficiente"**
 
@@ -712,7 +702,7 @@ Carlos representa nuestro segmento B2B corporativo. Es el tomador de decisiones 
 
 ---
 
-#### 2.3.2. Segmento 2: Organizadores de Eventos y Espacios de Alto Tráfico
+#### Segmento 2: Organizadores de Eventos y Espacios de Alto Tráfico
 
 ##### **Valeria Rios - "La Productora Perfeccionista"**
 
@@ -727,8 +717,8 @@ Valeria representa el segmento dinámico de SmartLock. Su necesidad no es la per
     * **Frustraciones:** Listas de invitados desactualizadas y el fraude con capturas de pantalla de códigos QR estáticos.
     * **Tecnología:** Mobile-first extremo; depende de su smartphone y la nube para coordinar a su staff en terreno.
 
+### 2.3.2. User Task Matrix
 
-### 2.3.2. User Task Matrix.
 En esta sección se presenta el **User Task Matrix**, una herramienta que permite mapear las actividades críticas que nuestros arquetipos realizan para alcanzar sus objetivos de seguridad y gestión. Este artefacto es el resultado directo de la síntesis entre las entrevistas a profundidad y el análisis de la competencia, permitiéndonos identificar qué procesos son rutinarios y cuáles son vitales para el éxito de la operación.
 
 Para este análisis, consideramos a nuestros dos segmentos objetivo representados por:
@@ -748,7 +738,7 @@ A continuación, se detallan las tareas identificadas, evaluando su **Frecuencia
 | Eliminación de credenciales de personal que ya no labora | Media | Alta | Baja | Media |
 | Respuesta ante intentos de ingreso no autorizados | Baja | Alta | Media | Alta |
 
-### **Explicación del Cuadro**
+#### **Explicación del Cuadro**
 
 Al analizar la matriz, se observan coincidencias estratégicas y diferencias operativas marcadas por la naturaleza de cada segmento:
 
@@ -774,7 +764,7 @@ Este mapa ilustra el proceso acelerado y estresante de Valeria durante la organi
 
 ![Customer Journey Map - Valeria Rios](/Resources/Chapter2/docs/Customer%20Valeria.png)
 
-### 2.3.4. Empathy Mapping.
+### 2.3.4. Empathy Mapping
 
 En esta sección, el equipo resume el proceso de elaboración y presenta las capturas de los Empathy Maps realizados en la plataforma UXPressia para cada uno de nuestros User Personas. 
 
@@ -791,7 +781,8 @@ El siguiente mapa de empatía ilustra el entorno corporativo de Carlos, resaltan
 En este mapa empatizamos con el entorno de alta presión de Valeria. Se destacan sus preocupaciones principales relacionadas con las largas colas en los eventos, la vulnerabilidad ante entradas falsificadas y su necesidad urgente de una solución ágil que no requiera instalación de hardware.
 
 ![Empathy Map - Valeria Rios](/Resources/Chapter2/docs/Valeria%20Empathy%20map.png)
-### 2.3.5. As-is Scenario Mapping.
+
+### 2.3.5. As-is Scenario Mapping
 
 En esta sección, se desarrollan los **As-is Scenario Maps** para nuestros dos arquetipos de usuario: Carlos Ortega y Valeria Rios. A diferencia del Journey Map, que evalúa el ciclo de vida completo del cliente, esta herramienta nos permite desglosar paso a paso las acciones, pensamientos y emociones de los usuarios frente a un **escenario crítico y específico** dentro de su contexto operativo actual (antes de la implementación de SmartLock).
 
@@ -808,6 +799,7 @@ En este mapa se ilustra el proceso tradicional y reactivo que debe seguir Carlos
 Este escenario detalla el momento más crítico para Valeria: la apertura de puertas de un evento utilizando listas de Excel impresas y validación manual. Se destacan las acciones de su personal de seguridad (staff), la frustración ante la lentitud del proceso, la presión por las largas colas de asistentes y la imposibilidad de tener un conteo real del aforo en tiempo real para reportar a Defensa Civil.
 
 ![As-is Scenario Map - Valeria Rios](/Resources/Chapter2/docs/Valeria-As-is-Scenario.png)
+
 ## 2.4. Big Picture Event Storming
 
 En esta sección, el equipo introduce y resume el proceso colaborativo realizado para entender el dominio del negocio de **SmartLock**. Durante la sesión, nos enfocamos en identificar los eventos significativos, procesos clave y las relaciones entre ellos, permitiéndonos mapear el flujo completo desde que un usuario solicita un acceso hasta que la cerradura se activa mediante el código QR dinámico.
@@ -823,72 +815,81 @@ Esta primera aproximación visual de alto nivel nos permitió explorar el landsc
 * **Definición de Actores y Sistemas:** Vinculamos los eventos con los usuarios (clientes/visitantes) y sistemas externos (servicios de nube y dispositivos IoT).
 
 ## 2.5. Ubiquitous Language
-## Authentication context
 
-- Subscription: Platform tenant subscription
-- System User: Admin/Operator/Auditor who accesses the web platform
-- Authentication: Verifying user identity (login + 2FA)
-- Role: Permission level (Super Admin, Admin, Operator, Auditor)
-- 2FA: Two-factor authentication
-- Quota: Usage limits (users, subscription limits)
-- Billing Cycle: Recurring payment period
-- Quota Warning: Alert when reaching usage limits
-- User Lock: Account lockout after failed attempts
+En esta sección se define el **Lenguaje Ubicuo (Ubiquitous Language)** del proyecto, un concepto clave dentro de la arquitectura orientada al dominio (Domain-Driven Design). El objetivo es establecer un vocabulario estandarizado y compartido entre los desarrolladores y los expertos del negocio para evitar ambigüedades. A continuación, se detallan los términos en inglés organizados por sus respectivos contextos (*Bounded Contexts*).
 
----
+### Identity & Auth Context
 
-## Organization context
-
-- Location: Physical site/office where doors are installed
-- Door: Physical entry point with access control
-- Access Mode: How door grants access (card, biometric, PIN, etc.)
-- Door Status: Current state of door (open, closed, locked)
-- Maintenance: Updates/repairs to doors
+**Términos (Terms):**
+* **Subscription:** Platform tenant subscription.
+* **System User:** Admin/Operator/Auditor who accesses the web platform.
+* **Authentication:** Verifying user identity (login + 2FA).
+* **Role:** Permission level (Super Admin, Admin, Operator, Auditor).
+* **2FA:** Two-factor authentication.
+* **Quota:** Usage limits (users, subscription limits).
+* **Billing Cycle:** Recurring payment period.
+* **Quota Warning:** Alert when reaching usage limits.
+* **User Lock:** Account lockout after failed attempts.
 
 ---
 
-## Organization context
+### Physical Space Context
 
-- Access User: Person who passes through physical doors
-- Access Policy: Set of rules defining who can access
-- Schedule: Time windows for access (workdays, hours)
-- Holiday Schedule: Special dates with different access rules
-- Policy Assignment: Linking policy to doors/users
-- Access Attempt: Any attempt to enter through a door
-- Access Grant: Successful access
-- Access Denial: Failed access attempt
+**Términos (Terms):**
+* **Location:** Physical site/office where doors are installed.
+* **Door:** Physical entry point with access control.
+* **Access Mode:** How door grants access (card, biometric, PIN, etc.).
+* **Door Status:** Current state of door (open, closed, locked).
+* **Maintenance:** Updates/repairs to doors.
 
 ---
 
-## Security context
+### Access Control Context
 
-- Security Alert: Notification of suspicious/unsafe activity
-- Access Denial Reason: Why access was denied (invalid credentials, out of schedule, policy violation)
-- Repeated Failed Attempts: Multiple failed access attempts
-- Unauthorized Access: Access by unauthorized person
-- Suspicious Behavior: Activity that violates normal patterns
-- Emergency Override: Bypass all security to unlock doors
-- Alert Acknowledgment: Operator confirms alert
-- Alert Resolution: Alert issue resolved
+**Términos (Terms):**
+* **Access User:** Person who passes through physical doors.
+* **Access Policy:** Set of rules defining who can access.
+* **Schedule:** Time windows for access (workdays, hours).
+* **Holiday Schedule:** Special dates with different access rules.
+* **Policy Assignment:** Linking policy to doors/users.
+* **Access Attempt:** Any attempt to enter through a door.
+* **Access Grant:** Successful access.
+* **Access Denial:** Failed access attempt.
 
 ---
 
-## Subscription context
+### Security Context
 
-- Subscription Plan: Paid tier (Principiante, Eventos, Corporativo)
-- Subscription Upgrade/Downgrade: Plan level changes
-- Payment Failure: Failed billing transaction
-- Billing Renewal: Automatic recurring payment
-- History Archive: Storing old access logs
-- Deactivation: Disabling user/location access
+**Términos (Terms):**
+* **Security Alert:** Notification of suspicious/unsafe activity.
+* **Access Denial Reason:** Why access was denied (invalid credentials, out of schedule, policy violation).
+* **Repeated Failed Attempts:** Multiple failed access attempts.
+* **Unauthorized Access:** Access by unauthorized person.
+* **Suspicious Behavior:** Activity that violates normal patterns.
+* **Emergency Override:** Bypass all security to unlock doors.
+* **Alert Acknowledgment:** Operator confirms alert.
+* **Alert Resolution:** Alert issue resolved.
+
+---
+
+### Billing & Subscription Context
+
+**Términos (Terms):**
+* **Subscription Plan:** Paid tier (Free, Professional, Enterprise).
+* **Subscription Upgrade/Downgrade:** Plan level changes.
+* **Payment Failure:** Failed billing transaction.
+* **Billing Renewal:** Automatic recurring payment.
+* **History Archive:** Storing old access logs.
+* **Deactivation:** Disabling user/location access.
+
 
 # Capítulo III: Requirements Specification
 
-## 3.1. User Stories.
+## 3.1. User Stories
 
 ---
 
-## Historias de Usuario Funcionales (30)
+### Historias de Usuario Funcionales (40)
 
 | ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Relacionado con |
 | :--- | :--- | :--- | :--- | :--- |
@@ -922,11 +923,20 @@ Esta primera aproximación visual de alto nivel nos permitió explorar el landsc
 | **HU-28** | Edición de perfil | Actualización de datos. | **Dado** que el usuario está autenticado, **Cuando** edita su perfil, **Entonces** permite cambiar foto/teléfono pero bloquea cambio de rol. | **EPIC-01** |
 | **HU-29** | Alerta desconexión | Monitoreo de hardware. | **Dado** que se monitorea hardware, **Cuando** una puerta pierde red, **Entonces** el ícono en dashboard cambia a "Offline" o rojo. | **EPIC-04** |
 | **HU-30** | Notificación crítica | Alerta vía email. | **Dado** que hay notificaciones activas, **Cuando** ocurre emergencia (madrugada), **Entonces** envía email automático al dueño. | **EPIC-04** |
+| **HU-31** | Navegación fluida por secciones | **Como** visitante, **quiero** que al pulsar los enlaces del menú la página se deslice suavemente, **para** no perder el hilo de la lectura mientras busco información. | **Dado** que el usuario visualiza la `navbar`, **Cuando** hace clic en un enlace (ej. "Precios"), **Entonces** la pantalla se desplaza con un efecto de scroll suave hasta la sección con el ID `#pricing`. | **EPIC-10** |
+| **HU-32** | Selector de idioma visual | **Como** usuario que habla inglés, **quiero** ver un botón claro para cambiar el idioma, **para** entender la propuesta de valor sin tener que usar traductores externos. | **Dado** que el usuario localiza el botón `lang-btn`, **Cuando** lo presiona, **Entonces** todos los textos con el atributo `data-i18n` deben actualizarse visualmente al idioma seleccionado. | **EPIC-11** |
+| **HU-33** | Botón de acción resaltado | **Como** interesado en el producto, **quiero** que el botón de "Solicitar Demo" tenga un color llamativo, **para** identificar rápidamente dónde debo registrarme. | **Dado** que el usuario carga el Hero de la página, **Cuando** observa los botones de navegación, **Entonces** el botón `.btn-nav-blue` debe destacar visualmente sobre los enlaces de texto plano. | **EPIC-07** |
+| **HU-34** | Tarjetas de beneficios visuales | **Como** usuario curioso, **quiero** ver las ventajas del sistema organizadas en tarjetas con iconos, **para** que la lectura sea ágil y atractiva. | **Dado** que el usuario hace scroll hasta `#features`, **Cuando** revisa las tarjetas `.feat-card`, **Entonces** cada una debe presentar un icono representativo, un título y una descripción breve. | **EPIC-10** |
+| **HU-35** | Formulario de contacto limpio | **Como** cliente con dudas, **quiero** un formulario con espacios claros para escribir, **para** enviar mi consulta de forma rápida y sin distracciones visuales. | **Dado** que el usuario llega a la sección `#contact`, **Cuando** interactúa con los campos de texto, **Entonces** el diseño debe mostrar etiquetas legibles y un botón de "Enviar" que reaccione al pasar el cursor (hover). | **EPIC-07** |
+| **HU-36** | Visualización de casos de uso | **Como** dueño de un negocio, **quiero** leer ejemplos de aplicación de SmartLock por sectores, **para** visualizar cómo el sistema resolvería mis problemas de seguridad. | **Dado** que el usuario explora la sección `#use-cases`, **Cuando** lee los bloques de contenido, **Entonces** la información debe estar separada visualmente en categorías (ej. Corporativo, Eventos). | **EPIC-10** |
+| **HU-37** | Acceso rápido para clientes | **Como** usuario ya registrado, **quiero** un botón de "Iniciar Sesión" bien ubicado, **para** entrar a mi panel de control sin tener que navegar por toda la web. | **Dado** que el usuario está en el menú superior, **Cuando** busca el acceso a la plataforma, **Entonces** el botón `.btn-nav-gray` debe estar claramente diferenciado y llevarlo directo al login. | **EPIC-01** |
+| **HU-38** | Tabla de precios comparativa | **Como** comprador consciente, **quiero** comparar los planes y sus precios en columnas, **para** elegir la opción que mejor se adapte a mi presupuesto de un vistazo. | **Dado** que el usuario visualiza la sección `#pricing`, **Cuando** revisa los planes (Básico, Pro, Enterprise), **Entonces** cada tarjeta debe listar sus características con iconos de "check" para facilitar la comparación. | **EPIC-07** |
+| **HU-39** | Estadísticas de confianza | **Como** visitante nuevo, **quiero** ver cifras grandes sobre el éxito de la empresa, **para** sentir la seguridad de que SmartLock es una solución probada y confiable. | **Dado** que el usuario carga la página inicial, **Cuando** visualiza la fila `.stats-row`, **Entonces** los números (ej. +500 edificios) deben resaltar por su tamaño de fuente y grosor frente al texto secundario. | **EPIC-10** |
+| **HU-40** | Adaptabilidad a pantallas móviles | **Como** usuario que navega desde su celular, **quiero** que todo el diseño se ajuste a lo ancho de mi pantalla, **para** no tener que hacer zoom o scroll horizontal para leer. | **Dado** que se accede a la web desde un smartphone, **Cuando** la resolución es menor a 768px, **Entonces** el menú debe adaptarse (hamburguesa) y los elementos del grid deben apilarse verticalmente. | **EPIC-10** |
 
 ---
 
-## Historias de Usuario No Funcionales (30)
-
+### Historias de Usuario No Funcionales (30)
 
 | ID | Título | Descripción | Criterios de Aceptación (Gherkin) | Epic Relacionada |
 | :--- | :--- | :--- | :--- | :--- |
@@ -962,7 +972,8 @@ Esta primera aproximación visual de alto nivel nos permitió explorar el landsc
 | **HNF-30** | Health Checks | Monitoreo de salud. | **Dado** que falla un microservicio, **Cuando** el monitor consulta /health, **Entonces** detecta y notifica antes del reporte del cliente. | **EPIC-08** |
 
 ---
-## Technical Stories
+
+### Technical Stories
 
 | ID | Título | Descripción | Criterios de Aceptación (Gherkin) |
 | :--- | :--- | :--- | :--- |
@@ -973,8 +984,11 @@ Esta primera aproximación visual de alto nivel nos permitió explorar el landsc
 | **TS-05** | Middleware de Roles (RBAC) | Crear decoradores o middlewares para validar permisos por rol en los controladores. | Si un usuario con rol "Staff" intenta un `DELETE` en `/doors`, la API debe retornar un error `403 Forbidden`. |
 | **TS-06** | Validación de DTOs | Implementar validación de esquemas de entrada (Data Transfer Objects) en cada request. | Cualquier payload que no cumpla con el tipo de dato o longitud debe ser rechazado con un error `400 Bad Request`. |
 | **TS-07** | Manejo de Excepciones | Crear un Global Exception Filter para capturar errores y evitar fugas de stack trace. | En modo producción, los errores `500` no deben revelar detalles de la base de datos o líneas de código. |
-| ****TS-08**** | CORS Policy | Configurar políticas de Cross-Origin Resource Sharing. | La API solo debe aceptar peticiones desde los dominios autorizados de la aplicación web y el simulador. |
-## Definición de Epics (Módulos Generales)
+| **TS-08** | CORS Policy | Configurar políticas de Cross-Origin Resource Sharing. | La API solo debe aceptar peticiones desde los dominios autorizados de la aplicación web y el simulador. |
+
+---
+
+### Definición de Epics (Módulos Generales)
 
 | Epic ID | Nombre de la Epic | Descripción |
 | :--- | :--- | :--- |
@@ -992,11 +1006,12 @@ Esta primera aproximación visual de alto nivel nos permitió explorar el landsc
 
 ## 3.2. Impact Mapping
 
-|<img src="/Resources/Chapter3/MapaImpacto.png" alt="Mapa de Impacto" width="500"/> |
+<div align="center">
+  <img src="/Resources/Chapter3/MapaImpacto.png" alt="Mapa de Impacto" width="700"/>
+</div>
+<br>
 
-## 3.3. Product Backlog
-
-## Product Backlog Priorizado
+## 3.3. Product Backlog Priorizado
 
 | # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -1068,12 +1083,32 @@ Esta primera aproximación visual de alto nivel nos permitió explorar el landsc
 | 66 | **HNF-24** | Archivado datos | Como administrador de IT, deseo mover logs antiguos a almacenamiento frío para reducir costos de base de datos. | 1 |
 | 67 | **HNF-25** | Consumo batería | Como guardia con tablet, deseo que la app esté optimizada para no agotar la batería durante el turno. | 1 |
 | 68 | **HNF-28** | Regla 3 clics | Como usuario, deseo llegar a cualquier función principal en máximo 3 clics para mejorar mi productividad. | 1 |
+
 ---
+
+### Evidencias de Gestión en Jira
+
+A continuación, se adjuntan las capturas del tablero de Jira utilizado para la gestión del Backlog y la estimación de Story Points del equipo de SmartLock.
+
+<div align="center">
+  <img src="/Resources/Chapter3/story_points.png" alt="Story Points" width="500"/><br>
+  <i>Story Points</i><br><br>
+  
+  <img src="/Resources/Chapter3/formato.png" alt="Formato de HU" width="500"/><br>
+  <i>Formato de Historias de Usuario</i><br><br>
+  
+  <img src="/Resources/Chapter3/organizacion.png" alt="Estructura de prioridad" width="500"/><br>
+  <i>Estructura de Prioridad</i>
+</div>
+<br>
+
+**Enlace al tablero de Jira:** [SmartLock - UPC Team Open Source](https://upc-team-open-source.atlassian.net/jira/software/projects/SMAR/boards/1?atlOrigin=eyJpIjoiNDFhNzk1OTIxMGU0NDc5ZjlmYjliMzlmYjU2MDVmOTIiLCJwIjoiaiJ9)
+
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines.
-Se describen las directrices que aseguran la uniformidad
-estética del proyecto.<br>
+Se describen las directrices que aseguran la uniformidad estética del proyecto.<br>
 
 ### 4.1.1. General Style Guidelines.
 **Colors:**
@@ -1085,13 +1120,12 @@ Elegimos una paleta que grite **seguridad y tecnología**, pero sin cansar la vi
 * **Gris Neutro (#E0E1DD):** Este va de fondo en las secciones. Es limpio y hace que los demás elementos resalten sin esfuerzo.
 * **Azul Eléctrico (#3E92CC):** Este es nuestro "call to action". Si hay algo que el usuario tiene que clickear sí o sí (como el botón de "Abrir Puerta" o "Guardar Configuración"), va en este color.
 
-<img src="/Resources/Chapter4/Style-Guidelines/Paleta-de-colores/Paleta-de-colores.PNG">
-
+<img src="/Resources/Chapter4/Style-Guidelines/Paleta-de-colores/Paleta-de-colores.PNG" alt="Paleta de Colores">
 
 **Branding**<br>
 El logo de **SmartLock** es directo al grano: un **candado**. Elegimos este isotipo porque es el símbolo universal de la seguridad física; no necesitamos complicarlo con más adornos para que el usuario entienda qué hacemos. Lo que lo hace moderno es su diseño minimalista y limpio. Acompañando al candado, la tipografía del nombre es sólida y de cortes precisos. Queríamos que la identidad visual transmitiera esa firmeza y robustez que se espera de un sistema de seguridad confiable, alejándonos de cualquier estética que pudiera parecer "frágil" o improvisada.
 
-<img src="/Resources/Chapter4/Logo/SmartLock-Logo.png">
+<img src="/Resources/Chapter4/Logo/SmartLock-Logo.png" alt="Logo SmartLock">
 
 **Typography** <br>
 Nos fuimos por **Inter**. ¿Por qué? Porque cuando tienes una lista gigante de registros de entrada y salida, necesitas una letra que se lea perfecto en pantallas de cualquier tamaño. Es una fuente *sans-serif* optimizada para entornos digitales.
@@ -1122,7 +1156,7 @@ El estilo de comunicación de SmartLock es **directo y técnico**. Como ingenier
 
 ---
 
-### 4.1.2. Web Style Guidelines
+### 4.1.2. Web Style Guidelines.
 
 Aquí es donde aterrizamos todo para que la plataforma web se vea de nivel profesional:
 
@@ -1132,6 +1166,7 @@ Aquí es donde aterrizamos todo para que la plataforma web se vea de nivel profe
 * **Rojo:** Alertar brechas de seguridad o intentos fallidos.
 * **Verde/Azul:** Accesos válidos y sistema operativo.
 * **Amarillo:** Dar advertencias ante cualquier problema.
+
 ## 4.2. Information Architecture.
 En SmartLock, la arquitectura de la información no es solo un menú de opciones; es el cerebro que permite que un administrador no entre en pánico cuando hay cientos de personas moviéndose por sus instalaciones. En el mundo de la seguridad digital, un segundo de duda puede ser un problema grave. Por eso, hemos diseñado una estructura donde la información crítica (como quién entró por la puerta principal hace un segundo) siempre está a la vista, eliminando cualquier "floro" visual que distraiga de lo importante: el control total y en tiempo real.
 
@@ -1162,7 +1197,7 @@ En el sistema de etiquetado de SmartLock, hemos huido del lenguaje genérico. Qu
 
 ---
 
-### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags.
 Queremos que SmartLock sea lo primero que aparezca cuando una empresa busque modernizar su seguridad.
 
 ### **Landing Page**
@@ -1191,73 +1226,250 @@ La navegación en SmartLock está pensada para ser "invisible" y eficiente:
 * **Menú Lateral Retráctil:** Prioriza el espacio de trabajo central para ver los mapas de calor y tablas de acceso, manteniendo los módulos principales a un solo clic.
 * **Migas de Pan (Breadcrumbs):** Vital para no perderse cuando navegas por sedes (ej. Sedes > Lima Centro > Piso 3 > Laboratorio A), permitiendo al usuario ubicarse en todo momento.
 * **Acciones Contextuales:** El sistema ofrece botones inteligentes según el estado del punto de control (ej. si una puerta detecta una intrusión, el botón principal será "Bloquear Acceso" o "Contactar Seguridad").
+
 ## 4.3. Landing Page UI Design.
 En esta sección se detalla el proceso de diseño de la interfaz de usuario para la página de aterrizaje de **SmartLock**. El diseño se centra en la conversión de usuarios y la exposición clara de la propuesta de valor del sistema de control de acceso.
+
 ### 4.3.1. Landing Page Wireframe.
 El wireframe de baja fidelidad define la estructura visual y la jerarquía de la información. Se ha priorizado una navegación intuitiva, destacando las funcionalidades principales y los beneficios de seguridad del sistema.
+
 ![Landing Page Wireframe](/Resources/Chapter4/LandingPage/Wireframe%20Landing%20Page.png)
+
 * **Elementos clave:** Estructura de navegación, sección hero con llamado a la acción (CTA) y secciones de beneficios para el segmento de negocios.
+
 ### 4.3.2. Landing Page Mock-up.
 El mock-up de alta fidelidad integra la identidad visual de la marca, incluyendo la paleta de colores, tipografía y elementos gráficos finales. Este diseño representa la apariencia exacta que tendrá la aplicación web una vez implementada.
+
 ![Landing Page Mock-up](/Resources/Chapter4/LandingPage/Mockup%20Landing%20Page.png)
+
 * **Detalles estéticos:** Uso de contrastes para mejorar la legibilidad y elementos visuales que refuerzan la confianza y modernidad del sistema **SmartLock**.
+
 ## 4.4. Web Applications UX/UI Design.
+Esta sección presenta y explica la propuesta visual y de interacción para las aplicaciones que constituyen la experiencia de usuario con los productos digitales de **SmartLock**.
+
 ### 4.4.1. Web Applications Wireframes.
+Esta sección presenta los esquemas de baja fidelidad que definen la estructura de la aplicación web. Se ha priorizado la **Arquitectura de Información** mediante un sistema de navegación lateral (Sidebar) que organiza las funciones de gestión de usuarios, eventos y seguridad de forma jerárquica.
+* **Principios de Diseño:** Se aplica el principio de proximidad para agrupar funciones relacionadas (como el perfil de usuario y notificaciones) y consistencia en la ubicación de los elementos de control.
+* **Diseño Inclusivo:** Los wireframes consideran espacios adecuados para elementos interactivos y una disposición clara que facilita el uso de tecnologías de asistencia como lectores de pantalla.
+
+---
+
+#### A. Flujo de Acceso y Autenticación
+
+### Inicio de Sesión
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/Inicio-sesion.png" width="800" alt="Inicio de Sesión Wireframe">
+</p>
+
+**Descripción:** Wireframe de la pantalla de acceso principal que define la estructura de los campos de autenticación, el botón de inicio de sesión y los elementos de recuperación de acceso.
+
+---
+
+### Registro de Sesión (Sign Up)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/Registro-Sesion.png" width="800" alt="Registro de Sesión Wireframe">
+</p>
+
+**Descripción:** Esquema del formulario de registro orientado al alta de nuevos administradores dentro de la plataforma, mostrando la distribución lógica de los campos requeridos.
+
+---
+
+### Autenticación de Dos Factores (2FA)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/Autenticacion-2FA.png" width="800" alt="Autenticación 2FA Wireframe">
+</p>
+
+**Descripción:** Diseño estructural de la segunda capa de seguridad mediante verificación por código, enfocado en la simplicidad de interacción y validación segura del usuario.
+
+---
+
+#### B. Configuración de Infraestructura
+
+### Creación de Sedes (Plan Principiante)
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/crear-sedes-plan-principiante.png" width="800" alt="Creación de Sedes Wireframe">
+</p>
+
+**Descripción:** Wireframe del proceso inicial de configuración de sedes, donde se organizan los campos necesarios para el despliegue y administración básica del sistema.
+
+---
+
+### Dashboard de Puntos de Control
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/Dashboard-Puntos-de-Control.png" width="800" alt="Dashboard Puntos de Control Wireframe">
+</p>
+
+**Descripción:** Esquema de monitoreo de dispositivos físicos y puntos de acceso, utilizando una distribución visual en cuadrícula para facilitar el control operativo en tiempo real.
+
+---
+
+#### C. Dashboards de Gestión por Niveles
+
+### Dashboard Corporativo
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/Dashboard-corportivo.png" width="800" alt="Dashboard Corporativo Wireframe">
+</p>
+
+**Descripción:** Vista de alto nivel orientada a organizaciones empresariales, priorizando métricas globales, indicadores de seguridad y administración multisede.
+
+---
+
+### Dashboard Principiante
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/Dashboard-gratuito.png" width="800" alt="Dashboard Principiante Wireframe">
+</p>
+
+**Descripción:** Versión simplificada del panel principal, diseñada para usuarios del plan gratuito, manteniendo consistencia visual y acceso a funciones esenciales.
+
+---
+
+#### D. Administración de Seguridad y Personal
+
+### Dashboard de Usuarios
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/Dashboard-usuarios.png" width="800" alt="Dashboard de Usuarios Wireframe">
+</p>
+
+**Descripción:** Distribución estructural del módulo de gestión de usuarios, incluyendo filtros, tabla de registros, búsqueda avanzada y administración de permisos.
+
+---
+
+### Gestión de Eventos
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/Dashboard-eventos.png" width="800" alt="Gestión de Eventos Wireframe">
+</p>
+
+**Descripción:** Módulo orientado a la configuración de accesos temporales mediante eventos programados, permitiendo restricciones horarias y control de visitantes.
+
+---
+
+### Gestión de Credenciales
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/Dashboard-Credenciales.png" width="800" alt="Gestión de Credenciales Wireframe">
+</p>
+
+**Descripción:** Organización funcional del sistema de emisión y control de credenciales digitales, permitiendo el seguimiento de accesos autorizados.
+
+---
+
+### Bitácora de Accesos
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/Dashboard-Bitacora.png" width="800" alt="Bitácora de Accesos Wireframe">
+</p>
+
+**Descripción:** Estructura diseñada para la visualización de logs históricos de acceso, facilitando auditorías de seguridad y trazabilidad de eventos.
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+*[Sección en desarrollo]*
+
 ### 4.4.3. Web Applications Mock-ups.
+Esta sección presenta los mock-ups de alta fidelidad de la plataforma web de SmartLock. Estos diseños representan la apariencia visual final del sistema, incluyendo identidad visual, paleta de colores, tipografía, distribución de componentes y experiencia de usuario orientada a la implementación real del producto.
+
+---
+
+#### A. Flujo de Acceso y Seguridad
+
+### Inicio de Sesión
+
+![Inicio de Sesión Mockup](/Resources/Chapter4/Web-Application/Inicio-Sesion-Mockup.png)
+
+**Descripción:** Mock-up de la pantalla principal de acceso al sistema, donde se visualiza la interfaz final de autenticación con diseño visual completo, jerarquía de botones y elementos de recuperación de acceso.
+
+---
+
+### Registro de Sesión (Sign Up)
+
+![Registro de Sesión Mockup](/Resources/Chapter4/Web-Application/Registro-Sesion-Mockup.png)
+
+**Descripción:** Representación visual del formulario de registro de nuevos administradores, mostrando el diseño definitivo de campos, validaciones visuales y estructura de navegación.
+
+---
+
+### Autenticación de Dos Factores (2FA)
+
+![Autenticación 2FA Mockup](/Resources/Chapter4/Web-Application/Autentificacion-de-2-Factores-Mockup.png)
+
+**Descripción:** Diseño final de la segunda capa de seguridad mediante código de verificación, enfocado en claridad visual, seguridad y facilidad de uso para el usuario.
+
+---
+#### B. Configuración de Infraestructura
+
+### Dashboard Plan Principiante
+
+![Dashboard Plan Principiante Mockup](/Resources/Chapter4/Web-Application/Dashboard-Plan-Principiante-Mockup.png)
+
+**Descripción:** Mock-up del panel principal para usuarios del plan principiante, presentando una interfaz simplificada con acceso rápido a funciones esenciales y monitoreo básico del sistema.
+
+---
 ### 4.4.4. Web Applications User Flow Diagrams.
+*[Sección en desarrollo]*
+
 ## 4.5. Web Applications Prototyping.
+*[Sección en desarrollo]*
+
 ## 4.6. Domain-Driven Software Architecture.
+
 ### 4.6.1. Design-Level Event Storming.
 En esta sección se detalla el diseño táctico del sistema, profundizando en la arquitectura y los componentes técnicos necesarios para implementar la solución. A diferencia del Big Picture, el DesignLevel Event Storming se enfoca en definir los límites de los agregados, los comandos que disparan cambios de estado y las políticas que gobiernan las reglas de negocio.
 
 <p align="center">
-  <img src="../Resources/Chapter4/eventStormin/design-level.jpeg" width="800">
+  <img src="/Resources/Chapter4/eventStormin/design-level.jpeg" width="800" alt="Design Level Event Storming">
 </p>
 
 #### Authentication Context
 Actúa como la puerta de entrada digital al ecosistema de SmartLock, gestionando los procesos de registro y acceso de los usuarios administrativos. Este componente se encarga de validar las credenciales de identidad y de implementar medidas de seguridad reforzadas, como la verificación en dos pasos (2FA), para garantizar que solo las personas legítimas ingresen al sistema. Además, supervisa la integridad de las sesiones activas, aplicando reglas automáticas que protegen la cuenta global ante cualquier cambio de seguridad o intento de acceso no autorizado.
 
 <p align="center">
-  <img src="../Resources/Chapter4/eventStormin/authentication-context.png" width="800">
+  <img src="/Resources/Chapter4/eventStormin/authentication-context.png" width="800" alt="Authentication Context">
 </p>
 
 #### Organization Context
 Constituye el núcleo operativo del sistema, encargado de estructurar la jerarquía institucional y física de cada cliente. Este componente facilita la creación de entidades globales, la gestión de sedes o sitios específicos y el registro técnico de cada punto de acceso o puerta dentro de la plataforma. Al centralizar esta estructura, el sistema asegura que la administración de los espacios físicos sea coherente y escalable, sirviendo como la base informativa necesaria para que los demás módulos operen según la distribución administrativa de la organización.
 
 <p align="center">
-  <img src="../Resources/Chapter4/eventStormin/organization-context.png" width="800">
+  <img src="/Resources/Chapter4/eventStormin/organization-context.png" width="800" alt="Organization Context">
 </p>
 
 #### Security Context
 Centraliza la gestión de identidades y la integridad del sistema SmartLock, asegurando que solo el personal autorizado interactúe con la infraestructura física. Este componente se encarga de validar el acceso en tiempo real y coordinar las respuestas automáticas ante situaciones críticas o intentos de intrusión. Al aislar estas funciones, se garantiza una capa de protección robusta que salvaguarda tanto la información digital como la seguridad de los espacios físicos administrados.
 <p align="center">
-  <img src="../Resources/Chapter4/eventStormin/security-context.png" height="600">
+  <img src="/Resources/Chapter4/eventStormin/security-context.png" height="600" alt="Security Context">
 </p>
 
 #### Subscription Plan Context
 Administra los planes comerciales y el modelo de facturación para cada organización dentro de la plataforma. Este componente es responsable de definir los niveles de servicio, gestionar los ciclos de pago y establecer los límites operativos, como el número permitido de puertas o usuarios según el plan adquirido.
 <p align="center">
-  <img src="../Resources/Chapter4/eventStormin/subscription-plan-context.png" width="750">
+  <img src="/Resources/Chapter4/eventStormin/subscription-plan-context.png" width="750" alt="Subscription Plan Context">
 </p>
 
 #### User Context
 Gestiona integralmente los perfiles y permisos de las personas que interactúan con la plataforma, distinguiendo claramente entre el personal administrativo y los usuarios de acceso físico. Este componente se encarga de dar de alta, actualizar o dar de baja a los miembros del sistema, asegurando que cada individuo cuente con las atribuciones necesarias según su rol dentro de la organización. Al centralizar esta administración, el sistema facilita un control preciso sobre quién puede operar el software y quién tiene permitido el ingreso a las instalaciones, manteniendo siempre un registro actualizado de todas las identidades activas.
 
 <p align="center">
-  <img src="../Resources/Chapter4/eventStormin/user-context.png" width="550">
+  <img src="/Resources/Chapter4/eventStormin/user-context.png" width="550" alt="User Context">
 </p>
 
 Descripción de los componentes identificados:
-- Comandos (Azul): Representan las intenciones de los usuarios o sistemas externos para realizar una acción específica (ej. "Generar Código QR", "Validar Acceso"). 
-- Agregados (Amarillo): Son las entidades o grupos de objetos que mantienen la consistencia de los datos y ejecutan la lógica de negocio ante un comando. 
-- Políticas (Lila): Definen reacciones automáticas del sistema ante eventos específicos ("Siempre que ocurra el Evento X, ejecutar el Comando Y"). 
-- Modelos de Lectura (Verde): Representan la información que el usuario visualiza en la interfaz para poder tomar una decisión y ejecutar un comando. 
-- Eventos de Dominio (Naranja): Indican que algo relevante para el negocio ha sucedido exitosamente (ej. "Código QR Generado", "Acceso Denegado"). 
+- **Comandos (Azul):** Representan las intenciones de los usuarios o sistemas externos para realizar una acción específica (ej. "Generar Código QR", "Validar Acceso"). 
+- **Agregados (Amarillo):** Son las entidades o grupos de objetos que mantienen la consistencia de los datos y ejecutan la lógica de negocio ante un comando. 
+- **Políticas (Lila):** Definen reacciones automáticas del sistema ante eventos específicos ("Siempre que ocurra el Evento X, ejecutar el Comando Y"). 
+- **Modelos de Lectura (Verde):** Representan la información que el usuario visualiza en la interfaz para poder tomar una decisión y ejecutar un comando. 
+- **Eventos de Dominio (Naranja):** Indican que algo relevante para el negocio ha sucedido exitosamente (ej. "Código QR Generado", "Acceso Denegado"). 
 
 Este modelado permite al equipo de desarrollo tener una guía clara para la implementación de los servicios y la definición de la lógica en el código.
 
-### 4.6.2. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Context Diagram.
 
 In this section, the team introduces the Software Architecture Context Diagram. This high-level overview illustrates the **SmartLock** software system as a central entity, surrounded by the key user personas and the external systems it interacts with to deliver its "Asset-Light" access control value proposition.
 
@@ -1269,7 +1481,7 @@ In this section, the team introduces the Software Architecture Context Diagram. 
 * **Usuarios:** El diagrama identifica al **Administrator** (configuración), **Security Staff** (validación móvil) y **Attendee** (usuario final) como los actores principales.
 * **Sistemas Externos:** Se detalla la integración con **AWS SES** para la gestión de correos electrónicos y **Twilio API** para el envío de alertas críticas de seguridad vía SMS.
 
-### 4.6.3. Software Architecture Container Level Diagram
+### 4.6.3. Software Architecture Container Diagrams.
 
 In this section, the team presents the **Container Diagram** for SmartLock. This diagram expands the system's context to reveal the software containers that compose it (web applications, mobile applications, APIs, and databases). It illustrates the high-level distribution of responsibilities, exposes key technology decisions—such as Angular for the frontend, Java Spring Boot for the backend, and MySQL for persistence—and details how these containers communicate through the AWS cloud infrastructure.
 
@@ -1285,7 +1497,7 @@ The Container Diagram breaks down the internal architecture of SmartLock into th
 * **Relational Database:** A **MySQL** database hosted on **Amazon RDS**, serving as the single source of truth. it ensures the immutability of access logs (audit trails) and the integrity of user profiles and access rules.
 * **Communication:** The frontend and mobile app communicate asynchronously with the Backend API via **JSON over HTTPS**. The backend interacts with the database through **JDBC** and with third-party services (AWS SES and Twilio) via REST APIs.
 
-### 4.6.4. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Components Diagrams.
 
 In this section, the team presents the **Component Diagram** for the Core Backend API container. This diagram zooms into the Java Spring Boot application to illustrate its internal structure based on Domain-Driven Design (DDD) and Layered Architecture. It shows how the system is divided into Controllers (Presentation), Services (Business Logic/Domain), and Repositories (Data Access), and how these components interact to execute the access control logic.
 
@@ -1307,94 +1519,193 @@ The Component Diagram breaks down the **Core Backend API** into the following fu
 
 * **Repositories (Infrastructure Layer):**
   * **Audit & Log Repository:** Uses Spring Data JPA to securely write immutable logs of every access attempt and security event into the database.
-  * **Domain Data Repository:** Manages the persistence of user profiles, organizational data, doors, and policies.
+  * **Domain Data Repository:** Manage the persistence of user profiles, organizational data, doors, and policies.
 
 * **Communication Flow:** The web and mobile applications send HTTP requests to the **Controllers**. These controllers delegate the business logic to the **Services**. The services evaluate the rules and use the **Repositories** to interact with the MySQL database via JDBC, or use the **Notification Publisher** to dispatch asynchronous emails and SMS via AWS SES and Twilio.
 
-## 4.7. Software Object-Oriented Design
+## 4.7. Software Object-Oriented Design.
 
 En esta sección, el equipo presenta el diseño orientado a objetos del software, detallando la implementación interna y la estructura de componentes para cada *Bounded Context* de **SmartLock**. Los diagramas a continuación ilustran cómo se ha aplicado el enfoque de *Domain-Driven Design* (DDD) a nivel de código, definiendo claramente las responsabilidades, los límites de los agregados y los patrones de diseño utilizados tanto en la capa de presentación (Frontend) como en la lógica de negocio (Backend). Esta estructura garantiza un código modular, mantenible y altamente escalable.
-
----
 
 ### 4.7.1. Class Diagrams.
 
 #### Diagrama de clases (Frontend)
 
-<img src="../Resources/Chapter4/Diagram-Class/Frontend/Class-Diagram-Frontend-image.png">
+<img src="/Resources/Chapter4/Diagram-Class/Frontend/Class-Diagram-Frontend-image.png" alt="Class Diagram Frontend">
 
-El diagrama organiza el frontend de SmartLock en cinco 
-Bounded Contexts (Authentication, Organization, User, 
-Security y Subscription), lo que permite aislar la lógica 
-de negocio y asegurar que cada módulo evolucione de forma 
-independiente. Dentro de estos contextos, se implementan 
-los 8 Agregados definidos, donde entidades raíz como Security 
-y Organization encapsulan a Door y Office respectivamente; 
-esto garantiza la integridad del sistema, ya que cualquier 
-cambio de estado físico o estructural debe ser validado 
-por su respectiva raíz de agregado antes de impactar la interfaz.
+El diagrama organiza el frontend de SmartLock en cinco *Bounded Contexts* (Authentication, Organization, User, Security y Subscription), lo que permite aislar la lógica de negocio y asegurar que cada módulo evolucione de forma independiente. Dentro de estos contextos, se implementan los 8 Agregados definidos, donde entidades raíz como *Security* y *Organization* encapsulan a *Door* y *Office* respectivamente; esto garantiza la integridad del sistema, ya que cualquier cambio de estado físico o estructural debe ser validado por su respectiva raíz de agregado antes de impactar la interfaz.
 
-Bajo el enfoque DDD, la aplicación utiliza un EventBus 
-en la capa Shared para comunicar eventos entre contextos
-de forma desacoplada y emplea el patrón Assembler para
-transformar los datos crudos de la API en objetos de dominio 
-con comportamiento propio. Los Stores de la capa de aplicación 
-gestionan estos agregados mediante Signals, permitiendo 
-que la interfaz reaccione instantáneamente a cambios operativos 
-—como la apertura de una puerta o la actualización de un perfil—
-sin comprometer la separación de responsabilidades ni la pureza 
-del modelo de negocio.
+Bajo el enfoque DDD, la aplicación utiliza un *EventBus* en la capa Shared para comunicar eventos entre contextos de forma desacoplada y emplea el patrón *Assembler* para transformar los datos crudos de la API en objetos de dominio con comportamiento propio. Los *Stores* de la capa de aplicación gestionan estos agregados mediante Signals, permitiendo que la interfaz reaccione instantáneamente a cambios operativos —como la apertura de una puerta o la actualización de un perfil— sin comprometer la separación de responsabilidades ni la pureza del modelo de negocio.
 
 #### Diagrama de clases (Backend)
 
-<img src="../Resources/Chapter4/Diagram-Class/Backend/Class-Diagram-Backend-image.png">
+<img src="/Resources/Chapter4/Diagram-Class/Backend/Class-Diagram-Backend-image.png" alt="Class Diagram Backend">
 
-El backend de nuestro proyecto SmartLock lo hemos armado siguiendo 
-a tope la arquitectura DDD en SpringBoot, separando todo en los 5 
-Bounded Contexts y los 8 agregados que sacamos del Event Storming 
-para que no sea un espagueti de código. Usamos Aggregate Roots como 
-Security y Organization para mandar sobre entidades como Door y Office, 
-asegurando que ninguna puerta se abra si no pasa por las reglas del 
-negocio. Metimos patrones que vimos en clase como el Assembler para 
-limpiar los datos que vienen del front, usamos Records para que los 
-DTOs sean inmutables y puras Interfaces en los servicios y repositorios 
-para que el sistema sea fácil de mantener y escalar si luego queremos 
-cambiar algo de la base de datos o la lógica de las suscripciones.
+El backend de SmartLock ha sido estructurado estrictamente bajo los principios de *Domain-Driven Design* (DDD) utilizando el framework Spring Boot. La arquitectura se divide en 5 *Bounded Contexts* y 8 agregados principales, derivados del *Event Storming*, garantizando un alto nivel de cohesión y un bajo acoplamiento. Se emplean *Aggregate Roots* (como Security y Organization) para orquestar entidades secundarias (Door y Office), asegurando el cumplimiento de las reglas de negocio en la capa de dominio antes de ejecutar cualquier cambio de estado. 
+
+Adicionalmente, se implementaron patrones de diseño estratégico como *Assembler* para la conversión de datos y aislamiento de la capa de presentación, el uso de *Records* de Java para garantizar la inmutabilidad de los DTOs, e interfaces dedicadas para los servicios y repositorios. Esta abstracción asegura un sistema altamente mantenible y preparado para escalar sin generar deuda técnica.
 
 ## 4.8. Database Design.
 
----
-
 ### 4.8.1. Database Diagrams.
 
-<img src="../Resources/Chapter4/Data-Base-Diagram/Data-Base-Diagram-image.png">
+<img src="/Resources/Chapter4/Data-Base-Diagram/Data-Base-Diagram-image.png" alt="Database Diagram">
 
-El diagrama de base de datos para SmartLock se ha estructurado bajo un 
-enfoque de normalización 3FN y Domain-Driven Design (DDD), organizando 
-la información en Bounded Contexts que actúan como Aggregate Roots 
-(como Users y Organization) para garantizar la integridad operativa y 
-la escalabilidad mediante el uso de tipos de datos atómicos en MySQL. 
-Desde la perspectiva de seguridad y persistencia, el diseño separa 
-estrictamente las credenciales en authentications y los datos sensibles 
-en user_profiles (con correos encriptados) para cumplir con las leyes 
-de protección de datos, mientras que la tabla access_logs asegura una 
-auditoría inmutable de cada evento físico. Finalmente, la arquitectura 
-está totalmente optimizada para un ORM como Hibernate, facilitando el 
-mapeo de relaciones uno-a-muchos y uno-a-uno mediante claves foráneas 
-claras y tipos bigint, lo que permite un manejo eficiente de la carga 
-perezosa (Lazy Loading) y una transición fluida del modelo relacional 
-al código en Spring Boot.
+El diagrama de base de datos para SmartLock se ha estructurado bajo un enfoque de normalización 3FN y *Domain-Driven Design* (DDD), organizando la información en *Bounded Contexts* que actúan como *Aggregate Roots* (como Users y Organization) para garantizar la integridad operativa y la escalabilidad mediante el uso de tipos de datos atómicos en MySQL. Desde la perspectiva de seguridad y persistencia, el diseño separa estrictamente las credenciales en la tabla *authentications* y los datos sensibles en *user_profiles* (con correos encriptados) para cumplir con las leyes de protección de datos, mientras que la tabla *access_logs* asegura una auditoría inmutable de cada evento físico. Finalmente, la arquitectura está totalmente optimizada para un ORM como Hibernate, facilitando el mapeo de relaciones uno-a-muchos y uno-a-uno mediante claves foráneas claras y tipos bigint, lo que permite un manejo eficiente de la carga perezosa (*Lazy Loading*) y una transición fluida del modelo relacional al código en Spring Boot.
 
 # Capítulo V: Product Implementation, Validation & Deployment.
 ## 5.1. Software Configuration Management.
-### 5.1.1. Software Development Environment Configuration.
-### 5.1.2. Source Code Management.
-### 5.1.3. Source Code Style Guide & Conventions.
-### 5.1.4. Software Deployment Configuration.
-## 5.2. Landing Page, Services & Applications Implementation.
+
+En esta sección, el equipo establece las decisiones, herramientas y convenciones que permiten mantener la consistencia técnica durante el ciclo de vida de **SmartLock**. Para la gestión del código fuente, se utiliza **GitHub** bajo una estrategia de **GitHub Flow**, donde las ramas `main` y `develop` centralizan el código estable, aplicando la convención de **Conventional Commits** para garantizar un historial de cambios legible.
+
+El entorno de desarrollo se ha estandarizado utilizando **Visual Studio Code** para el frontend y **IntelliJ IDEA** para el backend. El stack tecnológico comprende una **Landing Page** construida con HTML, CSS y JavaScript; una **Web Application** desarrollada en **Angular con TypeScript** utilizando **TailwindCSS** para el diseño de interfaces; y un **Backend** robusto desarrollado en **Java (JDK 17+)** gestionado con Maven. La persistencia de datos se maneja en **MySQL 8.0**, siguiendo convenciones de nomenclatura en `snake_case` y normalización 3FN para las tablas del sistema.
+
+En cuanto a la configuración del despliegue, el equipo ha optado por un ecosistema basado íntegramente en **Amazon Web Services (AWS)**. El frontend se aloja en buckets de **Amazon S3** distribuidos mediante **Amazon CloudFront** para asegurar baja latencia y certificados SSL vía HTTPS. El backend se despliega sobre **AWS Elastic Beanstalk** para aprovechar el autoescalado y balanceo de carga, mientras que la base de datos se gestiona a través de **Amazon RDS (MySQL)**, lo que garantiza respaldos automatizados y alta disponibilidad. Finalmente, se utiliza **GitHub Actions** para automatizar el pipeline de CI/CD, permitiendo que cada integración validada se sincronice de forma inmediata con la infraestructura de nube.
+
+### 5.1.1. Software Development Environment Configuration
+
+En esta sección, se especifican las herramientas y productos de software utilizados por los miembros del equipo para colaborar en todas las fases del ciclo de vida de **SmartLock**. La configuración del entorno de desarrollo asegura la interoperabilidad y consistencia técnica, cubriendo desde la gestión del proyecto hasta el despliegue final en la nube.
+
+| Producto | Categoría | Propósito de uso | Ruta de Referencia / Descarga |
+| :--- | :--- | :--- | :--- |
+| **Jira Software** | Project & Requirements Management | Gestión del Product Backlog, planificación de Sprints y seguimiento de User Stories. | [https://upc-team-open-source.atlassian.net/](https://upc-team-open-source.atlassian.net/) |
+| **Figma** | Product UX/UI Design | Diseño de Wireframes, Mock-ups y prototipado interactivo de la Web App y Landing Page. | [https://www.figma.com/](https://www.figma.com/) |
+| **UXPressia** | Product UX Design | Elaboración de artefactos de diseño de experiencia como User Personas y Journey Maps. | [https://uxpressia.com/](https://uxpressia.com/) |
+| **Visual Studio Code** | Software Development | IDE principal para el desarrollo del Frontend (Angular) y la Landing Page (HTML/CSS/JS). | [https://code.visualstudio.com/](https://code.visualstudio.com/) |
+| **IntelliJ IDEA** | Software Development | IDE principal para el desarrollo del Backend RESTful API utilizando Java y Spring Boot. | [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/) |
+| **MySQL Workbench** | Software Development | Herramienta para el diseño, modelado y gestión local de la base de datos relacional. | [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/) |
+| **GitHub** | SCM & Software Documentation | Repositorio centralizado de código fuente y documentación técnica del proyecto. | [https://github.com/202610-1asi0729-11881-SmartIndustries](https://github.com/202610-1asi0729-11881-SmartIndustries) |
+| **AWS Management Console** | Software Deployment | Gestión y monitoreo de servicios en la nube (S3, CloudFront, Elastic Beanstalk y RDS). | [https://aws.amazon.com/console/](https://aws.amazon.com/console/) |
+| **Swagger / OpenAPI** | Software Documentation | Documentación interactiva y pruebas de los servicios web RESTful del backend. | Integrado en el Core Backend API. |
+
+---### 5.1.2. Source Code Management
+
+En esta sección, el equipo establece los medios y el esquema de organización que aplicará para el seguimiento de modificaciones durante el ciclo de vida de **SmartLock**. Para ello, utilizamos **GitHub** como plataforma centralizada y sistema de control de versiones.
+
+A continuación, se presentan los enlaces a la organización y los 4 repositorios que conforman la solución integral:
+
+* **Organización en GitHub:** [https://github.com/202610-1asi0729-11881-SmartIndustries](https://github.com/202610-1asi0729-11881-SmartIndustries)
+* **Landing Page:** [https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--website](https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--website)
+* **Frontend Web Application:** [https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--webapp](https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--webapp)
+* **Web Services (Core Backend API):** [https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--platform](https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--platform)
+* **Project Report:** [https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--report](https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--report)
+
+#### Implementación de GitFlow
+Para mantener un flujo de trabajo ordenado, el equipo ha implementado **GitFlow** como *workflow* de control de versiones. Este modelo estructura nuestro trabajo en las siguientes ramas (*branches*):
+
+**Ramas Principales:**
+* `main`: Rama principal que contiene el código estable y listo para producción.
+* `develop`: Rama de integración donde se fusionan las nuevas características antes de pasar a producción.
+
+**Ramas de Soporte y Convenciones:**
+* **Feature branches:** Cada nueva historia de usuario tiene su propia rama. Se crean a partir de `develop` y se fusionan de vuelta en `develop`.
+  * *Convención de nombre:* `feature/<descripcion-corta>` (Ejemplo: `feature/qr-generation`).
+* **Release branches:** Se utilizan para preparar una nueva versión para producción. Se ramifican desde `develop` y se fusionan en `main` y `develop`.
+  * *Convención de nombre:* `release/v<version>` (Ejemplo: `release/v1.1.0`).
+* **Hotfix branches:** Destinadas a solucionar errores críticos en producción. Se crean desde `main` y se fusionan en `main` y `develop`.
+  * *Convención de nombre:* `hotfix/<descripcion-error>` (Ejemplo: `hotfix/login-crash`).
+
+#### Semantic Versioning (SemVer)
+Para nombrar las versiones en nuestras ramas de Release y en los *tags* de producción, aplicamos **Semantic Versioning 2.0.0** (`vMAJOR.MINOR.PATCH`):
+* **MAJOR:** Cambios incompatibles en la API.
+* **MINOR:** Nuevas funcionalidades retrocompatibles.
+* **PATCH:** Corrección de errores retrocompatibles.
+
+#### Conventional Commits
+El equipo aplica el estándar **Conventional Commits** en todos los mensajes de los commits para asegurar un historial legible:
+* `feat`: Nueva característica (ej. `feat(auth): add login`).
+* `fix`: Corrección de un error (ej. `fix(ui): adjust button spacing`).
+* `docs`: Modificaciones en documentación (ej. `docs: update repo links`).
+* `style`: Cambios de formato que no afectan la lógica.
+* `refactor`: Mejora de código sin añadir funciones ni arreglar bugs.
+* `test`: Adición o corrección de pruebas.
+* `chore`: Mantenimiento y actualización de configuraciones.
+### 5.1.3. Source Code Style Guide & Conventions
+
+Para garantizar la mantenibilidad, legibilidad y colaboración eficiente dentro del equipo **SmartIndustries**, se han adoptado guías de estilo y convenciones de codificación internacionales. Como regla mandatoria, **toda la nomenclatura (clases, métodos, variables, comentarios y documentación) se realiza estrictamente en inglés**.
+
+#### A. HTML & CSS (Google HTML/CSS Style Guide)
+Se siguen las recomendaciones de la *Google HTML/CSS Style Guide* para asegurar un marcado limpio y hojas de estilo eficientes:
+* **HTML:** Uso de etiquetas semánticas, indentación de 2 espacios y omisión de protocolos en URLs de recursos (ej. `//www.google.com`).
+* **CSS:** Uso de la nomenclatura **kebab-case** para nombres de clases (ej. `.access-button`). Se prioriza el uso de variables de CSS y utilidades de **TailwindCSS** para mantener la consistencia visual.
+
+#### B. TypeScript & Angular (Google TypeScript Style Guide / Angular Coding Style)
+Para el desarrollo de la Web Application, se aplican las guías oficiales de Angular:
+* **Nomenclatura:** `PascalCase` para nombres de clases (ej. `AuthService`) y `camelCase` para variables y métodos (ej. `generateQrCode()`).
+* **Estructura:** Se utiliza la estructura de carpetas sugerida por Angular (componentes, servicios, modelos) y se aplican decoradores de manera consistente.
+* **Tipado:** Se evita el uso de `any`, forzando el tipado fuerte para aprovechar las ventajas de TypeScript.
+
+#### C. Java & Spring Boot (Google Java Style Guide)
+El backend sigue la *Google Java Style Guide* y las mejores prácticas de Spring Boot:
+* **Clases:** Uso de `PascalCase` y nombres descriptivos basados en el dominio (ej. `AccessPolicyController`).
+* **Variables/Métodos:** Uso de `camelCase`.
+* **Anotaciones:** Uso correcto de las anotaciones de Spring (ej. `@RestController`, `@Service`, `@Repository`) para mantener la inversión de control y la inyección de dependencias.
+* **Documentación:** Todo el código debe estar auto-documentado y los métodos complejos deben incluir JavaDocs en inglés.
+
+#### D. Gherkin (Readable Specifications)
+Para la definición de los criterios de aceptación en las historias de usuario, se sigue la sintaxis de **Gherkin** (Given-When-Then), asegurando que las especificaciones sean legibles tanto para el equipo técnico como para los stakeholders.
+
+---
+
+### 5.1.4. Software Deployment Configuration
+
+La estrategia de despliegue de **SmartLock** se basa en un modelo de **Integración y Despliegue Continuo (CI/CD)** utilizando **GitHub Actions**, lo que permite que cada cambio validado en la rama `main` se publique automáticamente en la infraestructura de **Amazon Web Services (AWS)**.
+
+#### Ecosistema de Despliegue
+| Producto | Entorno de Hosting | Tecnología de Despliegue |
+| :--- | :--- | :--- |
+| **Landing Page** | Amazon S3 & CloudFront | Estático (HTML/CSS/JS) con CDN para baja latencia. |
+| **Frontend Web App** | Amazon S3 & CloudFront | Angular Build (Producción) con certificados SSL. |
+| **Web Services** | Amazon Elastic Beanstalk | Java Artifact (JAR) con escalado automático. |
+| **Database** | Amazon RDS (MySQL) | Instancia gestionada con backups automáticos. |
+
+#### Pasos para el Despliegue Satisfactorio
+
+1.  **Build Local & Testing:** El desarrollador valida el código localmente ejecutando pruebas unitarias.
+2.  **Push a GitHub:** Se realiza el *push* a la rama de funcionalidad y se abre un Pull Request hacia `develop`.
+3.  **CI Pipeline (GitHub Actions):** * Se dispara un flujo de trabajo que compila el proyecto (Maven para Java, npm para Angular).
+    * Se ejecutan las pruebas automatizadas. Si alguna falla, el despliegue se detiene.
+4.  **Deployment (Frontend):** Una vez aprobada la fusión a `main`, el código de la Landing Page y la Web App se sincroniza con el bucket de **Amazon S3**. Se invalida la caché de **CloudFront** para que los usuarios vean los cambios de inmediato.
+5.  **Deployment (Backend):** El artefacto `.jar` de Spring Boot se envía a **AWS Elastic Beanstalk**. El servicio gestiona el balanceo de carga y actualiza las instancias sin tiempo de inactividad (*Zero Downtime Deployment*).
+6.  **Verificación:** Se realiza una prueba de humo (*smoke test*) en los endpoints de producción para asegurar la conectividad con **Amazon RDS**.
+## 5.2. Landing Page, Services & Applications Implementation
+
+En esta sección se detalla y evidencia el proceso continuo de implementación, pruebas de software, documentación técnica y despliegue en la nube de los componentes de la solución: Landing Page, RESTful Web Services y Frontend Web Applications. A partir de la priorización establecida en el Product Backlog, el desarrollo se ha estructurado mediante iteraciones ágiles, garantizando que tanto los procesos *core* del negocio (validación de accesos) como los procesos de soporte (autenticación) sean construidos y desplegados progresivamente aplicando principios de *Responsive Web Design*.
+
 ### 5.2.1. Sprint 1
-#### 5.2.1.1. Sprint Planning 1.
-#### 5.2.1.2. Aspect Leaders and Collaborators.
+
+En esta sección se registra y explica el avance obtenido durante el primer ciclo de desarrollo (Sprint 1), abarcando tanto la construcción de los productos de software iniciales como el trabajo colaborativo del equipo. Se incluyen los detalles de planificación, los líderes de cada aspecto, el backlog comprometido y las evidencias de ejecución, documentación y despliegue del trabajo completado.
+
+#### 5.2.1.1. Sprint Planning 1
+
+El Sprint Planning Meeting marcó el inicio formal del desarrollo del código de SmartLock. Durante esta sesión, el equipo de desarrollo junto al Product Owner seleccionaron las Historias de Usuario más prioritarias del Product Backlog para definir el objetivo central de la iteración. A continuación, se presenta el cuadro resumen con los detalles y acuerdos de esta reunión:
+
+| **Sprint #** | Sprint 1 |
+| :--- | :--- |
+| **Sprint Planning Background** | |
+| **Date** | 2026-04-20 |
+| **Time** | 19:00 PM |
+| **Location** | Reunión virtual (Microsoft Teams) |
+| **Prepared By** | Huaman Oscco, Aldo Jesus |
+| **Attendees (to planning meeting)** | Peñaranda Caldas, Gabriel Augusto / Palacios Tinoco, Adrian Fernando / Huaman Oscco, Aldo Jesus / Limache Coronel, Imanol Fabricio / Ayllon Pauccar, Juan David |
+| **Sprint n – 1 Review Summary** | Al ser el primer Sprint de desarrollo, la revisión anterior corresponde a la fase de ideación. Resultados alcanzados: arquitectura C4 finalizada, bases de datos diseñadas y repositorios GitHub configurados. El Product Owner brindó el feedback necesario para iniciar la codificación orientada al dominio. |
+| **Sprint n – 1 Retrospective Summary** | Como retrospectiva inicial de la forma de trabajo, el equipo identificó como acierto el uso de diagramas compartidos, pero reconoció como oportunidad de mejora establecer reglas más estrictas de GitFlow para evitar colisiones en los Pull Requests futuros. |
+| **Sprint Goal & User Stories** | |
+| **Sprint n Goal** | **Contexto:** El equipo decidió enfocar el primer esfuerzo de codificación en sentar las bases operativas de la plataforma, desarrollando la Landing Page para presentar el producto y construyendo el sistema central de autenticación y gestión de identidad, lo cual es requisito previo para cualquier operación de acceso físico. <br><br> **Sprint Goal:**<br>*"Our focus is on offering a secure and reliable authentication gateway for the initial users of SmartLock, while establishing the product's digital presence through a responsive Landing Page.*<br>*We believe it delivers a trustworthy onboarding experience to administrators and clear product value proposition to prospective customers.*<br>*This will be confirmed when administrators can successfully register, log in using 2FA, and access the main dashboard, and visitors can navigate the Landing Page features without errors."* |
+| **Sprint n Velocity** | 30 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos y desarrollar los módulos de autenticación básicos). |
+| **Sum of Story Points** | 29 Story Points. |
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+
+Para asegurar la eficiencia durante este primer Sprint, el alcance funcional se ha dividido en "Aspectos", los cuales representan módulos específicos de la arquitectura a construir. A continuación, se presenta la matriz **Leadership-and-Collaboration Matrix (LACX)**, la cual define quién asume el rol de Líder (L) —responsable de la revisión y entrega de ese módulo— y quiénes actúan como Colaboradores (C) apoyando en el desarrollo de tareas específicas. Esta organización tiene correlación directa con la selección de tareas en Jira.
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page (UI/UX & Frontend) | Identity & Auth (Backend API) | Security Configuration (AWS & DB) |
+| :--- | :--- | :--- | :--- | :--- |
+| Peñaranda Caldas, Gabriel Augusto | gapc2124 | C | L | C |
+| Palacios Tinoco, Adrian Fernando | adrian-palacios | C | C | L |
+| Huaman Oscco, Aldo Jesus | aldo-huaman | L | C | C |
+| Limache Coronel, Imanol Fabricio | imanol-limache | C | C | C |
+| Ayllon Pauccar, Juan David | juan-ayllon | C | C | C |
 ### Aspect Leaders and Collaborators
 
 * En esta sección se presenta la **Leadership-and-Collaboration Matrix (LACX)**. Esta matriz detalla los líderes (L) y colaboradores (C) para cada aspecto clave del Sprint, asegurando una comunicación clara y una distribución de responsabilidades eficiente para el proyecto **SmartLock**.
@@ -1417,8 +1728,6 @@ La organización de líderes y colaboradores está directamente relacionada con 
 #### 5.2.1.3. Sprint Backlog 1.
 
 * "Nuestro objetivo a sido consolidar el núcleo de seguridad y gestión de identidades del sistema SmartLock, de manera teorica hemos logrado la implementación de mecanismos de autenticación, aislamiento total de datos por cliente y blindaje contra ataques externos. Con esto, hemos transformado un diseño conceptual en una infraestructura técnica funcional que garantiza que solo las personas correctas tengan acceso a los recursos correctos, bajo un entorno de comunicación 100% cifrado y seguro. Esperamos que nuestros clientes tengan siempre la seguridad de que nuestro producto sera 100% confiable y eficiente"
-
-|<img src="../Resources/Herramientas/Sprint.png" alt="Estructura de prioridad" width="850"/> |s
 
 <https://upc-team-open-source.atlassian.net/?continue=https%3A%2F%2Fupc-team-open-source.atlassian.net%2Fwelcome%2Fsoftware%3FprojectId%3D10000&atlOrigin=eyJpIjoiNjJkNmViYTYyM2ZmNGMzMDlmYjRiMDQ0MTNkMGVkZDIiLCJwIjoiamlyYS1zb2Z0d2FyZSJ9>
 
