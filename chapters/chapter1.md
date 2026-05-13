@@ -88,11 +88,11 @@ Nuestra visión es proporcionar a las empresas una plataforma web inteligente y 
 
 - Creemos que los administradores valoran más recibir alertas automáticas (ej. intentos fallidos o fuera de horario) que revisar un historial de registros de forma manual.
 #### 1.2.2.3. Lean UX Hypothesis Statements
-- Hipótesis 1 (Alertas): Creemos que reduciremos el tiempo de respuesta ante incidentes de seguridad en un 50% si el personal de monitoreo logra identificar anomalías instantáneamente usando el sistema de alertas por intentos fallidos repetidos o accesos fuera de horario.
+- Hipótesis 1 (Alertas): El sistema de alertas por intentos fallidos y accesos fuera de horario optimiza la identificación instantánea de anomalías.
 
-- Hipótesis 2 (Gestión de roles): Creemos que aumentaremos la adopción del Plan Profesional si los administradores de recursos humanos logran automatizar la entrada de su personal usando el control de acceso segmentado por franjas horarias y días laborales.
+- Hipótesis 2 (Gestión de roles): El control de acceso segmentado por franjas horarias y días laborales automatiza la gestión de entrada del personal.
 
-- Hipótesis 3 (Seguridad): Creemos que las empresas confiarán la auditoría de sus instalaciones a nuestra plataforma si los auditores internos logran rastrear exactamente quién autorizó un ingreso usando el historial detallado de eventos y la autenticación segura (2FA).
+- Hipótesis 3 (Seguridad): El historial detallado de eventos y la autenticación segura (2FA) garantizan la trazabilidad total de las autorizaciones de ingreso para auditores internos.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -102,7 +102,7 @@ Nuestra visión es proporcionar a las empresas una plataforma web inteligente y 
 | **3. Users / Customers** | **4. User Benefits** |
 | - Administradores de instalaciones / RRHH.<br>- Personal de monitoreo / Prevención.<br>- Empleados (usuarios finales). | - Tranquilidad al tener control total de quién entra y cuándo.<br>- Ahorro de tiempo en auditorías.<br>- Alertas automáticas sin esfuerzo manual. |
 | **5. Solutions / Ideas** | **6. Hypotheses** |
-| - Panel en tiempo real.<br>- Sistema de reglas por horario y roles.<br>- Motor de alertas de anomalías.<br>- Log de auditoría inmutable. | - Creemos que reduciremos el tiempo de respuesta ante incidentes en un 50% si el personal logra identificar anomalías usando las alertas automáticas.<br>- Creemos que aumentaremos la adopción del Plan Pro si RRHH logra automatizar la entrada usando el control por franjas horarias. |
+| - Panel en tiempo real.<br>- Sistema de reglas por horario y roles.<br>- Motor de alertas de anomalías.<br>- Log de auditoría inmutable. | - Las alertas automáticas por intentos fallidos y accesos fuera de horario optimizan la capacidad de respuesta del personal de monitoreo al centralizar la detección de anomalías en tiempo real. Se alcanzará el éxito cuando el tiempo promedio de respuesta ante incidentes críticos disminuya en un 50% durante el primer trimestre de implementación.<br>- El control de acceso segmentado por franjas horarias y días laborales elimina la carga operativa de recursos humanos al automatizar las restricciones de entrada de manera masiva. Validaremos esta solución si el número de suscripciones al Plan Pro aumenta en un 25%, impulsado por empresas que requieren gestión autónoma de turnos rotativos. |
 | **7. What's the most important thing to learn first?** | **8. What's the least amount of work we need to do to learn this? (MVP)** |
 | ¿Los administradores confiarán en la gestión de permisos a través de una interfaz web antes de conectar hardware real? | Construir la plataforma web funcional con la función de **Simulación de acceso a puertas** para demostrar el flujo lógico a clientes potenciales. |
 ### 1.3. Segmentos objetivo
