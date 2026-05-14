@@ -425,12 +425,11 @@ En esta sección, el equipo presenta el diseño orientado a objetos del software
 
 #### Diagrama de clases (Frontend)
 
-<img src="/Resources/Chapter4/Diagram-Class/Frontend/Class-Diagram-Frontend-image.png" alt="Class Diagram Frontend">
+<img src="/Resources/Chapter4/Diagram-Class/Frontend/Diagrama-de-clases-Frontend-SmartLock.png" alt="Class Diagram Frontend">
 
-El diagrama organiza el frontend de SmartLock en cinco *Bounded Contexts* (Authentication, Organization, User, Security y Subscription), lo que permite aislar la lógica de negocio y asegurar que cada módulo evolucione de forma independiente. Dentro de estos contextos, se implementan los 8 Agregados definidos, donde entidades raíz como *Security* y *Organization* encapsulan a *Door* y *Office* respectivamente; esto garantiza la integridad del sistema, ya que cualquier cambio de estado físico o estructural debe ser validado por su respectiva raíz de agregado antes de impactar la interfaz.
-
-Bajo el enfoque DDD, la aplicación utiliza un *EventBus* en la capa Shared para comunicar eventos entre contextos de forma desacoplada y emplea el patrón *Assembler* para transformar los datos crudos de la API en objetos de dominio con comportamiento propio. Los *Stores* de la capa de aplicación gestionan estos agregados mediante Signals, permitiendo que la interfaz reaccione instantáneamente a cambios operativos —como la apertura de una puerta o la actualización de un perfil— sin comprometer la separación de responsabilidades ni la pureza del modelo de negocio.
-
+La arquitectura se organiza bajo los principios de **Domain-Driven Design (DDD)**, estructurando el frontend en contextos delimitados que separan lógicamente las responsabilidades de negocio. El núcleo reside en `spaceManagement`, que gestiona la jerarquía física desde la `Organization` hasta los `Device`, utilizando un `spaceManagementStore` en la capa de aplicación para centralizar el estado y desacoplar la vista de la infraestructura. Este se complementa con `authentication` y `access`, encargados de la identidad y los permisos mediante `Account` y `Subject`, mientras que `report` se especializa en la observabilidad a través de entidades de auditoría y alertas. Finalmente, `billing` opera de forma independiente para controlar el ciclo de vida de las suscripciones en el dominio de pagos.
+<br><br>
+La interacción entre estos contextos y las clases de frontend se facilita mediante un **Kernel Compartido** (`shared`), donde la capa de infraestructura provee una `BaseApiEndpoint` de la cual heredan los servicios específicos para estandarizar el consumo de APIs. En la capa de presentación, los componentes se dividen en `views` (contenedores de alto nivel) y `components` (piezas reutilizables como `OrganizationCard`), los cuales interactúan con los **Stores** para obtener datos de manera reactiva en lugar de consultar directamente a los servicios. Todo el sistema es orquestado por el `AppComponent`, que integra el `Layout` compartido para mantener una interfaz consistente en toda la plataforma.
 #### Diagrama de clases (Backend)
 
 <img src="/Resources/Chapter4/Diagram-Class/Backend/Class-Diagram-Backend-image.png" alt="Class Diagram Backend">
