@@ -298,7 +298,72 @@ Esta sección presenta los esquemas de baja fidelidad que definen la estructura 
 </p>
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
-*[Sección en desarrollo]*
+
+User Goal 1: Como usuario nuevo, quiero poder registrarme.
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/registrosesion-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
+
+User Goal 2: Como usuario registrado, quiero poder iniciar sesión .
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/iniciosesion-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
+
+User Goal 3: Como usuario registrado, quiero validar la identidad del usuario mediante un segundo factor de autenticación.
+
+<p align="center  ">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/2fa-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
+
+User Goal 4: Como usuario nuevo, quiero registrar una nueva organización con un plan a elección.
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/crearorg-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
+
+User Goal 5: Como usuario nuevo, quiero registrar una nueva sede o existente a mi organización.
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/crearsede-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
+
+User Goal 6: Como usuario ,quiero poder cerrar sesión.
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/cerrar-sesion-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
+
+User Goal 7: Como usuario ,quiero poder acceder a la bitacora de accesos y alertas desde el panel de control.
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/bitacora-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
+
+User Goal 8: Como usuario ,quiero añadir accesos desde control de entidades.
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/accesos-wireflow-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
+
+User Goal 9: Como usuario ,quiero añadir personas desde control de entidades.
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/pesonas-wireflow-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
+
+User Goal 10: Como usuario ,quiero añadir grupos de personas desde control de entidades.
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/grupos-wireflow-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
+
+User Goal 11: Como usuario ,quiero añadir administradores desde control de entidades.
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/wireflow/administrador-wireflow.png" width="800" alt="Logout Wireframe">
+</p>
 
 ### 4.4.3. Web Applications Mock-ups.
 Esta sección presenta los mock-ups de alta fidelidad de la plataforma web de SmartLock. Estos diseños representan la apariencia visual final del sistema, incluyendo identidad visual, paleta de colores, tipografía, distribución de componentes y experiencia de usuario orientada a la implementación real del producto.
@@ -464,10 +529,34 @@ Esta sección presenta los mock-ups de alta fidelidad de la plataforma web de Sm
 **Descripción:** Ventana segura para salir de la plataforma.
 
 ### 4.4.4. Web Applications User Flow Diagrams.
-*[Sección en desarrollo]*
+En la siguiente sección se puede observar de manera detallada el  diagrama Userflow.
+
+<p align="center">
+  <img src="/Resources/Chapter4/Web-Application/userflow/userflow.png" width="800" alt="userflow">
+</p>
 
 ## 4.5. Web Applications Prototyping.
-*[Sección en desarrollo]*
+
+
+<p align="center">
+  <img src="../Resources/Chapter4/Web-Application/figma prototype.jpg" width="900">
+</p>
+
+<br>
+
+**Link del Figma:**  
+[Ver enlace](https://www.figma.com/design/kVDoKtb6qnhzGb0kD1rCyR/Untitled?node-id=0-1&t=ZrgcAyr2GfzBtvf7-1)
+
+<br>
+
+**Link del video de explicación:**  
+[Ver enlace](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQAoeufOBXR1Q4_QgHSUq5ZoAdnsC9hr3FJfDiVG26U60XM?e=5zpImg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<br>
+
+<p align="center">
+  <img src="../Resources/Chapter4/Web-Application/Captura Prototype evidencia.jpg" width="900">
+</p>
 
 ## 4.6. Domain-Driven Software Architecture.
 
