@@ -16,8 +16,10 @@
 
 ----
 ## Informe de Trabajo Final
+Equipo
 ### SmartTecnologies
 
+Proyecto
 ### SmartLock
 #### Relación de integrantes
 <br>
@@ -28,7 +30,7 @@
 | Peñaranda Caldas Gabriel Augusto| u202210836 |
 | Huaman Oscco Aldo Jesus         | u20231h067 |
 | Ayllon Pauccar Juan David       | u20241a860 |
-|                                 |            |
+| Limache Coronel Imanol Fabricio | u20241---- |
 
 </div>
 
