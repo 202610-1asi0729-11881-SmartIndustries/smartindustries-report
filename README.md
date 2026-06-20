@@ -1289,28 +1289,28 @@ Esta sección presenta los mock-ups de alta fidelidad de la plataforma web de Sm
 En esta sección se detalla el diseño táctico del sistema, profundizando en la arquitectura y los componentes técnicos necesarios para implementar la solución. A diferencia del Big Picture, el DesignLevel Event Storming se enfoca en definir los límites de los agregados, los comandos que disparan cambios de estado y las políticas que gobiernan las reglas de negocio.
 
 <p align="center">
-  <img src="Resources/Chapter4/eventStormin/DesignLevel.png" width="800" alt="Design Level Event Storming">
+  <img src="Resources/Evidencias/total-ddd.png" width="800" alt="Design Level Event Storming">
 </p>
 
 ### 1. Space Management (Gestión de Espacios)
 Es el contexto central encargado de la infraestructura física y lógica de la plataforma. Su responsabilidad principal es modelar la jerarquía operativa, gestionando entidades como **Organizations**, **Sites** (sedes) y **Zones**. Este contexto administra la relación entre los activos físicos y su ubicación, permitiendo que la plataforma identifique la posición de los dispositivos de bloqueo digital.
-<img src="Resources/Chapter4/eventStormin/space-management-Context.png">
+<img src="Resources/Evidencias/space-management.png">
 
-### 2. Access Control (Control de Acceso)
+### 2. Access (Control de Acceso)
 Este contexto se enfoca estrictamente en la autorización y la seguridad física. Gestiona las identidades mediante la entidad **Subject** y su agrupación en **Groups** para facilitar la asignación masiva de permisos. Su lógica de negocio define quién tiene permitido ingresar a áreas específicas basándose en la validación de tokens y reglas de seguridad configuradas.
 <img src="Resources/Chapter4/eventStormin/Acces-Context.png">
 
-### 3. Authentication (Autenticación e Identidad)
+### 3. IAM (Autenticación e Identidad)
 Responsable de la seguridad a nivel de software y la validación de la identidad del usuario en el sistema. Administra las **Accounts**, los hashes de contraseñas y los roles de usuario. Asegura que el usuario sea quien dice ser antes de permitirle interactuar con la interfaz del frontend o las APIs de la aplicación.
-<img src="Resources/Chapter4/eventStormin/Authentication-Context.png">
+<img src="Resources/Evidencias/access.png">
 
-### 4. Report & Audit (Reportes y Auditoría)
+### 4. Report (Reportes y Auditoría)
 Dedicado a la observabilidad y la persistencia de eventos históricos dentro del ecosistema SmartLock. Utiliza entidades como **Audit**, **AuditRecord** y **Alert** para registrar cada acción realizada por los usuarios y cada anomalía detectada por los dispositivos. Es fundamental para el cumplimiento normativo y la reconstrucción de líneas de tiempo ante incidentes de seguridad.
-<img src="Resources/Chapter4/eventStormin/Report-Context.png">
+<img src="Resources/Evidencias/report.png">
 
-### 5. Billing & Subscription (Facturación y Suscripciones)
+### 5. Billing (Facturación y Suscripciones)
 Gestiona el aspecto comercial y la viabilidad del servicio para cada organización. Se encarga de la entidad **Subscription**, controlando los planes activos, precios y fechas de renovación. Este contexto habilita o restringe funcionalidades avanzadas, como el control por franjas horarias o alertas automáticas, según el estado de pago del cliente.
-<img src="Resources/Chapter4/eventStormin/Billing-Context.png">
+<img src="Resources/Evidencias/billing.png">
 
 Descripción de los componentes identificados:
 - **Comandos (Azul):** Representan las intenciones de los usuarios o sistemas externos para realizar una acción específica (ej. "Generar Código QR", "Validar Acceso").
@@ -1333,7 +1333,7 @@ Este modelado permite al equipo de desarrollo tener una guía clara para la impl
 
 In this section, the team introduces the Software Architecture Context Diagram. This high-level overview illustrates the **SmartLock** software system as a central entity, surrounded by the key user personas and the external systems it interacts with to deliver its "Asset-Light" access control value proposition.
 
-![Software Architecture Context Diagram](/Resources/Chapter4/umlfiles/contextDiagram.png)
+<img src="Resources/Evidencias/contexto.png">
 
 **Explicación del diagrama:**
 
@@ -1345,7 +1345,8 @@ In this section, the team introduces the Software Architecture Context Diagram. 
 
 In this section, the team presents the **Container Diagram** for SmartLock. This diagram expands the system's context to reveal the software containers that compose it (web applications, mobile applications, APIs, and databases). It illustrates the high-level distribution of responsibilities, exposes key technology decisions—such as Angular for the frontend, Java Spring Boot for the backend, and MySQL for persistence—and details how these containers communicate through the AWS cloud infrastructure.
 
-![Software Architecture Container Diagram](/Resources/Chapter4/umlfiles/containerDiagram.png)
+<img src="Resources/Evidencias/contenedor.png">
+
 
 #### Diagram Explanation
 
@@ -1361,7 +1362,10 @@ The Container Diagram breaks down the internal architecture of SmartLock into th
 
 In this section, the team presents the **Component Diagram** for the Core Backend API container. This diagram zooms into the Java Spring Boot application to illustrate its internal structure based on Domain-Driven Design (DDD) and Layered Architecture. It shows how the system is divided into Controllers (Presentation), Services (Business Logic/Domain), and Repositories (Data Access), and how these components interact to execute the access control logic.
 
-![Software Architecture Component Diagram](/Resources/Chapter4/umlfiles/componentDiagram.png)
+
+<img src="Resources/Evidencias/componente.png">
+<img src="Resources/Evidencias/componente1.png">
+
 
 #### Diagram Explanation
 
@@ -1391,15 +1395,16 @@ En esta sección, el equipo presenta el diseño orientado a objetos del software
 
 #### Diagrama de clases (Frontend)
 
-<img src="Resources/Chapter4/Diagram-Class/Frontend/Class-Diagram-Frontend-image.png" alt="Class Diagram Frontend">
+<img src="Resources/Evidencias/class-front.png">
 
 El diagrama organiza el frontend de SmartLock en cinco *Bounded Contexts* (Authentication, Organization, User, Security y Subscription), lo que permite aislar la lógica de negocio y asegurar que cada módulo evolucione de forma independiente. Dentro de estos contextos, se implementan los 8 Agregados definidos, donde entidades raíz como *Security* y *Organization* encapsulan a *Door* y *Office* respectivamente; esto garantiza la integridad del sistema, ya que cualquier cambio de estado físico o estructural debe ser validado por su respectiva raíz de agregado antes de impactar la interfaz.
 
 Bajo el enfoque DDD, la aplicación utiliza un *EventBus* en la capa Shared para comunicar eventos entre contextos de forma desacoplada y emplea el patrón *Assembler* para transformar los datos crudos de la API en objetos de dominio con comportamiento propio. Los *Stores* de la capa de aplicación gestionan estos agregados mediante Signals, permitiendo que la interfaz reaccione instantáneamente a cambios operativos —como la apertura de una puerta o la actualización de un perfil— sin comprometer la separación de responsabilidades ni la pureza del modelo de negocio.
 
+
 #### Diagrama de clases (Backend)
 
-<img src="/Resources/Chapter4/Diagram-Class/Backend/Class-Diagram-Backend-image.png" alt="Class Diagram Backend">
+<img src="Resources/Evidencias/class-back.png">
 
 El backend de SmartLock ha sido estructurado estrictamente bajo los principios de *Domain-Driven Design* (DDD) utilizando el framework Spring Boot. La arquitectura se divide en 5 *Bounded Contexts* y 8 agregados principales, derivados del *Event Storming*, garantizando un alto nivel de cohesión y un bajo acoplamiento. Se emplean *Aggregate Roots* (como Security y Organization) para orquestar entidades secundarias (Door y Office), asegurando el cumplimiento de las reglas de negocio en la capa de dominio antes de ejecutar cualquier cambio de estado. 
 
@@ -1432,12 +1437,12 @@ En esta sección, se especifican las herramientas y productos de software utiliz
 | **Figma** | Product UX/UI Design | Diseño de Wireframes, Mock-ups y prototipado interactivo de la Web App y Landing Page. | [https://www.figma.com/](https://www.figma.com/) |
 | **UXPressia** | Product UX Design | Elaboración de artefactos de diseño de experiencia como User Personas y Journey Maps. | [https://uxpressia.com/](https://uxpressia.com/) |
 | **IntelliJ IDEA** | Software Development | IDE principal para el desarrollo del Backend RESTful API utilizando Java y Spring Boot. | [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/) |
-| **MySQL Workbench** | Software Development | Herramienta para el diseño, modelado y gestión local de la base de datos relacional. | [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/) |
+| **DBeaver** | Software Development | Herramienta para el diseño, modelado y gestión local de la base de datos relacional. | [https://dev.mysql.com/downloads/workbench/](https://dev.mysql.com/downloads/workbench/) |
 | **GitHub** | SCM & Software Documentation | Repositorio centralizado de código fuente y documentación técnica del proyecto. | [https://github.com/202610-1asi0729-11881-SmartIndustries](https://github.com/202610-1asi0729-11881-SmartIndustries) |
 | **AWS Management Console** | Software Deployment | Gestión y monitoreo de servicios en la nube (S3, CloudFront, Elastic Beanstalk y RDS). | [https://aws.amazon.com/console/](https://aws.amazon.com/console/) |
 | **Swagger / OpenAPI** | Software Documentation | Documentación interactiva y pruebas de los servicios web RESTful del backend. | Integrado en el Core Backend API. |
 
----### 5.1.2. Source Code Management
+### 5.1.2. Source Code Management
 
 En esta sección, el equipo establece los medios y el esquema de organización que aplicará para el seguimiento de modificaciones durante el ciclo de vida de **SmartLock**. Para ello, utilizamos **GitHub** como plataforma centralizada y sistema de control de versiones.
 
@@ -2084,10 +2089,33 @@ El botón "Ver cómo funciona" no presenta comportamiento funcional visible (no 
  
 ## Conclusión general
  
-La landing de SmartLock cumple con una estructura de información coherente (Hero, Funcionalidades, Cómo Funciona, Casos de Uso, Precios, Contacto), pero el nivel de pulido visual y la implementación funcional de varios componentes interactivos está por debajo del estándar esperado para un producto que se presenta como solución tecnológica de seguridad. Los hallazgos de severidad 3 y 4 (contraste insuficiente, jerarquía de CTA y botón "Ver cómo funciona" no funcional) deben priorizarse antes de cualquier lanzamiento o demo a clientes potenciales.
+- SmartLock presenta una propuesta sólida basada en una solución SaaS para control de accesos y eventos, con hallazgos de entrevistas que validan la demanda de control en tiempo real y la preferencia por soluciones sin hardware físico.
+- Las entrevistas con organizadores y empresarios revelan dos necesidades clave: gestión rápida de aforo/validación de asistentes y revocación de accesos de último minuto.
+- La evaluación de la landing y la documentación muestra que el proyecto tiene una base coherente, pero requiere mejoras en usabilidad, jerarquía visual y funcionalidad interactiva antes de una presentación comercial definitiva.
+
+### Recomendaciones
+
+- Priorizar la corrección de los problemas de contraste y la diferenciación clara entre CTA primario y secundario en la landing page.
+- Implementar el comportamiento funcional de botones clave como "Ver cómo funciona", añadiendo scroll suave o modal de video para cumplir la promesa de navegación.
+- Mejorar la visibilidad de los resultados de acceso (confirmación de validación/revocación) y reducir los pasos necesarios para los organizadores durante el registro de asistentes.
+- Documentar y mantener las entrevistas en un formato uniforme, incluyendo capturas de video, timestamps y observaciones, para facilitar la toma de decisiones en las siguientes iteraciones.
+
+
+**Video about the team**:
+<p align="center">
+  <img src="Resources/Evidencias/theteam.jpeg" width="800" alt="Evidence">
+</p>
+00:00 - 03:12
 
 
 ## 5.4. Video About-the-Product.
+<p align="center">
+  <img src="Resources/Evidencias/theproduct.jpeg" width="800" alt="Evidence">
+</p>
+00:00 - 03:43
+
+- *Microsoft Stream:* https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQBVMXcdnPuSQKI9hqh9AEtDAS_bI9VVnOsDtJQ5Ij98DFc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jQ3MQz
+- *YouTube:* https://youtu.be/PqTKXO1_uNk
 
 # Anexos
 * ** Web Landing Page Deployment Link: https://202610-1asi0729-11881-smartindustries.github.io/smartindustries-website/
@@ -2099,13 +2127,11 @@ La landing de SmartLock cumple con una estructura de información coherente (Her
 * **Frontend Web Application:** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-webapp](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-webapp)
 * **Web Services (Core Backend API):** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-platform](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-platform)
 * **Project Report:** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-report](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-report)
-* **About the product (Microsoft Stream)**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQCY12r3WkjAR5P1ln7_3qqOAYgY54cPCmCA4f7m4Ri5tQs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=90kSqW
-
-* **About the product (Youtube)**: https://youtu.be/aZE0d9Iqwzw
-
-* **About the team (Microsoft Stream)**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQBVMXcdnPuSQKI9hqh9AEtDAS_bI9VVnOsDtJQ5Ij98DFc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jQ3MQz
+* **About the team (Microsoft Stream)**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQBVMXcdnPuSQKI9hqh9AEtDAS_bI9VVnOsDtJQ5Ij98DFc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Gg3B5Y
 
 * **About the team (Youtube)**: https://youtu.be/PqTKXO1_uNk
+
+* **Diagramas de clase**: https://drive.google.com/drive/folders/1Vxsqy9zSTlkX-08k8zkIp1uketg2mJ8n?usp=sharing
 
 * **2.4. y 2.6.1. Event Storming (Big Picture & Design Level):** [Excalidraw](https://excalidraw.com/#json=vUgvQ_f8p5qxOvlqhFRzb,fcVt4lcEfKf0J_ePWUhZhw)
 * **2.3. User Personas y Community:** [Figma Board](https://www.figma.com/board/okEnho158yZOcK5r6UzEgj/user-personal--Community-?node-id=0-1&t=y2q6BjfRkX2B6Mr1-1)
