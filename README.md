@@ -1643,8 +1643,8 @@ El Sprint Planning Meeting del Sprint 2 se centró en trasladar las bases de aut
 | **Location** | Reunión virtual (Microsoft Teams) |
 | **Prepared By** | Huaman Oscco, Aldo Jesus |
 | **Attendees (to planning meeting)** | Peñaranda Caldas, Gabriel Augusto / Palacios Tinoco, Adrian Fernando / Huaman Oscco, Aldo Jesus / Limache Coronel, Imanol Fabricio / Ayllon Pauccar, Juan David |
-| **Sprint 2 Review Summary** | El Sprint 1 culminó con éxito, logrando implementar el sistema de autenticación completo (SignUp, SignIn, JWT, BCrypt, protección de rutas) y desplegar la Landing Page. El Product Owner validó los endpoints de auth y la experiencia de onboarding. |
-| **Sprint 2 Retrospective Summary** | El equipo identificó como mejora la necesidad de estandarizar los componentes de formularios Angular Material para reducir duplicación de código en los módulos CRUD. Se acordó crear un componente base `BaseFormComponent` reutilizable. Como acierto, se destacó la efectividad del GitFlow con Conventional Commits. |
+| **Sprint 1 Review Summary** | El Sprint 1 culminó con éxito, logrando implementar el sistema de autenticación completo (SignUp, SignIn, JWT, BCrypt, protección de rutas) y desplegar la Landing Page. El Product Owner validó los endpoints de auth y la experiencia de onboarding. |
+| **Sprint 1 Retrospective Summary** | El equipo identificó como mejora la necesidad de estandarizar los componentes de formularios Angular Material para reducir duplicación de código en los módulos CRUD. Se acordó crear un componente base `BaseFormComponent` reutilizable. Como acierto, se destacó la efectividad del GitFlow con Conventional Commits. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 2 Goal** | **Contexto:** Con la autenticación operativa, el equipo decidió enfocar el segundo sprint en construir la jerarquía física completa del sistema: organizaciones, sitios y dispositivos. Este módulo representa el esqueleto sobre el cual se definirán posteriormente los permisos de acceso y los horarios. <br><br> **Sprint Goal:**<br>*"Our focus is on building the core infrastructure layer of SmartLock, enabling administrators to create and manage their organizational hierarchy through a complete CRUD interface for organizations, sites, and devices.*<br>*We believe it delivers a solid foundation for access control by establishing the physical space topology where smart locks will operate.*<br>*This will be confirmed when administrators can successfully create organizations, register sites within them, connect smart lock devices, and view/edit/delete any resource in the hierarchy, with all data properly scoped by organization and audit timestamps automatically recorded."* |
 | **Sprint 2 Velocity** | 36 Story Points. (Velocidad ajustada considerando la experiencia ganada en el Sprint 1 y la reutilización de componentes CRUD). |
@@ -1720,7 +1720,10 @@ En esta sección se presentan las evidencias del desarrollo correspondiente al S
 - **Frontend Web App:** `feature/organization-crud`, `feature/site-management`, `feature/device-registry`
 - **Backend API:** `feature/org-endpoints`, `feature/site-endpoints`, `feature/device-endpoints`, `feature/jpa-auditing`
 
-> *[Adjuntar capturas de commits y Pull Requests mergeados en GitHub]*
+<p align="center">
+  <img src="Resources/Evidencias/5224evidencia.png" width="800" alt="Evidence">
+</p>
+
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -1733,7 +1736,13 @@ En esta sección se adjuntan capturas de pantalla del software funcionando, most
 - Formularios de creación con validaciones y mensajes de error
 - Diálogos de confirmación de eliminación con warning
 
-> *[Adjuntar capturas de pantalla de cada interfaz]*
+<p align="center">
+  <img src="Resources/Evidencias/5225evidencia.png" width="800" alt="Evidence">
+</p>
+<p align="center">
+  <img src="Resources/Evidencias/5225evidencia1.png" width="800" alt="Evidence">
+</p>
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -1753,7 +1762,6 @@ En esta sección se evidencia la documentación de los servicios REST implementa
 - `PUT /api/v1/devices/{id}` — Actualizar dispositivo
 - `DELETE /api/v1/devices/{id}` — Eliminar dispositivo
 
-> *[Adjuntar capturas de Swagger UI mostrando los endpoints y esquemas request/response]*
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
@@ -1764,18 +1772,20 @@ En esta sección se presentan las evidencias del despliegue continuo realizado d
 - **Backend API:** AWS Elastic Beanstalk (Java 17, Spring Boot 3.x)
 - **Base de Datos:** Amazon RDS MySQL 8.0
 
-> *[Adjuntar capturas de AWS Console mostrando los servicios desplegados, URL de la aplicación en producción y logs de GitHub Actions con build exitoso]*
-
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
 En esta sección se documenta la colaboración del equipo durante el Sprint 2 mediante evidencias de actividad en GitHub y reuniones de coordinación.
 
 **Actividades colaborativas:**
-- Daily Scrums realizados vía Microsoft Teams (lunes a viernes, 15 min)
 - Code reviews en Pull Requests antes de merge a `develop`
 - Pair programming en las tareas de inline editing (Aldo + Adrian) y eliminación en cascada (Juan + Imanol)
 
-> *[Adjuntar capturas del gráfico de contribuciones de GitHub, historial de PRs y registro de Daily Scrums]*
+<p align="center">
+  <img src="Resources/Evidencias/5228evidencia.png" width="800" alt="Evidence">
+</p>
+<p align="center">
+  <img src="Resources/Evidencias/5228evidencia1.png" width="800" alt="Evidence">
+</p>
 
 ---
 
@@ -1795,8 +1805,8 @@ El Sprint Planning Meeting del Sprint 3 se centró en transformar la jerarquía 
 | **Location** | Reunión virtual (Microsoft Teams) |
 | **Prepared By** | Huaman Oscco, Aldo Jesus |
 | **Attendees (to planning meeting)** | Peñaranda Caldas, Gabriel Augusto / Palacios Tinoco, Adrian Fernando / Huaman Oscco, Aldo Jesus / Limache Coronel, Imanol Fabricio / Ayllon Pauccar, Juan David |
-| **Sprint 3 Review Summary** | El Sprint 2 culminó con éxito, logrando implementar la jerarquía completa Organization → Site → Device con CRUD funcional, eliminación en cascada y auditoría automática. El Product Owner validó la experiencia de administración de espacios y destacó la consistencia visual de los badges de estado de dispositivos. |
-| **Sprint 3 Retrospective Summary** | El equipo identificó que los componentes de inline editing y formularios modales reutilizados del Sprint 2 aceleraron significativamente el desarrollo. Como mejora, se propuso implementar pruebas unitarias para los servicios de dominio antes del cierre del sprint. Se destacó como acierto la rotación de roles en el LACX, permitiendo que todos los integrantes tuvieran exposición al backend y frontend. |
+| **Sprint 2 Review Summary** | El Sprint 2 culminó con éxito, logrando implementar la jerarquía completa Organization → Site → Device con CRUD funcional, eliminación en cascada y auditoría automática. El Product Owner validó la experiencia de administración de espacios y destacó la consistencia visual de los badges de estado de dispositivos. |
+| **Sprint 2 Retrospective Summary** | El equipo identificó que los componentes de inline editing y formularios modales reutilizados del Sprint 2 aceleraron significativamente el desarrollo. Como mejora, se propuso implementar pruebas unitarias para los servicios de dominio antes del cierre del sprint. Se destacó como acierto la rotación de roles en el LACX, permitiendo que todos los integrantes tuvieran exposición al backend y frontend. |
 | **Sprint Goal & User Stories** | |
 | **Sprint 3 Goal** | **Contexto:** Con la infraestructura de espacios operativa (Orgs, Sites, Devices), el equipo se enfocó en la capa de personas y control de acceso. Este sprint implementa el registro de personas, la agrupación lógica mediante Access Groups, el control de estado de acceso individual (ENABLED/DISABLED/REVOKED) y la creación de roles con permisos delegables para administración compartida. <br><br> **Sprint Goal:**<br>*"Our focus is on populating the infrastructure with people and defining who can access what, implementing the person registry, access groups, and role-based permissions.*<br>*We believe it transforms the empty space hierarchy into an operational access control system by linking people to access groups and delegating administration through custom roles.*<br>*This will be confirmed when administrators can register people in an organization, assign them to access groups, toggle their access status (ENABLED/DISABLED/REVOKED), and create custom roles with specific permissions to delegate responsibilities."* |
 | **Sprint 3 Velocity** | 36 Story Points. (Velocidad consistente con el Sprint 2, manteniendo el ritmo de entrega del equipo). |
@@ -1866,7 +1876,10 @@ En esta sección se presentan las evidencias del desarrollo correspondiente al S
 - **Frontend Web App:** `feature/people-management`, `feature/access-groups`, `feature/person-access`, `feature/roles-admin`
 - **Backend API:** `feature/people-endpoints`, `feature/access-group-endpoints`, `feature/person-access-logic`, `feature/roles-endpoints`
 
-> *[Adjuntar capturas de commits y Pull Requests mergeados en GitHub]*
+<p align="center">
+  <img src="Resources/Evidencias/5234evidencia.png" width="800" alt="Evidence">
+</p>
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -1880,7 +1893,9 @@ En esta sección se adjuntan capturas de pantalla del software funcionando, most
 - Vista de roles (`/operations/roles`) con badges de permisos y roles no eliminables marcados
 - Formulario de creación de rol con mat-slide-toggle para cada permiso
 
-> *[Adjuntar capturas de pantalla de cada interfaz]*
+<p align="center">
+  <img src="Resources/Evidencias/5235evidence.png" width="800" alt="Evidence">
+</p>
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -1898,6 +1913,12 @@ En esta sección se evidencia la documentación de los servicios REST implementa
 - `POST /api/v1/roles` — Crear rol con permisos
 - `GET /api/v1/organizations/{organizationId}/roles` — Listar roles
 
+<p align="center">
+  <img src="Resources/Evidencias/5236evidence.png" width="800" alt="Evidence">
+</p>
+<p align="center">
+  <img src="Resources/Evidencias/5236evidence1.png" width="800" alt="Evidence">
+</p>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -1911,6 +1932,17 @@ En esta sección se presentan las evidencias del despliegue continuo realizado d
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<p align="center">
+  <img src="Resources/Evidencias/5238evidence.png" width="800" alt="Evidence">
+</p>
+<p align="center">
+  <img src="Resources/Evidencias/5238evidence1.png" width="800" alt="Evidence">
+</p>
+<p align="center">
+  <img src="Resources/Evidencias/5238evidencia2.png" width="800" alt="Evidence">
+</p>
+
 ---
 
 ## 5.3. Validation Interviews.
@@ -2067,6 +2099,13 @@ La landing de SmartLock cumple con una estructura de información coherente (Her
 * **Frontend Web Application:** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-webapp](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-webapp)
 * **Web Services (Core Backend API):** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-platform](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-platform)
 * **Project Report:** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-report](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-report)
+* **About the product (Microsoft Stream)**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQCY12r3WkjAR5P1ln7_3qqOAYgY54cPCmCA4f7m4Ri5tQs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=90kSqW
+
+* **About the product (Youtube)**: https://youtu.be/aZE0d9Iqwzw
+
+* **About the team (Microsoft Stream)**: https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQBVMXcdnPuSQKI9hqh9AEtDAS_bI9VVnOsDtJQ5Ij98DFc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jQ3MQz
+
+* **About the team (Youtube)**: https://youtu.be/PqTKXO1_uNk
 
 * **2.4. y 2.6.1. Event Storming (Big Picture & Design Level):** [Excalidraw](https://excalidraw.com/#json=vUgvQ_f8p5qxOvlqhFRzb,fcVt4lcEfKf0J_ePWUhZhw)
 * **2.3. User Personas y Community:** [Figma Board](https://www.figma.com/board/okEnho158yZOcK5r6UzEgj/user-personal--Community-?node-id=0-1&t=y2q6BjfRkX2B6Mr1-1)
