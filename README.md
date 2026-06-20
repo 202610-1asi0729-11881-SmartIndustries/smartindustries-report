@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/Resources/Introduction/UPC/UPC-Logo.png" alt="Logo-UPC" width="150">
+  <img src="Resources/Introduction/UPC/UPC-Logo.png" alt="Logo-UPC" width="150">
 
 ## Universidad Peruana de Ciencias Aplicadas
 
@@ -16,8 +16,10 @@
 
 ----
 ## Informe de Trabajo Final
+Equipo
 ### SmartTecnologies
 
+Proyecto
 ### SmartLock
 #### Relación de integrantes
 <br>
@@ -32,7 +34,8 @@
 
 </div>
 
-<br><div align="center"><h3>Abril 2026</h3></div><br>
+<br><div align="center"><h3>Junio 2026</h3></div><br>
+<div style="page-break-after: always;"></div>
 <div style="text-align: justify;"></div>
 
 <br>
@@ -72,7 +75,7 @@ URL de Organización de GITHUB del equipo SmartIndustries:
 https://github.com/gapc2124/Smartlock-DAOP
 
 URL de Repositorio del Project Report:
-https://github.com/gapc2124/Smartlock-DAOP
+https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-report
 
 ---
 
@@ -528,57 +531,6 @@ El objetivo de estas entrevistas es comprender sus necesidades, problemas actual
 13. ¿Qué tan importante es la rapidez en el proceso de ingreso de asistentes?
 14. ¿Qué te preocupa más: seguridad, rapidez o experiencia del usuario?
 15. ¿Qué mejoras implementarías en tu proceso actual de control de accesos?
-
-### 2.2.2. Registro de entrevistas
-
-En esta sección se consolidan las seis entrevistas realizadas para la validación de la propuesta de valor de SmartLock. Cada sesión ha sido documentada para asegurar la trazabilidad de los hallazgos y la construcción de nuestros arquetipos.
-
-| Nombre del Entrevistado | Edad | Distrito | Segmento | Captura de Video | Enlace de la Entrevista (Stream) | Tiempo de Inicio | Tiempo de Fin | Duración |
-| :--- | :---: | :--- | :--- | :---: | :--- | :---: | :---: | :---: |
-| Almendra Lucía Lavi | 21 | La Molina | Organizador | ![Captura](Resources/Chapter2/interviews/entrevista1.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=0id4Mb) | 00:00 | 09:10 | 09:10 |
-| Leugim Sajor | 32 | Surco | Organizador | ![Captura](Resources/Chapter2/interviews/entrevista2.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=a2Ghfv) | 09:10 | 15:40 | 06:30 |
-| Evelyn Jannet Caldas | 48 | Ate | Organizador | ![Captura](Resources/Chapter2/interviews/entrevista3.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=uTUBUB) | 15:40 | 29:10 | 13:30 |
-| Larissa Teofilo | 28 | Surco | Empresario | ![Captura](Resources/Chapter2/interviews/entrevista4.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=CY27NN) | 29:10 | 35:50 | 06:40 |
-| Hugo Rojas O. | 72 | La Molina | Empresario | ![Captura](Resources/Chapter2/interviews/entrevista5.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=Ypp2WU) | 35:50 | 47:00 | 11:10 |
-| Hugo Ricardo Rojas P. | 35 | Ate | Empresario | ![Captura](Resources/Chapter2/interviews/entrevista6.jpeg) | [Ver Video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210836_upc_edu_pe/IQA6jpKKXFtsSbTrA9FoQNMJAYrLkhuEY2yz_XDPp9MF6d4?e=Pw5K7G) | 47:00 | 55:20 | 08:20 |
-
----
-
-### 2.2.3. Análisis de entrevistas
-
-A continuación, se presenta un análisis detallado de cada una de las sesiones de validación. En este apartado se describen los comportamientos detectados, los puntos de dolor específicos, rasgos de personalidad y la recepción de la propuesta de valor de SmartLock.
-
-#### Segmento: Organizadores de Eventos
-
-**1. Almendra Lucía Lavi Cuyubamba**
-Almendra, de 21 años, es estudiante de la carrera de Marketing en la USIL y organizadora de eventos corporativos en la empresa Okawa. De personalidad extrovertida, detallista y muy dinámica, siempre busca la eficiencia y la mejor experiencia para sus asistentes. Suele organizar sus eventos llevando un conteo de registros en Google Forms, pero no tiene una manera ágil de asegurarse que la persona registrada tenga permiso real de ingreso. Esto le genera aglomeraciones cerca de la hora de inicio. Le parece innovadora la idea de SmartLock para controlar el aforo en tiempo real y estaría dispuesta a usarlo si los beneficios superan el precio, prefiriendo que la solución abarque tanto una app web como móvil.
-
-**2. Leugim Sajor**
-Leugim, de 32 años y residente en el distrito de Surco, es un ciudadano extranjero que organiza eventos exclusivos para el sector inmobiliario, donde se presentan proyectos y se atraen nuevos clientes. Posee una personalidad analítica, diplomática y muy estructurada, lo que le ha permitido mantener un negocio muy estable con pocos problemas operativos. Su principal necesidad es mantener la exclusividad y privacidad de las presentaciones inmobiliarias. SmartLock le resulta muy atractivo para gestionar invitaciones VIP con códigos QR temporales, asegurando un ingreso fluido que esté a la altura del perfil de sus clientes de alto poder adquisitivo.
-
-**3. Evelyn Jannet Caldas Párraga**
-Evelyn, de 48 años y graduada de Administración en la UPC, es secretaria y organizadora de eventos en el colegio Norteamericano Abraham Lincoln. Tiene una personalidad metódica, resolutiva y con un alto sentido del control y la seguridad. Gestiona accesos a eventos institucionales utilizando plataformas como Joinnus. Su mayor problema es la logística con proveedores y los cambios de personal de último minuto que requieren verificaciones manuales y demoran el proceso. Evelyn tiene una clara preferencia por soluciones 100% en la nube (SaaS), rechazando el hardware por costos. Le atraen las alertas automáticas de acceso denegado y la generación de reportes de asistencia para optimizar la seguridad contable.
-
----
-
-#### Segmento: Empresarios (Dueños/Administradores)
-
-**4. Larissa Teofilo**
-Larissa, de 28 años y residente en Surco, forma parte de la directiva y gerencia de una exitosa cadena de gimnasios brasileños en el país. De personalidad carismática, observadora y muy orientada al servicio al cliente, ella misma confiesa no ser una experta en el apartado tecnológico, pero es sumamente consciente de los defectos del mismo cuando los sistemas actuales de los gimnasios fallan (como tarjetas perdidas o huellas que no leen). SmartLock le parece una excelente iniciativa para modernizar el ingreso de los socios a través de sus propios celulares, reduciendo las quejas en recepción y mejorando la percepción de innovación de la marca.
-
-**5. Hugo Rojas Olivera**
-Hugo, de 72 años y residente en La Molina, es médico pediatra graduado y con maestría por la UNMSM, y actualmente se desempeña como gerente del Hospital de Emergencias de Villa El Salvador. Posee una personalidad serena, reflexiva, empática y con una profunda vocación de servicio. Lidera una institución crítica que utiliza un software nacional que presenta múltiples defectos, lo que a menudo contribuye a la saturación del hospital en áreas de control y recepción. Para Hugo, una herramienta como SmartLock podría ser vital para agilizar el flujo de personal médico y administrativo, mitigando los cuellos de botella tecnológicos que actualmente padecen.
-
-**6. Hugo Ricardo Rojas P.**
-Hugo, de 35 años y residente del distrito de Ate, es ingeniero ambiental graduado de la Universidad Nacional Agraria La Molina (UNALM) y gerente de la empresa Gestam Consulting. Tiene una personalidad directa, práctica, resolutiva y muy orientada a la protección de los activos de su empresa. Actualmente tiene problemas serios de seguridad para revocar el acceso a exempleados, por lo que necesita una solución inmediata. Es tajante en mencionar que no invertiría en la instalación de hardware físico. Para él, una membresía económica de SmartLock basada puramente en software es la solución perfecta, destacando la importancia de los reportes periódicos de asistencia.
-
----
-
-#### Síntesis de hallazgos (Insights principales)
-
-* **Insight 1 (Rechazo a la infraestructura física):** La mayoría de los perfiles empresariales entrevistados rechazan la inversión y mantenimiento de hardware nuevo debido a sus altos costos, destacando casos puntuales como el de Hugo Ricardo Rojas y Evelyn Caldas. Por este motivo, la propuesta de SmartLock basada en el modelo SaaS y el uso de dispositivos móviles propios (BYOD) es el principal gatillador de interés, junto con la posibilidad de visualizar el aforo en tiempo real.
-* **Insight 2 (Gestión crítica de identidades y exclusiones):** Más allá de registrar asistencias, el problema central radica en la invalidación de accesos. Empresarios como Hugo R. Párraga necesitan revocar permisos a exempleados en tiempo real, mientras que organizadores como Almendra y Leugim necesitan asegurar la identidad del asistente para evitar intrusiones.
-* **Insight 3 (Carencias en los sistemas tradicionales):** La mayoría de los entrevistados reporta fricciones graves con sus sistemas actuales (desde software hospitalario saturado hasta registros manuales en papel). Existe una necesidad latente por un software que priorice la rapidez y la facilidad de implementación sin barreras tecnológicas complejas.
 
 ### 2.2.1. Diseño de entrevistas
 
@@ -1076,12 +1028,12 @@ Elegimos una paleta que grite **seguridad y tecnología**, pero sin cansar la vi
 * **Gris Neutro (#E0E1DD):** Este va de fondo en las secciones. Es limpio y hace que los demás elementos resalten sin esfuerzo.
 * **Azul Eléctrico (#3E92CC):** Este es nuestro "call to action". Si hay algo que el usuario tiene que clickear sí o sí (como el botón de "Abrir Puerta" o "Guardar Configuración"), va en este color.
 
-<img src="/Resources/Chapter4/Style-Guidelines/Paleta-de-colores/Paleta-de-colores.PNG" alt="Paleta de Colores">
+<img src="Resources/Chapter4/Style-Guidelines/Paleta-de-colores/Paleta-de-colores.PNG" alt="Paleta de Colores">
 
 **Branding**<br>
 El logo de **SmartLock** es directo al grano: un **candado**. Elegimos este isotipo porque es el símbolo universal de la seguridad física; no necesitamos complicarlo con más adornos para que el usuario entienda qué hacemos. Lo que lo hace moderno es su diseño minimalista y limpio. Acompañando al candado, la tipografía del nombre es sólida y de cortes precisos. Queríamos que la identidad visual transmitiera esa firmeza y robustez que se espera de un sistema de seguridad confiable, alejándonos de cualquier estética que pudiera parecer "frágil" o improvisada.
 
-<img src="/Resources/Chapter4/Logo/SmartLock-Logo.png" alt="Logo SmartLock">
+<img src="Resources/Chapter4/Logo/SmartLock-Logo.png" alt="Logo SmartLock">
 
 **Typography** <br>
 Nos fuimos por **Inter**. ¿Por qué? Porque cuando tienes una lista gigante de registros de entrada y salida, necesitas una letra que se lea perfecto en pantallas de cualquier tamaño. Es una fuente *sans-serif* optimizada para entornos digitales.
@@ -1492,10 +1444,10 @@ En esta sección, el equipo establece los medios y el esquema de organización q
 A continuación, se presentan los enlaces a la organización y los 4 repositorios que conforman la solución integral:
 
 * **Organización en GitHub:** [https://github.com/202610-1asi0729-11881-SmartIndustries](https://github.com/202610-1asi0729-11881-SmartIndustries)
-* **Landing Page:** [https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--website](https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--website)
-* **Frontend Web Application:** [https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--webapp](https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--webapp)
-* **Web Services (Core Backend API):** [https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--platform](https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--platform)
-* **Project Report:** [https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--report](https://github.com/202610-1asi0729-11881-SmartIndustries/-SmartLock--report)
+* **Landing Page:** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-website](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-website)
+* **Frontend Web Application:** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-webapp](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-webapp)
+* **Web Services (Core Backend API):** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-platform](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-platform)
+* **Project Report:** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-report](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-report)
 
 #### Implementación de GitFlow
 Para mantener un flujo de trabajo ordenado, el equipo ha implementado **GitFlow** como *workflow* de control de versiones. Este modelo estructura nuestro trabajo en las siguientes ramas (*branches*):
@@ -1595,11 +1547,11 @@ El Sprint Planning Meeting marcó el inicio formal del desarrollo del código de
 | **Location** | Reunión virtual (Microsoft Teams) |
 | **Prepared By** | Huaman Oscco, Aldo Jesus |
 | **Attendees (to planning meeting)** | Peñaranda Caldas, Gabriel Augusto / Palacios Tinoco, Adrian Fernando / Huaman Oscco, Aldo Jesus / Limache Coronel, Imanol Fabricio / Ayllon Pauccar, Juan David |
-| **Sprint n – 1 Review Summary** | Al ser el primer Sprint de desarrollo, la revisión anterior corresponde a la fase de ideación. Resultados alcanzados: arquitectura C4 finalizada, bases de datos diseñadas y repositorios GitHub configurados. El Product Owner brindó el feedback necesario para iniciar la codificación orientada al dominio. |
-| **Sprint n – 1 Retrospective Summary** | Como retrospectiva inicial de la forma de trabajo, el equipo identificó como acierto el uso de diagramas compartidos, pero reconoció como oportunidad de mejora establecer reglas más estrictas de GitFlow para evitar colisiones en los Pull Requests futuros. |
+| **Sprint 1 Review Summary** | Al ser el primer Sprint de desarrollo, la revisión anterior corresponde a la fase de ideación. Resultados alcanzados: arquitectura C4 finalizada, bases de datos diseñadas y repositorios GitHub configurados. El Product Owner brindó el feedback necesario para iniciar la codificación orientada al dominio. |
+| **Sprint 1 Retrospective Summary** | Como retrospectiva inicial de la forma de trabajo, el equipo identificó como acierto el uso de diagramas compartidos, pero reconoció como oportunidad de mejora establecer reglas más estrictas de GitFlow para evitar colisiones en los Pull Requests futuros. |
 | **Sprint Goal & User Stories** | |
-| **Sprint n Goal** | **Contexto:** El equipo decidió enfocar el primer esfuerzo de codificación en sentar las bases operativas de la plataforma, desarrollando la Landing Page para presentar el producto y construyendo el sistema central de autenticación y gestión de identidad, lo cual es requisito previo para cualquier operación de acceso físico. <br><br> **Sprint Goal:**<br>*"Our focus is on offering a secure and reliable authentication gateway for the initial users of SmartLock, while establishing the product's digital presence through a responsive Landing Page.*<br>*We believe it delivers a trustworthy onboarding experience to administrators and clear product value proposition to prospective customers.*<br>*This will be confirmed when administrators can successfully register, log in using 2FA, and access the main dashboard, and visitors can navigate the Landing Page features without errors."* |
-| **Sprint n Velocity** | 30 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos y desarrollar los módulos de autenticación básicos). |
+| **Sprint 1 Goal** | **Contexto:** El equipo decidió enfocar el primer esfuerzo de codificación en sentar las bases operativas de la plataforma, desarrollando la Landing Page para presentar el producto y construyendo el sistema central de autenticación y gestión de identidad, lo cual es requisito previo para cualquier operación de acceso físico. <br><br> **Sprint Goal:**<br>*"Our focus is on offering a secure and reliable authentication gateway for the initial users of SmartLock, while establishing the product's digital presence through a responsive Landing Page.*<br>*We believe it delivers a trustworthy onboarding experience to administrators and clear product value proposition to prospective customers.*<br>*This will be confirmed when administrators can successfully register, log in using 2FA, and access the main dashboard, and visitors can navigate the Landing Page features without errors."* |
+| **Sprint 1 Velocity** | 30 Story Points. (Velocidad estimada basada en la capacidad inicial del equipo para configurar los entornos y desarrollar los módulos de autenticación básicos). |
 | **Sum of Story Points** | 29 Story Points. |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
@@ -1691,11 +1643,11 @@ El Sprint Planning Meeting del Sprint 2 se centró en trasladar las bases de aut
 | **Location** | Reunión virtual (Microsoft Teams) |
 | **Prepared By** | Huaman Oscco, Aldo Jesus |
 | **Attendees (to planning meeting)** | Peñaranda Caldas, Gabriel Augusto / Palacios Tinoco, Adrian Fernando / Huaman Oscco, Aldo Jesus / Limache Coronel, Imanol Fabricio / Ayllon Pauccar, Juan David |
-| **Sprint n – 2 Review Summary** | El Sprint 1 culminó con éxito, logrando implementar el sistema de autenticación completo (SignUp, SignIn, JWT, BCrypt, protección de rutas) y desplegar la Landing Page. El Product Owner validó los endpoints de auth y la experiencia de onboarding. |
-| **Sprint n – 2 Retrospective Summary** | El equipo identificó como mejora la necesidad de estandarizar los componentes de formularios Angular Material para reducir duplicación de código en los módulos CRUD. Se acordó crear un componente base `BaseFormComponent` reutilizable. Como acierto, se destacó la efectividad del GitFlow con Conventional Commits. |
+| **Sprint 2 Review Summary** | El Sprint 1 culminó con éxito, logrando implementar el sistema de autenticación completo (SignUp, SignIn, JWT, BCrypt, protección de rutas) y desplegar la Landing Page. El Product Owner validó los endpoints de auth y la experiencia de onboarding. |
+| **Sprint 2 Retrospective Summary** | El equipo identificó como mejora la necesidad de estandarizar los componentes de formularios Angular Material para reducir duplicación de código en los módulos CRUD. Se acordó crear un componente base `BaseFormComponent` reutilizable. Como acierto, se destacó la efectividad del GitFlow con Conventional Commits. |
 | **Sprint Goal & User Stories** | |
-| **Sprint n Goal** | **Contexto:** Con la autenticación operativa, el equipo decidió enfocar el segundo sprint en construir la jerarquía física completa del sistema: organizaciones, sitios y dispositivos. Este módulo representa el esqueleto sobre el cual se definirán posteriormente los permisos de acceso y los horarios. <br><br> **Sprint Goal:**<br>*"Our focus is on building the core infrastructure layer of SmartLock, enabling administrators to create and manage their organizational hierarchy through a complete CRUD interface for organizations, sites, and devices.*<br>*We believe it delivers a solid foundation for access control by establishing the physical space topology where smart locks will operate.*<br>*This will be confirmed when administrators can successfully create organizations, register sites within them, connect smart lock devices, and view/edit/delete any resource in the hierarchy, with all data properly scoped by organization and audit timestamps automatically recorded."* |
-| **Sprint n Velocity** | 36 Story Points. (Velocidad ajustada considerando la experiencia ganada en el Sprint 1 y la reutilización de componentes CRUD). |
+| **Sprint 2 Goal** | **Contexto:** Con la autenticación operativa, el equipo decidió enfocar el segundo sprint en construir la jerarquía física completa del sistema: organizaciones, sitios y dispositivos. Este módulo representa el esqueleto sobre el cual se definirán posteriormente los permisos de acceso y los horarios. <br><br> **Sprint Goal:**<br>*"Our focus is on building the core infrastructure layer of SmartLock, enabling administrators to create and manage their organizational hierarchy through a complete CRUD interface for organizations, sites, and devices.*<br>*We believe it delivers a solid foundation for access control by establishing the physical space topology where smart locks will operate.*<br>*This will be confirmed when administrators can successfully create organizations, register sites within them, connect smart lock devices, and view/edit/delete any resource in the hierarchy, with all data properly scoped by organization and audit timestamps automatically recorded."* |
+| **Sprint 2 Velocity** | 36 Story Points. (Velocidad ajustada considerando la experiencia ganada en el Sprint 1 y la reutilización de componentes CRUD). |
 | **Sum of Story Points** | 39 Story Points. |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
@@ -1843,11 +1795,11 @@ El Sprint Planning Meeting del Sprint 3 se centró en transformar la jerarquía 
 | **Location** | Reunión virtual (Microsoft Teams) |
 | **Prepared By** | Huaman Oscco, Aldo Jesus |
 | **Attendees (to planning meeting)** | Peñaranda Caldas, Gabriel Augusto / Palacios Tinoco, Adrian Fernando / Huaman Oscco, Aldo Jesus / Limache Coronel, Imanol Fabricio / Ayllon Pauccar, Juan David |
-| **Sprint n – 3 Review Summary** | El Sprint 2 culminó con éxito, logrando implementar la jerarquía completa Organization → Site → Device con CRUD funcional, eliminación en cascada y auditoría automática. El Product Owner validó la experiencia de administración de espacios y destacó la consistencia visual de los badges de estado de dispositivos. |
-| **Sprint n – 3 Retrospective Summary** | El equipo identificó que los componentes de inline editing y formularios modales reutilizados del Sprint 2 aceleraron significativamente el desarrollo. Como mejora, se propuso implementar pruebas unitarias para los servicios de dominio antes del cierre del sprint. Se destacó como acierto la rotación de roles en el LACX, permitiendo que todos los integrantes tuvieran exposición al backend y frontend. |
+| **Sprint 3 Review Summary** | El Sprint 2 culminó con éxito, logrando implementar la jerarquía completa Organization → Site → Device con CRUD funcional, eliminación en cascada y auditoría automática. El Product Owner validó la experiencia de administración de espacios y destacó la consistencia visual de los badges de estado de dispositivos. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó que los componentes de inline editing y formularios modales reutilizados del Sprint 2 aceleraron significativamente el desarrollo. Como mejora, se propuso implementar pruebas unitarias para los servicios de dominio antes del cierre del sprint. Se destacó como acierto la rotación de roles en el LACX, permitiendo que todos los integrantes tuvieran exposición al backend y frontend. |
 | **Sprint Goal & User Stories** | |
-| **Sprint n Goal** | **Contexto:** Con la infraestructura de espacios operativa (Orgs, Sites, Devices), el equipo se enfocó en la capa de personas y control de acceso. Este sprint implementa el registro de personas, la agrupación lógica mediante Access Groups, el control de estado de acceso individual (ENABLED/DISABLED/REVOKED) y la creación de roles con permisos delegables para administración compartida. <br><br> **Sprint Goal:**<br>*"Our focus is on populating the infrastructure with people and defining who can access what, implementing the person registry, access groups, and role-based permissions.*<br>*We believe it transforms the empty space hierarchy into an operational access control system by linking people to access groups and delegating administration through custom roles.*<br>*This will be confirmed when administrators can register people in an organization, assign them to access groups, toggle their access status (ENABLED/DISABLED/REVOKED), and create custom roles with specific permissions to delegate responsibilities."* |
-| **Sprint n Velocity** | 36 Story Points. (Velocidad consistente con el Sprint 2, manteniendo el ritmo de entrega del equipo). |
+| **Sprint 3 Goal** | **Contexto:** Con la infraestructura de espacios operativa (Orgs, Sites, Devices), el equipo se enfocó en la capa de personas y control de acceso. Este sprint implementa el registro de personas, la agrupación lógica mediante Access Groups, el control de estado de acceso individual (ENABLED/DISABLED/REVOKED) y la creación de roles con permisos delegables para administración compartida. <br><br> **Sprint Goal:**<br>*"Our focus is on populating the infrastructure with people and defining who can access what, implementing the person registry, access groups, and role-based permissions.*<br>*We believe it transforms the empty space hierarchy into an operational access control system by linking people to access groups and delegating administration through custom roles.*<br>*This will be confirmed when administrators can register people in an organization, assign them to access groups, toggle their access status (ENABLED/DISABLED/REVOKED), and create custom roles with specific permissions to delegate responsibilities."* |
+| **Sprint 3 Velocity** | 36 Story Points. (Velocidad consistente con el Sprint 2, manteniendo el ritmo de entrega del equipo). |
 | **Sum of Story Points** | 34 Story Points. |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
@@ -1962,12 +1914,159 @@ En esta sección se presentan las evidencias del despliegue continuo realizado d
 ---
 
 ## 5.3. Validation Interviews.
+
 ### 5.3.1. Diseño de Entrevistas.
+
+Objetivo: Validar la propuesta de valor y las hipótesis de uso de SmartLock con usuarios reales (organizadores de eventos y empresarios), identificando puntos de dolor, expectativas y oportunidades de diseño.
+
+Orden a seguir en cada entrevista (guion compacto):
+
+1. Presentación (30–60s): saludo, nombre del entrevistador, objetivo de la entrevista y tiempo estimado.
+2. Consentimiento (30s): pedir permiso para grabar/registrar y explicar cómo se usará la información.
+3. Preguntas generales (5–8 min): contexto del entrevistado, proceso actual de control de accesos, problemas principales y prioridades.
+4. Preguntas orientadas a la solución (3–5 min): reacción ante la propuesta SmartLock, disposición a pagar, preferencias (web vs. móvil, sin/hardware).
+5. Tareas con la Web Application (observación): pedir al participante que explique cómo resolvería una tarea típica (ej.: registrar un asistente, revocar acceso temporal) y anotar dificultades y comentarios.
+6. Cierre (1 min): agradecimiento y pasos siguientes.
+
+Guion breve de preguntas (usar según segmento):
+- ¿Cómo gestionas actualmente el acceso a tus eventos/instalaciones?
+- ¿Qué te demora más en el proceso de ingreso de asistentes?
+- ¿Qué herramientas usas hoy? ¿por qué sí/no usarías otra?
+- ¿Qué tan importante es para ti el control de aforo en tiempo real?
+- ¿Qué características te harían preferir SmartLock sobre soluciones actuales?
+
+Para la parte práctica en la Web Application, pedir al participante que realice (o describa) en voz alta:
+- Crear/emitir un cupón/QR temporal para un asistente.
+- Revocar el acceso a un usuario específico.
+- Visualizar el aforo en tiempo real y generar un reporte simple.
+
 ### 5.3.2. Registro de Entrevistas.
+
+| Campo | Valor |
+| :--- | :--- |
+| Nombre | Fernando Güere Calero |
+| Edad | 21 |
+| Distrito | La Molina |
+| Segmento | Organizadora (Eventos) |
+| Rol | Pesonal de Seguridad |
+| Fecha | 19-06-26 |
+| Medio | Video (Stream) |
+| Captura | <img src="Resources/Interview/entrevista.jpg" alt="Captura" width="750" /> |
+| Enlace | https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241a860_upc_edu_pe/IQCNUbOzjMlbR4976PjOPObJAeAsCJ4tOJdy-Tj5dztkVeo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZhMJ6W |
+| Tiempo inicio | 00:00 |
+| Tiempo fin | 08:16 |
+| Duración | 08:16 |
+
+
 ### 5.3.3. Evaluaciones según heurísticas.
+
+| Campo | Detalle |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Desarrollo de Aplicaciones Open Source |
+| **SECCIÓN** | 11811 |
+| **PROFESORES** | Bautista Ubillús, Efraín Ricardo |
+| **AUDITOR** | Juan David Ayllon Pauccar |
+| **CLIENTE(S)** | Equipo SmartIndustries |
+| **SITE A EVALUAR** | SmartLock — Landing Page (smartlock.com) |
+ 
+---
+ 
+#### Tareas a evaluar
+ 
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas dentro de la landing page de SmartLock:
+ 
+1. Comprensión inicial de la propuesta de valor (Hero)
+2. Navegación entre secciones mediante el menú superior
+3. Identificación visual de las funcionalidades del producto
+4. Acceso a la acción "Ver cómo funciona"
+5. Diferenciación entre "Iniciar Sesión" y "Solicitar Demo"
+6. Cambio de idioma (ES/EN)
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+ 
+1. Proceso de pago o checkout de planes
+2. Flujo posterior al login (panel/dashboard interno)
+3. Formulario de contacto (validaciones de backend)
+---
+ 
+### Escala de severidad
+ 
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+ 
+| Nivel | Descripción |
+|---|---|
+| **1** | Problema superficial: fácilmente superable por el usuario u ocurre con muy poca frecuencia. No requiere arreglo salvo disponibilidad de tiempo. |
+| **2** | Problema menor: ocurre un poco más frecuentemente o es algo más difícil de superar. Prioridad baja para el siguiente release. |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no logran resolverlo por sí mismos. Prioridad alta, debe corregirse. |
+| **4** | Problema muy grave: error de gran impacto que impide al usuario continuar usando la herramienta. Corrección imperativa antes del lanzamiento. |
+ 
+---
+ 
+### Tabla resumen de hallazgos
+ 
+A continuación se detallan los problemas identificados en la landing page de SmartLock, evaluados sobre las capturas del Hero y la sección de Funcionalidades, con foco en pobreza de diseño visual, errores de visibilidad y funcionalidades no implementadas.
+ 
+| # | Problema | Severidad | Heurística / Principio violado(a) |
+|---|---|:---:|---|
+| 1 | El botón principal del Hero ("Solicitar Demo gratuita") usa el mismo gris apagado que el fondo y que botones secundarios, sin contraste cromático que lo distinga como acción primaria. No hay jerarquía visual entre CTA primario y secundario. | 3 | Usability: Visibilidad del estado del sistema / Jerarquía visual |
+| 2 | Las 4 tarjetas de "Funcionalidades" son recuadros negros sólidos sin íconos, ilustraciones ni imágenes de apoyo. El contenido es solo texto centrado, lo que genera una sección visualmente plana y poco memorable frente a la convención de landing pages SaaS (ícono + título + texto). | 2 | Usability: Reconocer antes que recordar / Estética y diseño minimalista |
+| 3 | Bajo contraste de color: textos en azul claro ("Smartlock digitaliza tu seguridad física") sobre fondo azul marino oscuro no cumple el ratio mínimo de contraste 4.5:1 de WCAG 2.1 AA para texto normal. | 3 | Inclusive Design: Proporciona experiencias comparables (accesibilidad visual) |
+| 4 | El botón flotante "EN/ES" se superpone con la barra de scroll y queda parcialmente cortado en la esquina inferior derecha en la sección de Funcionalidades, además de duplicar la función del botón "EN/ES" ya presente en el navbar. | 2 | Usability: Consistencia y estándares |
+| 5 | El botón "Iniciar Sesión" no tiene un estado visualmente diferenciado de "Solicitar Demo" en el navbar (ambos son variantes de gris/azul apagado); un usuario nuevo no identifica de inmediato cuál acción es la prioritaria para conversión. | 2 | Usability: Visibilidad del estado del sistema |
+| 6 | No existen imágenes, capturas de producto, mockups de la app/panel ni video demostrativo en todo el Hero. Una landing de un producto de control de accesos físico depende fuertemente de mostrar la interfaz real para generar confianza, y actualmente solo hay texto. | 3 | Information Architecture: Is it usable? / Credibilidad del producto |
+| 7 | Las tarjetas de funcionalidades no son clicables ni enlazan a documentación o detalle ampliado de cada característica (no hay "Ver más" ni affordance de interacción como cursor pointer o hover state visible en las capturas). | 2 | Information Architecture: Is it findable? |
+| 8 | El botón "Ver cómo funciona" no tiene implementado ningún scroll, modal de video o navegación hacia la sección "Cómo Funciona" (sin atributo href/onclick funcional detectado), generando una promesa rota de navegación. | 4 | Usability: Libertad y control del usuario |
+| 9 | Espaciado vertical excesivo y no balanceado entre el bloque de estadísticas (+500, 99.9%, 0 seg) y el resto del contenido del Hero, dejando áreas vacías grandes que no aportan información y obligan a un scroll mayor al necesario. | 1 | Usability: Estética y diseño minimalista |
+| 10 | Transición abrupta de fondo oscuro (Hero, azul marino) a fondo claro (Funcionalidades, gris claro) sin elemento de transición visual (wave, degradado, sombra), lo que rompe la continuidad de la experiencia de scroll. | 1 | Usability: Consistencia y estándares |
+| 11 | No hay indicador de carga, skeleton ni feedback visual mientras el contenido dinámico (de existir backend conectado) carga en pantalla; en el estado actual la página es completamente estática sin señal de qué elementos son interactivos. | 2 | Usability: Visibilidad del estado del sistema |
+| 12 | Las imágenes referenciadas en el código (logo SmartLock) no incluyen texto alternativo descriptivo más allá de "SmartLock Logo" genérico, y no se evidencian atributos alt en íconos o elementos gráficos adicionales de las tarjetas. | 2 | Inclusive Design: Proporciona experiencias comparables |
+ 
+---
+ 
+### Detalle de hallazgos por categoría
+ 
+### 1. Diseño visual pobre / falta de jerarquía
+ 
+La landing presenta una paleta reducida (azul marino, gris, blanco) aplicada de forma uniforme tanto a botones primarios como secundarios, lo que elimina la jerarquía visual esperada en un flujo de conversión. El botón "Solicitar Demo gratuita" del Hero, que debería ser el CTA principal, comparte el mismo peso visual que "Ver cómo funciona", un CTA secundario. Asimismo, las tarjetas de la sección "Funcionalidades" son bloques negros sin íconos ni imágenes, lo que reduce el reconocimiento rápido de cada característica y empobrece la percepción de marca frente a competidores del rubro PropTech/Seguridad.
+ 
+**Recomendación:**
+- Definir un color de acento (ej. cian o azul brillante, ya usado en las cifras +500/99.9%) exclusivo para el CTA primario.
+- Incorporar un ícono SVG por tarjeta de funcionalidad (candado, reloj, historial, edificio) para reforzar reconocimiento visual.
+- Aplicar mayor contraste de fondo entre tarjetas y fondo de sección para evitar el efecto de "bloques negros flotantes".
+### 2. Errores de visibilidad
+ 
+Se identificaron problemas de contraste de color que afectan la legibilidad, particularmente el texto descriptivo del Hero (azul claro sobre azul marino), el cual no garantiza el ratio de contraste mínimo recomendado por WCAG 2.1 nivel AA (4.5:1 para texto normal). Adicionalmente, el botón flotante de idioma ("EN/ES") se superpone con el scrollbar del navegador en la sección de Funcionalidades, generando un elemento duplicado y parcialmente oculto.
+ 
+**Recomendación:**
+- Verificar todos los pares texto/fondo con una herramienta de contraste (ej. WebAIM Contrast Checker) y ajustar a un mínimo de 4.5:1.
+- Eliminar el botón flotante "EN/ES" duplicado o reposicionarlo fuera del área del scrollbar, dejando un único selector de idioma persistente.
+### 3. Funcionalidades no implementadas
+ 
+El botón "Ver cómo funciona" no presenta comportamiento funcional visible (no hace scroll a la sección "Cómo Funciona" ni abre un modal/video), lo que constituye una promesa de navegación rota y es el hallazgo de mayor severidad de esta evaluación. Las tarjetas de funcionalidades tampoco son interactivas ni enlazan a contenido ampliado, limitando la capacidad del usuario de profundizar en cada característica antes de solicitar una demo.
+ 
+**Recomendación:**
+- Implementar scroll suave (smooth scroll) desde "Ver cómo funciona" hacia el ancla `#how-it-works`.
+- Convertir las tarjetas de funcionalidades en elementos clicables que despliegen más detalle (modal, acordeón o página de detalle).
+- Agregar estado hover/focus visible en todos los botones para confirmar al usuario que el elemento es interactivo.
+---
+ 
+## Conclusión general
+ 
+La landing de SmartLock cumple con una estructura de información coherente (Hero, Funcionalidades, Cómo Funciona, Casos de Uso, Precios, Contacto), pero el nivel de pulido visual y la implementación funcional de varios componentes interactivos está por debajo del estándar esperado para un producto que se presenta como solución tecnológica de seguridad. Los hallazgos de severidad 3 y 4 (contraste insuficiente, jerarquía de CTA y botón "Ver cómo funciona" no funcional) deben priorizarse antes de cualquier lanzamiento o demo a clientes potenciales.
+
+
 ## 5.4. Video About-the-Product.
 
 # Anexos
+* ** Web Landing Page Deployment Link: https://202610-1asi0729-11881-smartindustries.github.io/smartindustries-website/
+
+* ** Web Application Deployment Link: https://main.d4a0r9vfa2800.amplifyapp.com/auth/sign-in
+
+* **Organización en GitHub:** [https://github.com/202610-1asi0729-11881-SmartIndustries](https://github.com/202610-1asi0729-11881-SmartIndustries)
+* **Landing Page:** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-website](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-website)
+* **Frontend Web Application:** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-webapp](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-webapp)
+* **Web Services (Core Backend API):** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-platform](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-platform)
+* **Project Report:** [https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-report](https://github.com/202610-1asi0729-11881-SmartIndustries/smartindustries-report)
 
 * **2.4. y 2.6.1. Event Storming (Big Picture & Design Level):** [Excalidraw](https://excalidraw.com/#json=vUgvQ_f8p5qxOvlqhFRzb,fcVt4lcEfKf0J_ePWUhZhw)
 * **2.3. User Personas y Community:** [Figma Board](https://www.figma.com/board/okEnho158yZOcK5r6UzEgj/user-personal--Community-?node-id=0-1&t=y2q6BjfRkX2B6Mr1-1)
@@ -1976,10 +2075,10 @@ En esta sección se presentan las evidencias del despliegue continuo realizado d
 
 * Evidencia de herramienta utilizada : Jira :
 
-* <img src="/Resources/Ending/Herramientas/story_points.png" alt="Story Points" width="500"> 
+* <img src="Resources/Ending/Herramientas/story_points.png" alt="Story Points" width="500"> 
 
-* <img src="/Resources/Ending/Herramientas/formato.png" alt="Formato de HU" width="500"/> 
+* <img src="Resources/Ending/Herramientas/formato.png" alt="Formato de HU" width="500"/> 
 
-* <img src="/Resources/Ending/Herramientas/organizacion.png" alt="Estructura de prioridad" width="500"/> 
+* <img src="Resources/Ending/Herramientas/organizacion.png" alt="Estructura de prioridad" width="500"/> 
 
-* <img src="/Resources/Ending/Herramientas/Sprint.png" alt="Sprint" width="500"/> 
+* <img src="Resources/Ending/Herramientas/Sprint.png" alt="Sprint" width="500"/> 
